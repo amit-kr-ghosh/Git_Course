@@ -49,3 +49,14 @@ Keep session summaries factual and brief. Record what was taught and what eviden
 - No Git installation, practical execution, quiz result or topic verification was claimed or upgraded in this format update.
 - Exact next learning task remains: begin Day 1 teaching and ask for Git Bash setup output when required.
 - GitHub sync: pending verification after these edits.
+
+
+## 2026-11-01 — Course format — Inline pre-lesson opening
+
+- Learner clarified the preferred lesson opening using a sample lesson's "Part A — Pre-Lesson" format.
+- Agreed presentation: show Part A directly in the normal lesson flow (not as a form, collapsed/minimised panel, separate dashboard or administrative screen), then continue immediately into Part B — Lesson / Study Material and Topic 1.
+- Part A contains concise lesson topic, estimated time when useful, learning objectives, prerequisites, scope and prospective verification criteria.
+- No form or pre-lesson questionnaire is required. No course-wide status/evidence audit belongs in the lesson opening.
+- Actual learner evidence, scores and status remain in the tracking layer and post-lesson verification record.
+- No Git installation, command execution, practical completion, quiz result or topic verification was claimed or upgraded.
+- Exact learning checkpoint remains Day 1 setup/foundations; installation and first-repository evidence are still unconfirmed.
