@@ -140,3 +140,23 @@ The lesson body contains the actual learning material: definitions, need/purpose
 9. Separate, compact verification note only when useful.
 
 The course status is a record of evidence, not the lesson itself. Follow this rule consistently across all future sessions and files.
+
+
+## Mandatory two-layer lesson/session structure
+
+Treat **teaching** and **verification** as separate parts of the course, not as competing content within one opening checklist.
+
+### Teaching layer — the main body
+- Begin with the subject: title, purpose and learning objectives.
+- Continue directly into the complete lesson: explanation, mental models, useful diagrams/media, command syntax, instructor demonstrations, expected outputs, guided/independent practice, troubleshooting, professional examples, quiz/interview prompts and revision summary.
+- Do not lead with or repeatedly interrupt the lesson using course-wide status, installation checks, evidence tables or administrative next steps.
+- Practice tasks and questions belong in the lesson. They are not evidence of learner completion.
+
+### Verification layer — kept separate
+- Use COURSE_STATUS.md for the single current checkpoint.
+- Use SYLLABUS_TRACKER.md for topic/deliverable statuses and evidence.
+- Use PROGRESS_LOG.md for dated session outcomes and exact continuation task.
+- Keep detailed day/module/project evidence in a clearly labelled record section at the end of the relevant file, after the instructional material.
+- A ChatGPT lesson may end with a compact checkpoint note if something changed or the learner needs a next action. Do not repeat unchanged status information or put it before the lesson.
+
+This structure applies to all seven bootcamp days, modules A–L, projects 1–8, quizzes, interviews and capstone sessions. Preserve all curriculum coverage while keeping the learning flow clear.
