@@ -1,6 +1,6 @@
 # Syllabus Tracker
 
-This file tracks **progress and evidence only**. Detailed explanations, examples and diagrams belong in the day/module lesson files.
+This file tracks **progress and evidence only**. Detailed explanations, examples and diagrams belong in the day/module lesson files. Never use this tracker as a lesson introduction or duplicate its status tables inside teaching content.
 
 Statuses: Not started | Introduced | Practised | Verified | Needs revision | Blocked.
 
