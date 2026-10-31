@@ -12,7 +12,7 @@
 </p>
 
 > [!NOTE]
-> This is a hands-on course. A topic is not complete merely because it has been explained: practical evidence and understanding must be checked.
+> **Lesson content and verification checkpoints are separate.** Read the lesson for explanations, examples and demonstrations. Use the course status/tracker only to see what has been evidenced and what remains to be checked.
 
 ## Learning path
 
@@ -40,9 +40,18 @@ flowchart LR
     class D remote
 ```
 
+## How to use this course
+
+Keep two layers separate:
+
+1. **Learning content** — the explanations, diagrams, command demonstrations, exercises and revision notes inside each lesson.
+2. **Verification checkpoint** — a short status record outside the lesson body that identifies what evidence is still needed. It is a progress summary, not lesson content.
+
+A lesson may contain a small practical instruction or an exercise, but setup checks, pending evidence, quiz results and completion decisions belong in the course-status and tracker files.
+
 ## Start here
 
-1. [Course status](COURSE_STATUS.md) — verified checkpoint and next task.
+1. [Course status](COURSE_STATUS.md) — compact verification checkpoint and next action.
 2. [Master course planner](MASTER_COURSE_PLANNER.md) — complete syllabus and governing teaching contract.
 3. [Syllabus tracker](SYLLABUS_TRACKER.md) — progress across days, modules and projects.
 4. [Progress log](PROGRESS_LOG.md) — dated learning evidence.
