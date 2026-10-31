@@ -86,3 +86,17 @@ A topic is Verified only when relevant explanation, practical or assessment evid
 - Daily quizzes, interview practice, milestone assessments and a final capstone/mock interview.
 
 The visual layer must clarify the full curriculum, not replace or silently omit syllabus topics.
+
+## Lesson layout: teaching first, checkpoint separate
+
+Every lesson in ChatGPT and repository lesson material must keep **instructional content** separate from **course verification**.
+
+- Start with the lesson title and a brief learning-purpose introduction. Then teach the subject immediately: concepts, visual models, explanations, demonstrations, examples, exercises and troubleshooting.
+- Do **not** put a progress/status table, setup checklist, evidence audit or "current checkpoint" section before the actual lesson content.
+- Do not repeat course-wide status, installation state, verified-topic lists or next-session administration inside the teaching body.
+- Put learner setup, status, evidence, quiz/interview outcomes, blockers and next action in the dedicated course checkpoint records: `COURSE_STATUS.md`, `SYLLABUS_TRACKER.md` and `PROGRESS_LOG.md`.
+- In a ChatGPT lesson, show at most a small, clearly separated checkpoint note at the end (or in a separate compact panel) when it is useful. Omit it when it adds no new information.
+- A **practice task** is lesson content and belongs in the instructional flow. Its presence never means the learner attempted or passed it.
+- Label terminal commands as instructor demonstrations unless actual learner evidence has been provided.
+
+Recommended lesson order: title and purpose → learning objectives → actual teaching → visual model → commands/demonstrations → practice task → troubleshooting and professional use → quiz/interview practice → revision summary. A checkpoint, when needed, follows separately and never interrupts the lesson.
