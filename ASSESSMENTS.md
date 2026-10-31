@@ -40,3 +40,14 @@ For interview study notes, put each question immediately before its answer. For 
 - Teach the relevant concept before presenting its quiz or interview prompts; do not place a course checkpoint table ahead of the lesson.
 - Keep questions and learner attempts in the learning/assessment flow. Record scores, feedback, topic gaps and retest evidence in this file and the relevant progress records.
 - A quiz being displayed is not an attempt; an answer being submitted is not automatically practical verification.
+
+
+## Lesson overview vs lesson assessment vs verification
+
+Keep the lesson's opening overview separate from the teaching and from the final evidence record:
+
+- **Before teaching — Lesson Overview:** objectives, prerequisites, scope, practice/deliverable and verification criteria (the standard the learner is expected to meet).
+- **During teaching — Lesson / Study Material:** topic-by-topic explanations, demonstrations, practice prompts and quiz/interview questions. Begin this section under a distinct `Lesson / Study Material` heading, followed by `Topic 1`, `Topic 2`, etc.
+- **After the lesson — Verification Record:** learner responses, scores, feedback, practical evidence, status and next action. Record these in this file and the course tracking files, not in the overview.
+
+A verification criterion is not a result. A question being shown is not an attempt; an attempt is not automatically a pass; a quiz score alone does not prove practical competence.
