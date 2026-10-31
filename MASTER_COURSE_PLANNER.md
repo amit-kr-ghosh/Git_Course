@@ -51,3 +51,15 @@ Never commit passwords, tokens, private keys or secrets. Use disposable reposito
 
 ## Initial checkpoint
 The source planner says Day 1 was started previously, but installation and practical completion are unconfirmed. Day 1 is therefore NOT VERIFIED complete. Confirm setup and evidence before changing status. This is the tracking repository; `git-learning-journey` is a named Day 1 practical deliverable, not proof of an existing remote.
+
+
+## Course presentation convention — content vs checkpoint
+
+Keep instructional content and progress verification visibly separate in every lesson and session.
+
+- **Learning content** belongs in the lesson: concepts, diagrams, reasoning, command syntax, instructor demonstrations, expected output, examples, exercises, troubleshooting, professional context and revision.
+- **Verification checkpoint** belongs in the course-level status/tracker and a clearly separated compact footer/side panel only when needed: installation state, learner-provided evidence, quiz/interview outcome, topics verified, blockers and exact next action.
+- Do not make the verification checklist the opening body of a lesson. Do not repeat the entire course-status table inside lesson content.
+- A lesson can have a distinct short "Practice task" within the instructional flow. The existence of a task does not imply that it was attempted or verified.
+- Keep command provenance explicit: "Demonstrated" means shown by the instructor; "Learner ran" requires learner evidence.
+- In a new session, report the checkpoint briefly, then begin the actual lesson content. If the checkpoint is still pending, do not turn the lesson into a wall of status tables.
