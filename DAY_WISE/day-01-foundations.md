@@ -47,3 +47,7 @@ Definitions, repository states, command purpose and first-repository workflow.
 - Exact next topic:
 
 Do not mark this day verified until the syllabus, practical, quiz and interview preparation have been reviewed.
+
+## Lesson presentation rule
+
+This file's syllabus and teaching material are the lesson. Teach the Day 1 subject first; do not open the lesson with installation status, a progress table or a verification checklist. Keep explanations, diagrams, demonstrations, practice tasks and quiz/interview prompts in the instructional flow. Keep learner-run evidence, outcomes and the next checkpoint in the separate session-record sections below, updated only when evidence is supplied.
