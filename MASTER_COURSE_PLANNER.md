@@ -176,3 +176,31 @@ After the overview, use a separate heading: `# Lesson / Study Material`. The act
 Keep actual learner attempts, terminal evidence, quiz/interview results, status, weak areas, blockers and next task in COURSE_STATUS.md, SYLLABUS_TRACKER.md, PROGRESS_LOG.md and the record section at the end of the relevant lesson file. Verification criteria are prospective acceptance criteria; verification evidence is a factual record of what the learner actually demonstrated. Never confuse the two. Instructor demonstrations and displayed exercises do not prove learner execution. A compact checkpoint may appear after the full lesson only when useful.
 
 The required visible order is therefore: **Lesson Overview → Lesson / Study Material → Topic 1 and subsequent topic headings → separate Verification Record**. Apply this without reducing the planner's syllabus coverage or removing the visual-first teaching standard.
+
+
+## Canonical lesson opening — inline pre-lesson, then immediate teaching (supersedes earlier layout wording)
+
+This rule is the authoritative presentation rule wherever an earlier section in this planner, README, assessment guidance or lesson template describes a separate overview panel or a separate lesson screen.
+
+### Part A — Pre-Lesson
+- Begin the lesson with a normal, visible heading: **Part A — Pre-Lesson**.
+- Present the lesson topic/session, estimated time when useful, learning objectives, prerequisites, topic scope and prospective verification criteria as concise prose or ordinary Markdown bullets.
+- Keep this opening inside the lesson flow. It must not be a separate dashboard, card, form, collapsed/minimised panel, questionnaire or administrative report.
+- Do not show a course-status table, installation audit, evidence table, learner results or progress form here.
+- Do not make the learner fill out a form before the lesson can begin.
+
+### Part B — Lesson / Study Material
+- Immediately after Part A, use **Part B — Lesson / Study Material** and start teaching the first topic.
+- Do not insert a second overview, status summary, separate screen or administrative section between Part A and Part B.
+- Continue through the full syllabus with topic headings, first-principles explanations, useful diagrams/images, command syntax, Windows Git Bash demonstrations, expected outputs, examples, exercises, troubleshooting, professional use, quizzes/interview practice and revision.
+- Keep visuals purposeful and accessible; do not use decoration as a substitute for teaching.
+
+### Verification record — after teaching only
+- Keep actual evidence, attempts, scores, statuses, blockers and next actions in the tracking files and the verification record at the end of the relevant day/module/project file.
+- Verification criteria in Part A describe what must be demonstrated; they are not results.
+- Do not confuse instructor demonstrations with commands actually run by the learner.
+- A compact end-of-lesson checkpoint is optional when there is new or useful information. Never move it to the opening.
+
+**Required visible order:** Part A — Pre-Lesson → Part B — Lesson / Study Material → Topic 1 and subsequent topics → optional post-lesson verification note.
+
+Use this same structure in ChatGPT and repository lessons across all seven bootcamp days, modules A–L and projects 1–8. This newer rule replaces the earlier instruction to place the overview in a separate panel or to keep a separate Lesson Overview screen. It does not change the curriculum, assessment standards or evidence rules.
