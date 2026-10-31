@@ -38,3 +38,14 @@ Keep session summaries factual and brief. Record what was taught and what eviden
 - Progress status: No learner status upgraded.
 - Exact next task: Verify Git installation/configuration from Git Bash and continue Day 1 practical.
 - GitHub sync: Update recorded in this commit; verify by fetching the updated files.
+
+
+## 2026-11-01 — Course format — Separate teaching from verification
+
+- Learner preference: keep verification/checkpoint information separate from the actual lesson content because mixing them makes the lesson confusing.
+- Agreed lesson flow: title/purpose and objectives → subject teaching → useful visuals → commands/demonstrations → practice → troubleshooting/professional use → quiz/interview practice → revision.
+- Verification remains in COURSE_STATUS.md, SYLLABUS_TRACKER.md and the record sections at the end of relevant day/module/project files; only a brief useful checkpoint may appear after a lesson.
+- Practice tasks and quizzes remain part of the lesson, but are not evidence of completion until attempted and reviewed.
+- No Git installation, practical execution, quiz result or topic verification was claimed or upgraded in this format update.
+- Exact next learning task remains: begin Day 1 teaching and ask for Git Bash setup output when required.
+- GitHub sync: pending verification after these edits.
