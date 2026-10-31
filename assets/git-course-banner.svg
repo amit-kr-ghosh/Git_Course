@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+  <title id="title">Git and GitHub Mastery</title>
+  <desc id="desc">A colorful illustration of the Git workflow: edit, stage, commit, and collaborate.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101827"/><stop offset="1" stop-color="#263b66"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  </defs>
+  <rect width="1400" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1230" cy="65" r="120" fill="#7c3aed" opacity=".16"/>
+  <circle cx="180" cy="340" r="160" fill="#06b6d4" opacity=".12"/>
+  <text x="78" y="112" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="700">GIT &amp; GITHUB MASTERY</text>
+  <text x="82" y="160" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="25">Understand the model. Practise the workflow. Build confidence.</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" text-anchor="middle">
+    <rect x="80" y="220" width="220" height="82" rx="16" fill="#164e63" stroke="#22d3ee" stroke-width="2"/><text x="190" y="270" fill="#ecfeff">①  EDIT</text>
+    <path d="M315 261h58m-12 -10 12 10 -12 10" stroke="url(#accent)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="390" y="220" width="220" height="82" rx="16" fill="#365314" stroke="#a3e635" stroke-width="2"/><text x="500" y="270" fill="#f7fee7">②  STAGE</text>
+    <path d="M625 261h58m-12 -10 12 10 -12 10" stroke="url(#accent)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="700" y="220" width="220" height="82" rx="16" fill="#5b21b6" stroke="#c4b5fd" stroke-width="2"/><text x="810" y="270" fill="#f5f3ff">③  COMMIT</text>
+    <path d="M935 261h58m-12 -10 12 10 -12 10" stroke="url(#accent)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1010" y="220" width="300" height="82" rx="16" fill="#7c2d12" stroke="#fb923c" stroke-width="2"/><text x="1160" y="270" fill="#fff7ed">④  COLLABORATE</text>
+  </g>
+</svg>
