@@ -1,53 +1,74 @@
 # Day 1 — Foundations, mental model and first repository
 
-## Syllabus
-- Version control and why it exists
-- manual backups vs version history
-- local, centralised and distributed version control
-- Git's distributed nature
-- Git history at a high level
-- Git vs GitHub
-- hosting platforms
-- repository, working directory, index/staging area, local and remote repositories
-- tracked/untracked/modified/staged/committed states
-- commit, parent, hash/object ID, branch and HEAD
-- install Git for Windows and verify git --version
-- configure user.name/user.email and inspect config scopes
-- create directory, git init, README, status/add/commit/log
-- make second change and inspect git diff.
+## Lesson Overview
 
-## Practical deliverable
-Create git-learning-journey with README, day1 notes and commands file; make at least two meaningful commits.
+- **Session:** Day 1 — Foundations, mental model and first repository
+- **Learning objectives:** Explain why version control exists; distinguish local, centralised and distributed version control; explain Git vs GitHub; describe repositories, the working directory, staging area, commits, branches and HEAD; install/configure Git; create and inspect a first local repository.
+- **Prerequisites:** Windows computer; Git Bash available or ready to install. No prior Git knowledge required.
+- **Topic scope:** Version control foundations; Git's distributed model; Git vs GitHub and hosting; repository anatomy; file lifecycle/states; commits, parent commits, hashes, branches and HEAD; Git installation/configuration; first repository; status, add, commit, log and diff.
+- **Practice / deliverable:** Create `git-learning-journey` with a README, Day 1 notes and a commands file; make at least two meaningful commits.
+- **Verification criteria:** Learner can explain the core terms in their own words, distinguish Git from GitHub, identify the role of the working directory/index/local repository, run the first-repository workflow, interpret status/diff/log output and answer the Day 1 quiz/interview prompts. These are acceptance criteria, not a statement that they have already been met.
+- **Estimated time:** Approximately 60–120 minutes; split across sessions as needed.
 
-## Interview focus
-Define Git, DVCS, repository, commit and staging area; explain Git vs GitHub.
+## Lesson / Study Material
 
-## Quiz focus
-Definitions, repository states, command purpose and first-repository workflow.
+The actual teaching starts below. Keep each subject under its own topic heading and do not insert course-status or evidence tables into the teaching flow.
 
-## Session records
-| Session/date | Topics covered | Status | Evidence | Next step |
+## Topic 1 — Why Version Control Exists
+
+*Lesson content to be developed and taught under this heading. Cover the problem of manual backups, change history, collaboration, rollback and traceability before moving to the next topic.*
+
+## Topic 2 — Version Control Models: Local, Centralised and Distributed
+
+*Teach the models, their trade-offs and Git's distributed model here.*
+
+## Topic 3 — Git vs GitHub and Hosting Platforms
+
+*Explain the version control tool, hosting/collaboration platform and alternatives here.*
+
+## Topic 4 — Repository Anatomy and Git's Three Areas
+
+*Teach working directory, staging area/index, local repository, remote repository and the high-level data flow here.*
+
+## Topic 5 — File States, Commits, Branches and HEAD
+
+*Teach tracked/untracked/modified/staged/committed states, snapshots, parents, object IDs, branch pointers and HEAD here.*
+
+## Topic 6 — Install and Configure Git on Windows
+
+*Demonstrate Git for Windows, Git Bash, version checks, identity configuration and configuration scopes. Explain PowerShell/CMD differences where relevant.*
+
+## Topic 7 — Create and Inspect the First Repository
+
+*Demonstrate mkdir/cd, git init, README creation, git status, git add, git commit, git log and a second change inspected with git diff. Separate commands from illustrative expected output.*
+
+## Topic 8 — Day 1 Practical, Review and Knowledge Check
+
+*Guide the deliverable, troubleshooting, independent challenge, quiz and interview practice. Let the learner attempt assessment questions before revealing answers unless study mode is requested.*
+
+---
+
+## Verification Record — update only from learner evidence
+
+### Session records
+| Session/date | Topics taught | Learner attempt / evidence | Status | Next step |
 |---|---|---|---|---|
-| | | Not started | | |
+| | | | Not started | |
 
-## Commands demonstrated vs actually run
-- Demonstrated:
-- Run by learner:
-- Output/evidence:
+### Commands demonstrated vs actually run
+- Instructor demonstrated:
+- Commands run by learner (with supplied evidence):
+- Output/evidence reviewed:
 
-## Quiz and interview outcome
-- Quiz score/gaps:
-- Interview questions and answers:
-- Remediation / revision:
+### Quiz and interview outcomes
+- Quiz score and topic gaps:
+- Interview answers and feedback:
+- Remediation / retest:
 
-## Continuation checkpoint
-- Verified topics:
-- Incomplete topics:
+### Continuation checkpoint
+- Topics Introduced / Practised / Verified:
+- Topics needing revision:
 - Blockers:
-- Exact next topic:
+- Exact next topic/task:
 
-Do not mark this day verified until the syllabus, practical, quiz and interview preparation have been reviewed.
-
-## Lesson presentation rule
-
-This file's syllabus and teaching material are the lesson. Teach the Day 1 subject first; do not open the lesson with installation status, a progress table or a verification checklist. Keep explanations, diagrams, demonstrations, practice tasks and quiz/interview prompts in the instructional flow. Keep learner-run evidence, outcomes and the next checkpoint in the separate session-record sections below, updated only when evidence is supplied.
+Do not mark Day 1 verified until its required syllabus, practical deliverable and understanding/application checks have been reviewed. A topic heading, instructor demonstration or displayed exercise is not evidence of learner completion.
