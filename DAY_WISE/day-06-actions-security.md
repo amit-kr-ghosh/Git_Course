@@ -45,3 +45,38 @@ Actions structure, YAML, CI/CD distinctions, secret handling and protections.
 - Exact next topic:
 
 Do not mark this day verified until the syllabus, practical, quiz and interview preparation have been reviewed.
+
+## Visual guide — a CI workflow
+
+### Workflow structure
+
+```mermaid
+flowchart TD
+    E["Event: push / pull_request"] --> W["Workflow YAML"]
+    W --> J["Job: test"]
+    J --> R["Runner"]
+    R --> S1["Step: checkout"]
+    S1 --> S2["Step: setup runtime"]
+    S2 --> S3["Step: install dependencies"]
+    S3 --> S4["Step: run tests"]
+    S4 --> O["Result: pass / fail"]
+    classDef trigger fill:#f3e8ff,stroke:#9333ea,color:#581c87
+    classDef workflow fill:#dbeafe,stroke:#2563eb,color:#172554
+    classDef steps fill:#fef3c7,stroke:#d97706,color:#78350f
+    classDef result fill:#dcfce7,stroke:#16a34a,color:#14532d
+    class E trigger
+    class W,J,R workflow
+    class S1,S2,S3,S4 steps
+    class O result
+```
+
+### Security boundary checklist
+
+- Grant workflows only the permissions they need.
+- Store credentials in GitHub Secrets or an approved identity flow; never hard-code them.
+- Treat pull-request code from forks as untrusted.
+- Pin third-party actions to reviewed versions/SHAs where appropriate.
+- Protect important branches with required checks and review rules.
+
+> [!IMPORTANT]
+> A green CI check proves only that configured checks passed for that run. It does not prove the application is secure or bug-free.
