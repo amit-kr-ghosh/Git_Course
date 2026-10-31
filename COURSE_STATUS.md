@@ -1,6 +1,6 @@
 # Course Status
 
-This file is the compact **verification checkpoint**, not lesson material.
+This file is the compact **verification checkpoint**, not lesson material. Keep it separate from teaching: lesson responses must begin with the subject, not this status summary.
 
 ## Current checkpoint
 
@@ -17,6 +17,12 @@ This file is the compact **verification checkpoint**, not lesson material.
 - First-repository practical: Not attempted / evidence not supplied
 - Quiz and interview: Not attempted
 - Open blocker: Original 23-page Master Planner DOCX has not yet been attached; repository index is available, but detailed-source reconciliation remains open.
+
+## Separation rule
+
+- This file alone holds the current course-wide checkpoint.
+- Do not copy this table or administrative setup checklist into the opening of a lesson.
+- Lesson practice tasks are instructional content; evidence of an attempt belongs here, in the tracker and in the progress log.
 
 ## Exact next action
 
