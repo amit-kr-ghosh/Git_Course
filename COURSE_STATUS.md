@@ -1,16 +1,41 @@
 # Course Status
 
+This file is the compact **verification checkpoint**, not lesson material.
+
+## Current checkpoint
+
 - Course: Git & GitHub Mastery
 - Repository: https://github.com/amit-kr-ghosh/Git_Course
-- Default branch: main
-- Environment: Windows; Git Bash primary
-- Scope: 7-day bootcamp + 12 advanced modules (A–L) + 8 projects
-- Current phase: Setup / Day 1 checkpoint pending verification
-- Last verified completed topic: None confirmed by this repository yet
-- Day 1: Started in prior learning context; installation and practical completion require confirmation
-- Status: Not started / evidence pending
-- Next action: Confirm Git installation with `git --version` and inspect/continue the Day 1 practical.
-- Open blockers: None recorded
-- Last updated: Repository initialisation
+- Branch: main
+- Environment target: Windows; Git Bash primary
+- Curriculum: 7-day bootcamp + 12 advanced modules (A–L) + 8 projects
+- Current phase: Day 1 — setup and foundations
+- Overall Day 1 status: Not started (verification pending)
+- Last verified topic: None
+- Git installation: Unconfirmed
+- Git identity/configuration: Unconfirmed
+- First-repository practical: Not attempted / evidence not supplied
+- Quiz and interview: Not attempted
+- Open blocker: Original 23-page Master Planner DOCX has not yet been attached; repository index is available, but detailed-source reconciliation remains open.
 
-Do not mark Day 1 complete until syllabus, practical evidence, quiz and interview preparation have been reviewed.
+## Exact next action
+
+1. In Git Bash, run `git --version`, `git config --global --list`, `git config --global user.name`, `git config --global user.email` and `pwd`.
+2. Share the output (redact any personal email if preferred).
+3. Continue the Day 1 lesson and first-repository practical in [DAY_WISE/day-01-foundations.md](DAY_WISE/day-01-foundations.md).
+4. Attach the original 23-page DOCX so the full curriculum can be reconciled.
+
+## Status rules
+
+Use only: Not started · Introduced · Practised · Verified · Needs revision · Blocked.
+
+- Introduced = taught.
+- Practised = learner attempted and supplied enough evidence to confirm an attempt.
+- Verified = understanding and practical application checked.
+- Never infer local execution from instructor demonstrations or remote repository edits.
+
+See [SYLLABUS_TRACKER.md](SYLLABUS_TRACKER.md) for topic-level status and [PROGRESS_LOG.md](PROGRESS_LOG.md) for dated session evidence.
+
+## Last updated
+
+2026-11-01 — Separated learning content from verification checkpoints; no learner progress status was upgraded.
