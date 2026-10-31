@@ -160,3 +160,19 @@ Treat **teaching** and **verification** as separate parts of the course, not as 
 - A ChatGPT lesson may end with a compact checkpoint note if something changed or the learner needs a next action. Do not repeat unchanged status information or put it before the lesson.
 
 This structure applies to all seven bootcamp days, modules A–L, projects 1–8, quizzes, interviews and capstone sessions. Preserve all curriculum coverage while keeping the learning flow clear.
+
+
+## Canonical lesson structure — overview first, topic teaching starts separately
+
+This rule is mandatory and takes precedence over any earlier shorthand lesson/session ordering in this planner. Every lesson, whether in ChatGPT or a repository day/module/project file, has three clearly separated parts:
+
+### 1. Lesson Overview (separate pre-lesson panel)
+Include the lesson title/session, learning objectives, prerequisites, topic scope, practice/deliverable, verification criteria (what successful performance must demonstrate), and estimated time/resources when useful. Keep this concise. Do not place the actual teaching, long demonstrations, learner results, progress status or evidence in this panel.
+
+### 2. Lesson / Study Material (distinct heading where teaching begins)
+After the overview, use a separate heading: `# Lesson / Study Material`. The actual study begins beneath it with a topic heading such as `## Topic 1 — [Topic name]`. Teach each topic fully under its own heading: definition and purpose, first principles, mental model, purposeful visual, internal mechanics, syntax/options, Windows Git Bash demonstration, clearly labelled expected output, explanation, practical exercise, troubleshooting, professional use and knowledge/interview checks. Continue with Topic 2, Topic 3, etc. Do not interrupt this teaching sequence with administrative checkpoint tables.
+
+### 3. Verification Record (separate post-lesson record)
+Keep actual learner attempts, terminal evidence, quiz/interview results, status, weak areas, blockers and next task in COURSE_STATUS.md, SYLLABUS_TRACKER.md, PROGRESS_LOG.md and the record section at the end of the relevant lesson file. Verification criteria are prospective acceptance criteria; verification evidence is a factual record of what the learner actually demonstrated. Never confuse the two. Instructor demonstrations and displayed exercises do not prove learner execution. A compact checkpoint may appear after the full lesson only when useful.
+
+The required visible order is therefore: **Lesson Overview → Lesson / Study Material → Topic 1 and subsequent topic headings → separate Verification Record**. Apply this without reducing the planner's syllabus coverage or removing the visual-first teaching standard.
