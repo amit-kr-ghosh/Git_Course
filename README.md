@@ -87,26 +87,44 @@ A topic is Verified only when relevant explanation, practical or assessment evid
 
 The visual layer must clarify the full curriculum, not replace or silently omit syllabus topics.
 
-## Lesson layout: teaching first, checkpoint separate
+## Standard lesson layout — separate overview, then the lesson starts
 
-Every lesson in ChatGPT and repository lesson material must keep **instructional content** separate from **course verification**.
+Every lesson must have a clearly separated **Lesson Overview** followed by a distinct **Lesson / Study Material** heading. The topic teaching begins only after that second heading.
 
-- Start with the lesson title and a brief learning-purpose introduction. Then teach the subject immediately: concepts, visual models, explanations, demonstrations, examples, exercises and troubleshooting.
-- Do **not** put a progress/status table, setup checklist, evidence audit or "current checkpoint" section before the actual lesson content.
-- Do not repeat course-wide status, installation state, verified-topic lists or next-session administration inside the teaching body.
-- Put learner setup, status, evidence, quiz/interview outcomes, blockers and next action in the dedicated course checkpoint records: `COURSE_STATUS.md`, `SYLLABUS_TRACKER.md` and `PROGRESS_LOG.md`.
-- In a ChatGPT lesson, show at most a small, clearly separated checkpoint note at the end (or in a separate compact panel) when it is useful. Omit it when it adds no new information.
-- A **practice task** is lesson content and belongs in the instructional flow. Its presence never means the learner attempted or passed it.
-- Label terminal commands as instructor demonstrations unless actual learner evidence has been provided.
+### Part 1 — Lesson overview (before teaching)
 
-Recommended lesson order: title and purpose → learning objectives → actual teaching → visual model → commands/demonstrations → practice task → troubleshooting and professional use → quiz/interview practice → revision summary. A checkpoint, when needed, follows separately and never interrupts the lesson.
+Keep this short, structured and separate from the teaching body. Include only relevant fields:
 
+- **Lesson / session:** day, module or project and lesson title.
+- **Learning objectives:** what the learner should be able to explain or do.
+- **Prerequisites:** required earlier concepts, tools or setup (if any).
+- **Scope / topics:** the topics covered in this lesson.
+- **Practice / deliverable:** what the learner will work on.
+- **Verification criteria:** what successful understanding/application will look like (acceptance criteria, not a claim that the learner has passed).
+- **Estimated time / resources:** only when useful.
 
-## Two-layer session format (mandatory)
+Do not put the actual lesson explanation, long command demonstrations or detailed topic notes in this overview. Do not put learner results, progress status or evidence here.
 
-Keep these as two separate layers, not interleaved sections:
+### Part 2 — Lesson / Study Material (the actual lesson begins here)
 
-1. **Lesson content:** the actual subject being taught. Begin with the lesson title/purpose and objectives, then teach concepts, diagrams, commands, demonstrations, examples, exercises, troubleshooting and assessment questions. Do not insert course-status tables or installation/evidence checklists between these sections.
-2. **Verification record:** learner setup, attempted work, supplied evidence, quiz/interview results, topic statuses, blockers and the exact next checkpoint. Maintain this in the tracking files; show only a short, clearly separated footer when it adds useful information.
+After the overview, insert a visually clear heading exactly like:
 
-A lesson's practice task and quiz are part of the learning experience. Their presence does not mean they were attempted or passed. Keep verification separate from instruction, but do not omit practice or assessment from the lesson itself.
+# Lesson / Study Material
+
+Start the teaching under this heading with the first actual topic heading, for example:
+
+## Topic 1 — What is Version Control?
+
+Then teach the topic in depth: definition and need, first principles, mental model, purposeful diagrams/images, detailed explanation, syntax/options, Windows Git Bash demonstrations, expected output, examples, practice, troubleshooting, professional use and relevant interview/knowledge checks. Continue with separate headings for Topic 2, Topic 3, and so on. Do not insert course administration or a verification checklist between topic sections.
+
+### Part 3 — Verification record (separate from both overview and teaching)
+
+Actual learner progress is recorded separately in `COURSE_STATUS.md`, `SYLLABUS_TRACKER.md`, `PROGRESS_LOG.md` and the clearly labelled record section at the end of the relevant day/module/project file.
+
+- **Verification criteria** in the overview describe what must be demonstrated.
+- **Verification evidence** records what the learner actually attempted and supplied.
+- A quiz, task or command shown by the instructor is not proof of learner execution or completion.
+- Keep statuses and learner results out of the lesson's opening overview and out of the topic teaching flow.
+- If useful, show only a brief checkpoint after the complete lesson; never let it replace or interrupt teaching.
+
+This three-part structure applies to every bootcamp day, advanced module, project, assessment lesson and ChatGPT teaching session. Preserve the complete syllabus and visual-first teaching standard. GitHub Markdown supports static lesson content; use ChatGPT interactive controls for live interactive quizzes rather than describing static Markdown as an embedded widget.
