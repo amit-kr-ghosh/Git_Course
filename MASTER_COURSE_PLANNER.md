@@ -63,3 +63,45 @@ Keep instructional content and progress verification visibly separate in every l
 - A lesson can have a distinct short "Practice task" within the instructional flow. The existence of a task does not imply that it was attempted or verified.
 - Keep command provenance explicit: "Demonstrated" means shown by the instructor; "Learner ran" requires learner evidence.
 - In a new session, report the checkpoint briefly, then begin the actual lesson content. If the checkpoint is still pending, do not turn the lesson into a wall of status tables.
+
+
+## Visual teaching and presentation standard
+
+Use a visual-first approach throughout the seven-day bootcamp, advanced modules A–L and all eight projects. Visuals support the full syllabus; they must never replace detailed explanations, hands-on practice, troubleshooting or assessment.
+
+### Required visual toolkit
+- **Color-coded explanations:** use a consistent legend — blue for working directory/active work, amber for staging/pending decisions, green for commits/successful verification, purple for remotes/collaboration, red for risks/conflicts.
+- **Mermaid diagrams:** use flowcharts for processes and decisions, sequence diagrams for client/remote interactions, state diagrams for file/branch states, and `gitGraph` for commit/branch/merge history. Choose the diagram type that best explains the concept.
+- **Images and screenshots:** include relevant technical illustrations, annotated UI screenshots and terminal captures when they materially improve understanding. Add alt text; redact personal information and all credentials/secrets; credit external assets.
+- **Animation:** use short GIFs only when movement is instructional (for example, a branch pointer moving, a merge occurring or a workflow progressing). Provide an equivalent static explanation; avoid decorative or distracting motion.
+- **Interactive learning:** in ChatGPT lessons, use supported interactive knowledge checks, quizzes, comparison controls and progress indicators when they improve practice. In repository Markdown, use answer-hidden quizzes, checklists and tables. GitHub Markdown itself does not host general-purpose interactive widgets; do not promise embedded app behavior. A separate GitHub Pages demo may be proposed only when a real interactive simulator is justified.
+- **Terminal panels:** show context, command, expected output and explanation in separate labelled blocks. Clearly label outputs as illustrative unless the learner supplied them. Explain Windows Git Bash syntax and note PowerShell/CMD differences when relevant.
+
+### Diagram quality rules
+1. One diagram should communicate one main concept.
+2. Label nodes and arrows with meaningful Git terms and commands.
+3. Use a legend where color carries meaning; also use text/shape differences so color is never the only signal.
+4. Explain the diagram in prose and connect it to a practical command or decision.
+5. Keep diagrams readable on mobile; split oversized diagrams into smaller stages.
+6. Preserve complete syllabus coverage even when a topic has no useful diagram.
+
+### Standard lesson visual sequence
+For each substantial concept, consider this order:
+1. Short definition and real-world need.
+2. Mental model or color-coded diagram.
+3. Internal mechanics and terminology.
+4. Syntax/options table.
+5. Windows Git Bash demonstration with expected output.
+6. Practical exercise and troubleshooting decision path.
+7. Professional scenario and interview/knowledge check.
+8. Revision summary.
+
+Not every small subtopic needs every media type. Select visuals for instructional value, accessibility and clarity rather than decoration.
+
+### Accessibility, accuracy and provenance
+- Use descriptive alt text and readable contrast.
+- Never rely on color alone.
+- Provide static alternatives for animation.
+- Do not fabricate screenshots, terminal output, command execution or learner evidence.
+- Distinguish instructor demonstration from learner execution.
+- Never expose secrets or private information in images, screenshots, logs or diagrams.
