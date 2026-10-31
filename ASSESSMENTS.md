@@ -51,3 +51,13 @@ Keep the lesson's opening overview separate from the teaching and from the final
 - **After the lesson — Verification Record:** learner responses, scores, feedback, practical evidence, status and next action. Record these in this file and the course tracking files, not in the overview.
 
 A verification criterion is not a result. A question being shown is not an attempt; an attempt is not automatically a pass; a quiz score alone does not prove practical competence.
+
+
+## Lesson opening presentation — no pre-lesson form
+
+Use the canonical inline lesson structure:
+- Start with **Part A — Pre-Lesson** as a normal visible heading, followed by concise topic/session, time (if useful), objectives, prerequisites, scope and prospective verification criteria.
+- Continue immediately with **Part B — Lesson / Study Material** and the actual topic teaching.
+- Do not turn Part A into a form, radio-group questionnaire, collapsed panel, separate dashboard or progress report. No learner input is required before the lesson starts.
+- Keep learner answers, scores, feedback and evidence in the assessment/progress records after the learner has attempted the work.
+- Do not show course-wide status or installation/evidence audits in the opening lesson section.
