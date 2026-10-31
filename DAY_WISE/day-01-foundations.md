@@ -47,3 +47,63 @@ Definitions, repository states, command purpose and first-repository workflow.
 - Exact next topic:
 
 Do not mark this day verified until the syllabus, practical, quiz and interview preparation have been reviewed.
+
+## Visual guide — how Git remembers work
+
+### The four places to understand
+
+```mermaid
+flowchart LR
+    W["📝 Working tree<br/>edit files"] -->|"git add"| I["🟨 Index / staging<br/>choose snapshot"]
+    I -->|"git commit"| L["🟩 Local repository<br/>save commit"]
+    L <-->|"fetch / pull / push"| R["🟪 Remote repository<br/>share and sync"]
+    classDef work fill:#dbeafe,stroke:#2563eb,color:#172554,stroke-width:2px
+    classDef index fill:#fef3c7,stroke:#d97706,color:#78350f,stroke-width:2px
+    classDef local fill:#dcfce7,stroke:#16a34a,color:#14532d,stroke-width:2px
+    classDef remote fill:#f3e8ff,stroke:#9333ea,color:#581c87,stroke-width:2px
+    class W work
+    class I index
+    class L local
+    class R remote
+```
+
+### File-state transition
+
+```mermaid
+stateDiagram-v2
+    [*] --> Untracked
+    Untracked --> Staged: git add
+    Staged --> Committed: git commit
+    Committed --> Modified: edit tracked file
+    Modified --> Staged: git add
+    Staged --> Modified: edit after staging
+```
+
+| Visual cue | Meaning |
+|---|---|
+| 🔵 Blue | Work is being edited |
+| 🟡 Amber | Change is staged for the next commit |
+| 🟢 Green | Snapshot is committed |
+| 🟣 Purple | Work is shared with a remote |
+
+> [!TIP]
+> A commit records the staged snapshot, not every unsaved edit in the working directory.
+
+### First repository — command sequence
+
+```mermaid
+flowchart TD
+    A["Create project folder"] --> B["git init"]
+    B --> C["Create README.md"]
+    C --> D["git status"]
+    D --> E["git add README.md"]
+    E --> F["git commit -m \"Initial commit\""]
+    F --> G["git log --oneline"]
+    classDef start fill:#dbeafe,stroke:#2563eb,color:#172554
+    classDef action fill:#dcfce7,stroke:#16a34a,color:#14532d
+    classDef inspect fill:#fef3c7,stroke:#d97706,color:#78350f
+    class A,B,C start
+    class E,F action
+    class D,G inspect
+```
+
