@@ -15,7 +15,7 @@
 
 ## Visual-first teaching standard
 
-The course should be taught with clear, purposeful visuals alongside detailed explanations. Apply this standard in ChatGPT lessons and, where appropriate, in repository lesson materials.
+The course should use clear, purposeful visuals alongside detailed explanations. Apply this standard in ChatGPT lessons and, where appropriate, in repository lesson materials.
 
 | Visual element | How it supports learning |
 |---|---|
@@ -44,7 +44,7 @@ Use labels and shapes as well as colors so diagrams remain understandable for co
 - Use images only when they add information; include useful alt text and cite/credit external assets where required.
 - Use screenshots to demonstrate real interfaces or terminal states. Redact usernames, email addresses, tokens, keys and other private information.
 - GIFs are suitable for concepts whose meaning depends on motion. Keep them short, legible and non-distracting; provide a static explanation or diagram as an alternative.
-- GitHub Markdown does not provide general-purpose interactive widgets. Use native Markdown for static content and ChatGPT's supported interactive controls for live quizzes/progress interactions. Do not imply that a static Markdown quiz is an interactive app.
+- GitHub Markdown does not provide general-purpose interactive widgets. Use native Markdown for static content and ChatGPT's supported interactive controls for live quizzes. Do not imply that a static Markdown quiz is an interactive app.
 - If a browser-based interactive demonstration is genuinely needed, propose it separately (for example, a GitHub Pages demo) rather than adding unnecessary infrastructure to the course repository.
 
 ### Terminal demonstration format
@@ -73,6 +73,7 @@ Expected output (example only):
 This output is illustrative; it is not evidence that the learner ran the command.
 
 ## Course continuity and evidence
+
 At each new chat, inspect the status, tracker, progress log and relevant day/module/project record. Resume at the next incomplete item. Never infer completion from chat history alone.
 
 Statuses: Not started · Introduced · Practised · Verified · Needs revision · Blocked.
@@ -87,44 +88,34 @@ A topic is Verified only when relevant explanation, practical or assessment evid
 
 The visual layer must clarify the full curriculum, not replace or silently omit syllabus topics.
 
-## Standard lesson layout — separate overview, then the lesson starts
+## Standard lesson opening and flow
 
-Every lesson must have a clearly separated **Lesson Overview** followed by a distinct **Lesson / Study Material** heading. The topic teaching begins only after that second heading.
+Every lesson must begin directly with a visible, ordinary-text **Part A — Pre-Lesson**. This is part of the lesson itself, not a separate dashboard, form, card, collapsed panel or administrative report.
 
-### Part 1 — Lesson overview (before teaching)
+### Part A — Pre-Lesson
 
-Keep this short, structured and separate from the teaching body. Include only relevant fields:
+Keep this concise and inline at the top of the lesson. Include only relevant items:
+- **Lesson topic / session:** day, module or project and the specific subject.
+- **Estimated learning time:** when useful.
+- **Learning objectives:** what the learner should understand or be able to do.
+- **Prerequisites:** only what is genuinely needed.
+- **Scope:** the topics covered.
+- **Verification criteria:** what the learner will eventually be asked to explain or demonstrate. These are expectations, not claims of success.
 
-- **Lesson / session:** day, module or project and lesson title.
-- **Learning objectives:** what the learner should be able to explain or do.
-- **Prerequisites:** required earlier concepts, tools or setup (if any).
-- **Scope / topics:** the topics covered in this lesson.
-- **Practice / deliverable:** what the learner will work on.
-- **Verification criteria:** what successful understanding/application will look like (acceptance criteria, not a claim that the learner has passed).
-- **Estimated time / resources:** only when useful.
+Do not include forms, radio-button questionnaires, progress dashboards, installation audits, evidence tables, learner results or course-wide status summaries in this opening.
 
-Do not put the actual lesson explanation, long command demonstrations or detailed topic notes in this overview. Do not put learner results, progress status or evidence here.
+### Part B — Lesson / Study Material
 
-### Part 2 — Lesson / Study Material (the actual lesson begins here)
+Immediately after Part A, continue in the same lesson with a clear **Part B — Lesson / Study Material** heading and begin the first subject heading. Do not insert an extra overview screen, separate panel, status report or administrative section between the pre-lesson information and the actual teaching.
 
-After the overview, insert a visually clear heading exactly like:
+Teach the subject fully and in sequence: definition and purpose, first principles, mental model, purposeful visuals, internal mechanics, syntax/options, Windows Git Bash demonstrations, clearly labelled expected output, worked examples, guided and independent practice, troubleshooting, professional use, knowledge/interview checks and revision.
 
-# Lesson / Study Material
+Use separate topic headings (Topic 1, Topic 2, etc.) where appropriate. Do not shorten or omit curriculum content to make the lesson look simpler.
 
-Start the teaching under this heading with the first actual topic heading, for example:
+### Verification after the lesson
 
-## Topic 1 — What is Version Control?
+Actual learner attempts, terminal evidence, quiz/interview results, status, weak areas, blockers and next actions belong in `COURSE_STATUS.md`, `SYLLABUS_TRACKER.md`, `PROGRESS_LOG.md` and the verification record at the end of the relevant day/module/project file.
 
-Then teach the topic in depth: definition and need, first principles, mental model, purposeful diagrams/images, detailed explanation, syntax/options, Windows Git Bash demonstrations, expected output, examples, practice, troubleshooting, professional use and relevant interview/knowledge checks. Continue with separate headings for Topic 2, Topic 3, and so on. Do not insert course administration or a verification checklist between topic sections.
+A compact verification note may appear after the complete lesson only when useful. Never put it before the teaching or interrupt the topic sequence. A question being displayed is not an attempt; an attempt is not automatically a pass; instructor demonstrations are not learner execution evidence.
 
-### Part 3 — Verification record (separate from both overview and teaching)
-
-Actual learner progress is recorded separately in `COURSE_STATUS.md`, `SYLLABUS_TRACKER.md`, `PROGRESS_LOG.md` and the clearly labelled record section at the end of the relevant day/module/project file.
-
-- **Verification criteria** in the overview describe what must be demonstrated.
-- **Verification evidence** records what the learner actually attempted and supplied.
-- A quiz, task or command shown by the instructor is not proof of learner execution or completion.
-- Keep statuses and learner results out of the lesson's opening overview and out of the topic teaching flow.
-- If useful, show only a brief checkpoint after the complete lesson; never let it replace or interrupt teaching.
-
-This three-part structure applies to every bootcamp day, advanced module, project, assessment lesson and ChatGPT teaching session. Preserve the complete syllabus and visual-first teaching standard. GitHub Markdown supports static lesson content; use ChatGPT interactive controls for live interactive quizzes rather than describing static Markdown as an embedded widget.
+This inline Part A → immediate Part B structure applies to every bootcamp day, advanced module, project, assessment lesson and ChatGPT teaching session. Use normal visible headings and prose; do not turn the pre-lesson section into a form or a hidden/minimised UI element.
