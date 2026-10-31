@@ -100,3 +100,13 @@ Every lesson in ChatGPT and repository lesson material must keep **instructional
 - Label terminal commands as instructor demonstrations unless actual learner evidence has been provided.
 
 Recommended lesson order: title and purpose → learning objectives → actual teaching → visual model → commands/demonstrations → practice task → troubleshooting and professional use → quiz/interview practice → revision summary. A checkpoint, when needed, follows separately and never interrupts the lesson.
+
+
+## Two-layer session format (mandatory)
+
+Keep these as two separate layers, not interleaved sections:
+
+1. **Lesson content:** the actual subject being taught. Begin with the lesson title/purpose and objectives, then teach concepts, diagrams, commands, demonstrations, examples, exercises, troubleshooting and assessment questions. Do not insert course-status tables or installation/evidence checklists between these sections.
+2. **Verification record:** learner setup, attempted work, supplied evidence, quiz/interview results, topic statuses, blockers and the exact next checkpoint. Maintain this in the tracking files; show only a short, clearly separated footer when it adds useful information.
+
+A lesson's practice task and quiz are part of the learning experience. Their presence does not mean they were attempted or passed. Keep verification separate from instruction, but do not omit practice or assessment from the lesson itself.
