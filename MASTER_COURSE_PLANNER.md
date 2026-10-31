@@ -105,3 +105,38 @@ Not every small subtopic needs every media type. Select visuals for instructiona
 - Do not fabricate screenshots, terminal output, command execution or learner evidence.
 - Distinguish instructor demonstration from learner execution.
 - Never expose secrets or private information in images, screenshots, logs or diagrams.
+
+## Mandatory lesson layout — instructional content is separate from verification
+
+This is a course-wide rule for every bootcamp day, advanced module, practical project, assessment lesson and ChatGPT teaching session.
+
+### A. Begin with the subject, not administration
+- After the lesson title, move directly into its learning purpose/objectives and then teach the subject.
+- Never begin a lesson with a large "current checkpoint", progress table, setup checklist, evidence audit or a recap of repository state.
+- Do not repeat installation status, course-wide progress, verified topics, learner evidence, blockers or the next session's administrative task inside the lesson.
+
+### B. Keep instructional content complete and coherent
+The lesson body contains the actual learning material: definitions, need/purpose, first-principles reasoning, mental models, diagrams, detailed explanations, command syntax and options, Windows Git Bash demonstrations, expected output, practical tasks, troubleshooting, professional scenarios, interview questions, knowledge checks and revision notes.
+- A practice task is part of the lesson. It is not a progress checkpoint and does not prove an attempt.
+- Mark example terminal output as illustrative unless supplied by the learner. Instructor demonstrations and learner-run commands must remain distinct.
+- Do not remove syllabus topics to shorten or beautify the lesson.
+
+### C. Keep verification in the tracking layer
+- `COURSE_STATUS.md` is the single compact current checkpoint.
+- `SYLLABUS_TRACKER.md` records topic/deliverable status and evidence.
+- `PROGRESS_LOG.md` records chronological session evidence and next action.
+- Relevant day/module/project files may contain a **separate record area at the end** for session evidence, assessment outcomes and continuation details. Keep it after the instructional syllabus/content, not as the lesson's opening.
+- A ChatGPT response may include a brief checkpoint only after the lesson, visually separated from teaching. Do not repeat the whole checkpoint if it is already recorded and unchanged.
+
+### D. Standard lesson sequence
+1. Lesson title and short purpose.
+2. Learning objectives.
+3. Detailed teaching, using purposeful diagrams/images/widgets where they improve understanding.
+4. Commands and demonstrations with context, expected output and explanation.
+5. Practical task(s).
+6. Troubleshooting and real-world/professional use.
+7. Quiz and interview practice (learner attempts first unless study mode is requested).
+8. Revision summary.
+9. Separate, compact verification note only when useful.
+
+The course status is a record of evidence, not the lesson itself. Follow this rule consistently across all future sessions and files.
