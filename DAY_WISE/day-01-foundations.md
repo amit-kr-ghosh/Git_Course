@@ -1,22 +1,22 @@
 # Day 1 — Foundations, mental model and first repository
 
-## Lesson Overview
+## Part A — Pre-Lesson
 
-- **Session:** Day 1 — Foundations, mental model and first repository
+- **Lesson topic:** Day 1 — Foundations, mental model and first repository
+- **Estimated learning time:** Approximately 60–120 minutes; split across sessions as needed.
 - **Learning objectives:** Explain why version control exists; distinguish local, centralised and distributed version control; explain Git vs GitHub; describe repositories, the working directory, staging area, commits, branches and HEAD; install/configure Git; create and inspect a first local repository.
 - **Prerequisites:** Windows computer; Git Bash available or ready to install. No prior Git knowledge required.
-- **Topic scope:** Version control foundations; Git's distributed model; Git vs GitHub and hosting; repository anatomy; file lifecycle/states; commits, parent commits, hashes, branches and HEAD; Git installation/configuration; first repository; status, add, commit, log and diff.
+- **Scope:** Version control foundations; Git's distributed model; Git vs GitHub and hosting; repository anatomy; file lifecycle/states; commits, parent commits, hashes, branches and HEAD; Git installation/configuration; first repository; status, add, commit, log and diff.
 - **Practice / deliverable:** Create `git-learning-journey` with a README, Day 1 notes and a commands file; make at least two meaningful commits.
-- **Verification criteria:** Learner can explain the core terms in their own words, distinguish Git from GitHub, identify the role of the working directory/index/local repository, run the first-repository workflow, interpret status/diff/log output and answer the Day 1 quiz/interview prompts. These are acceptance criteria, not a statement that they have already been met.
-- **Estimated time:** Approximately 60–120 minutes; split across sessions as needed.
+- **Verification criteria:** Explain core terms in your own words, distinguish Git from GitHub, identify the role of the working directory/index/local repository, run the first-repository workflow, interpret status/diff/log output and answer the Day 1 quiz/interview prompts. These are acceptance criteria, not a statement that they have already been met.
 
-## Lesson / Study Material
+## Part B — Lesson / Study Material
 
-The actual teaching starts below. Keep each subject under its own topic heading and do not insert course-status or evidence tables into the teaching flow.
+The actual teaching starts immediately below. Follow the topics in order; do not insert course-status or evidence tables into the teaching flow.
 
 ## Topic 1 — Why Version Control Exists
 
-*Lesson content to be developed and taught under this heading. Cover the problem of manual backups, change history, collaboration, rollback and traceability before moving to the next topic.*
+*Teach the problem of manual backups, change history, collaboration, rollback and traceability before moving to the next topic.*
 
 ## Topic 2 — Version Control Models: Local, Centralised and Distributed
 
