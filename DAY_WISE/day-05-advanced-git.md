@@ -45,3 +45,39 @@ History editing, revision syntax, stash/tag, reflog and shared-history safety.
 - Exact next topic:
 
 Do not mark this day verified until the syllabus, practical, quiz and interview preparation have been reviewed.
+
+## Visual guide — choose the right history tool
+
+### Rebase vs merge (conceptual)
+
+```mermaid
+flowchart TD
+    Q{"What is the goal?"}
+    Q -->|"Preserve branch topology"| M["Merge<br/>combine histories"]
+    Q -->|"Replay private commits on new base"| R["Rebase<br/>rewrite commit IDs"]
+    Q -->|"Copy one selected commit"| C["Cherry-pick<br/>apply a commit elsewhere"]
+    classDef merge fill:#dcfce7,stroke:#16a34a,color:#14532d
+    classDef rebase fill:#dbeafe,stroke:#2563eb,color:#172554
+    classDef pick fill:#f3e8ff,stroke:#9333ea,color:#581c87
+    class M merge
+    class R rebase
+    class C pick
+```
+
+### Recovery mental model
+
+```mermaid
+flowchart LR
+    H["HEAD / branch ref"] -->|"moves"| N["New commit or position"]
+    H -. "reflog records recent ref movement" .-> L["Reflog history"]
+    L -->|"inspect and recover carefully"| R["Recover prior commit"]
+    classDef current fill:#dbeafe,stroke:#2563eb,color:#172554
+    classDef log fill:#fef3c7,stroke:#d97706,color:#78350f
+    classDef recover fill:#dcfce7,stroke:#16a34a,color:#14532d
+    class H,N current
+    class L log
+    class R recover
+```
+
+> [!WARNING]
+> Rebase rewrites commit identities. Do not rewrite shared history without team agreement; prefer `--force-with-lease` over blind force push when a force update is genuinely required.
