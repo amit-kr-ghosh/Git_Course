@@ -1,6 +1,6 @@
 # Progress Log
 
-This file is the chronological evidence record. Keep lesson explanations in the lesson files; do not duplicate them here.
+This file is the chronological evidence record. Keep lesson explanations in the lesson files; do not duplicate them here. Record learner evidence and checkpoint outcomes here, not as opening status blocks in lesson material.
 
 ## Initial repository setup
 
@@ -11,6 +11,8 @@ This file is the chronological evidence record. Keep lesson explanations in the 
 - The concise repository curriculum index is available. The original 23-page planner DOCX still needs to be attached for detailed reconciliation.
 
 ## Session template
+
+Keep session summaries factual and brief. Record what was taught and what evidence exists; do not turn lesson bodies into checkpoint reports.
 
 ### YYYY-MM-DD — Day/module — Session title
 
