@@ -33,3 +33,10 @@ For interview study notes, put each question immediately before its answer. For 
 - Use consistent color cues, but make every question answerable without color.
 - For output-prediction questions, label the terminal state as a scenario; never imply it came from the learner's machine.
 - Track correctness, reasoning, safety judgment and ability to apply the concept. A quiz score alone does not establish practical verification.
+
+
+## Assessment placement and evidence separation
+
+- Teach the relevant concept before presenting its quiz or interview prompts; do not place a course checkpoint table ahead of the lesson.
+- Keep questions and learner attempts in the learning/assessment flow. Record scores, feedback, topic gaps and retest evidence in this file and the relevant progress records.
+- A quiz being displayed is not an attempt; an answer being submitted is not automatically practical verification.
