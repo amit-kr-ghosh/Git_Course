@@ -68,3 +68,9 @@ See [SYLLABUS_TRACKER.md](SYLLABUS_TRACKER.md) for topic-level status and [PROGR
 **Reminder rule:** if the learner advances to a later day or lesson without completing previously deferred quizzes/assessments/practicals, remind them of the pending activities before proceeding. Respect their choice if they explicitly choose to continue learning concepts first.
 
 This rule overrides any older wording that schedules automatic quizzes, interview practice, exercises, practicals or deliverables at the end of a lesson.
+
+
+## Latest learner instruction — concept-only default
+
+The learner has requested concept teaching only until they have learned the relevant material and explicitly opt in. Do not assign quizzes, assessments, interview prompts, practicals, exercises, homework, challenges, command execution or deliverables by default. Questions with answers/model explanations may be included as teaching. “Continue” or moving to a later day is not consent. Remind the learner about pending activities when they advance, and ask whether they want to continue learning or explicitly begin one named activity. No progress status or evidence is changed by this preference update.
+
