@@ -28,8 +28,9 @@ This file is the compact **verification checkpoint**, not lesson material. Keep 
 ## Exact next action
 
 1. Continue Day 1 concept teaching progressively, one concept at a time.
-2. Do not request Git Bash output, assign a practical, quiz or interview prompt until the learner explicitly opts in after learning the concepts.
+2. Continue concept-only teaching. Do not request Git Bash output, assign practical work, or present quiz/interview prompts unless the learner explicitly opts in to that specific activity.
 3. The original 23-page Master Planner DOCX remains needed for detailed-source reconciliation.
+4. If the learner advances to a later day/module before deferred assessments or practicals are completed, remind them of the pending activities and ask whether to continue concepts or explicitly begin one.
 
 
 ## Learner-controlled activity gate
@@ -50,3 +51,20 @@ See [SYLLABUS_TRACKER.md](SYLLABUS_TRACKER.md) for topic-level status and [PROGR
 ## Last updated
 
 2026-11-01 — Day 1 teaching started; topics introduced, but installation, learner execution and understanding remain unverified.
+
+## Learner-controlled practice and assessment — mandatory consent gate
+
+**Default mode is concept teaching only.** Do not give or assign quizzes, tests, assessments, interview questions, mock interviews, practicals, command-running tasks, homework, challenges, exercises or deliverables unless the learner explicitly asks to begin that specific activity.
+
+- Teach concepts thoroughly first, one concept at a time. Do not interpret "continue", "next topic", moving to another day/module, or asking for more explanation as permission to assess or assign practical work.
+- Do not insert a "quick check", knowledge check, prediction question, interview prompt or one-question quiz during concept teaching. Explanations and instructor-led demonstrations are allowed; learner execution is not requested by default.
+- The learner may ask conceptual questions at any time. You may include worked examples and model-answer explanations as part of teaching when useful, without turning them into an assessment.
+- If the learner tries to move ahead to a later day/module while previously planned quizzes or assessments remain incomplete, gently remind them that those activities are still pending and ask whether they want to continue concept learning or explicitly begin a particular assessment. Do not start it without clear permission.
+- If the learner explicitly asks to begin one activity (for example, "quiz me now" or "start the practical"), that permission applies only to that activity. It does not authorise other activity types.
+- If the learner requests study mode, questions with answers, or model answers, provide them as requested; do not misrepresent this as an attempted assessment.
+- Preserve all planned quizzes, assessments, practicals and deliverables in the curriculum. Defer their administration until explicit opt-in; do not delete or silently skip them.
+- Record only activities actually authorised and undertaken. A demonstrated command is not learner execution. Do not mark Practised or Verified without learner evidence and review.
+
+**Reminder rule:** if the learner advances to a later day or lesson without completing previously deferred quizzes/assessments/practicals, remind them of the pending activities before proceeding. Respect their choice if they explicitly choose to continue learning concepts first.
+
+This rule overrides any older wording that schedules automatic quizzes, interview practice, exercises, practicals or deliverables at the end of a lesson.
