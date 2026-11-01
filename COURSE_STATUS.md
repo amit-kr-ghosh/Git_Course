@@ -27,10 +27,14 @@ This file is the compact **verification checkpoint**, not lesson material. Keep 
 
 ## Exact next action
 
-1. In Git Bash, run `git --version`, `git config --global --list`, `git config --global user.name`, `git config --global user.email` and `pwd`.
-2. Share the output (redact any personal email if preferred).
-3. Continue the Day 1 lesson and first-repository practical in [DAY_WISE/day-01-foundations.md](DAY_WISE/day-01-foundations.md).
-4. Attach the original 23-page DOCX so the full curriculum can be reconciled.
+1. Continue Day 1 concept teaching progressively, one concept at a time.
+2. Do not request Git Bash output, assign a practical, quiz or interview prompt until the learner explicitly opts in after learning the concepts.
+3. The original 23-page Master Planner DOCX remains needed for detailed-source reconciliation.
+
+
+## Learner-controlled activity gate
+
+Concept teaching only is authorised by default. Quizzes, assessments, interview prompts, practicals, command execution tasks and homework require the learner's explicit request. If the learner moves toward these before concepts are learned, remind them of this preference and seek confirmation before proceeding.
 
 ## Status rules
 
