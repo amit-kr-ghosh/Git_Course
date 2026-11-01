@@ -157,3 +157,8 @@ The learner controls when practice and assessment begin. **Do not present or ass
 
 This learner-consent rule is the latest and controlling instruction. It overrides any earlier course wording that says quizzes, interview practice, exercises or practicals begin automatically on Day 1 or at the end of a topic. Preserve the complete curriculum and its assessment plans, but defer their delivery until the learner explicitly opts in.
 
+
+
+## Learner-controlled concept-first mode — latest rule
+
+**Default: teach concepts only.** Teach one concept at a time, thoroughly, with useful diagrams and instructor-led demonstrations. Do not assign or present quizzes, assessments, interview questions, practicals, exercises, homework, challenges, command-running tasks or deliverables until the learner has learned the relevant concepts and explicitly opts in to that specific activity. Questions with answers and model explanations may be included as teaching when useful. “Continue”, “next topic” and moving to another day are not consent. If the learner advances while planned activities remain pending, remind them and ask whether to continue concept learning or explicitly begin one named activity. This rule overrides any older wording in this README that suggests automatic knowledge checks or practice prompts. Preserve all planned curriculum coverage; defer, do not delete.
