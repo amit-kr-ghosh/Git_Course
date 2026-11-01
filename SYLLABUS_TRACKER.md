@@ -6,7 +6,7 @@ Statuses: Not started | Introduced | Practised | Verified | Needs revision | Blo
 
 | Phase | Topic / deliverable | Status | Evidence / notes | Next action |
 |---|---|---|---|---|
-| Day 1 | Foundations and first repository | Not started | Learning content may be introduced; learner installation and practical evidence are still unconfirmed | Verify Git setup, then complete first repository practical |
+| Day 1 | Foundations and first repository | Introduced | 2026-11-01: taught version control models, Git vs GitHub, repository areas, file states, commits, branches, HEAD, Windows setup and first-repository workflow. No learner terminal evidence or practical attempt yet. | Verify Git setup, complete first repository practical and assessment |
 | Day 2 | File lifecycle, inspection and safe undo | Not started | | |
 | Day 3 | Branching, merging and conflicts | Not started | | |
 | Day 4 | GitHub and team collaboration | Not started | | |
