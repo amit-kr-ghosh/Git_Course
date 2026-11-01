@@ -86,3 +86,12 @@ This day is intentionally taught across multiple turns/sessions. Do not deliver 
 
 Default rhythm: explain → visual/mental model → focused demonstration → expected output → learner check → feedback → next concept.
 
+
+## Learner permission gate — no practicals or assessments by default
+
+For this Day 1 record, and for all future teaching, do not give the learner quizzes, tests, interview questions, practical tasks, command-running exercises, homework or assessments unless the learner explicitly asks to begin them. Teach the concepts deeply first, one at a time. Instructor demonstrations may be shown as illustrations, but do not ask the learner to execute them or submit evidence without permission.
+
+"Continue" or "next topic" means continue concept teaching; it does not authorise a quiz or practical. If the learner asks to move into an assessment/practical before the concepts are adequately taught, remind them of their preference and ask for explicit confirmation before starting. Permission for one activity does not authorise the others.
+
+**Current teaching mode:** concept explanation only. The next teaching turn should continue the next appropriate concept; do not request terminal output as a practical checkpoint yet.
+
