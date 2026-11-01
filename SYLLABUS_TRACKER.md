@@ -45,3 +45,9 @@ Do not copy this tracker into lesson bodies. A lesson should teach; this file sh
 **Reminder rule:** if the learner advances to a later day or lesson without completing previously deferred quizzes/assessments/practicals, remind them of the pending activities before proceeding. Respect their choice if they explicitly choose to continue learning concepts first.
 
 This rule overrides any older wording that schedules automatic quizzes, interview practice, exercises, practicals or deliverables at the end of a lesson.
+
+
+## Learner-controlled activity rule
+
+Planned quizzes, assessments, interview practice and practical deliverables remain part of the curriculum but are deferred. Do not assign or administer them until the learner has learned the relevant concepts and explicitly opts in to that specific activity. Moving ahead in the syllabus is not consent; remind the learner about pending activities before proceeding and ask whether to continue concept learning or begin one named activity. This preference update does not change any topic status or evidence.
+
