@@ -90,3 +90,8 @@ Assessment plans in this file are curriculum records, not permission to administ
 **Reminder rule:** if the learner advances to a later day or lesson without completing previously deferred quizzes/assessments/practicals, remind them of the pending activities before proceeding. Respect their choice if they explicitly choose to continue learning concepts first.
 
 This rule overrides any older wording that schedules automatic quizzes, interview practice, exercises, practicals or deliverables at the end of a lesson.
+
+
+## Latest controlling rule — explicit opt-in after concept learning
+
+Assessment and practical records in this file describe planned curriculum coverage only; they are not permission to administer or assign activities. Teach the relevant concepts thoroughly first. Then wait until the learner explicitly requests a particular quiz, assessment, interview or practical. Do not insert one-question checks, prediction prompts, homework, command-running tasks or exercises into concept lessons. Questions with answers/model explanations may be used as teaching material and must not be recorded as learner attempts. “Continue” or advancing to another topic/day is not consent. If the learner advances while planned activities remain deferred, remind them and ask whether they prefer continued concept learning or explicit opt-in to one named activity. Each activity type requires its own permission. This section overrides any older wording that suggests automatic knowledge checks or practice.
