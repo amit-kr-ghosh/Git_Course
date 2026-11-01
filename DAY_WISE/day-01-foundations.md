@@ -53,12 +53,12 @@ The actual teaching starts immediately below. Follow the topics in order; do not
 ### Session records
 | Session/date | Topics taught | Learner attempt / evidence | Status | Next step |
 |---|---|---|---|---|
-| | | | Not started | |
+| 2026-11-01 — Session 1 | Day 1 topics 1–8 introduced | No learner terminal output or practical evidence supplied | Introduced | Verify Git installation/configuration, then complete first-repository practical |
 
 ### Commands demonstrated vs actually run
-- Instructor demonstrated:
-- Commands run by learner (with supplied evidence):
-- Output/evidence reviewed:
+- Instructor demonstrated: `git --version`, `git config`, `pwd`, `ls`, `cd`, `mkdir`, `git init`, `git status`, `git add`, `git commit`, `git log`, `git diff`.
+- Commands run by learner (with supplied evidence): None confirmed.
+- Output/evidence reviewed: None yet.
 
 ### Quiz and interview outcomes
 - Quiz score and topic gaps:
@@ -66,9 +66,9 @@ The actual teaching starts immediately below. Follow the topics in order; do not
 - Remediation / retest:
 
 ### Continuation checkpoint
-- Topics Introduced / Practised / Verified:
-- Topics needing revision:
-- Blockers:
-- Exact next topic/task:
+- Topics Introduced: Day 1 topics 1–8. Practised: none. Verified: none.
+- Topics needing revision: To be determined from learner responses and practical evidence.
+- Blockers: Git installation/configuration unconfirmed; original 23-page Master Planner DOCX not attached.
+- Exact next topic/task: Run the five Git Bash environment checks, share output, then create the first repository.
 
 Do not mark Day 1 verified until its required syllabus, practical deliverable and understanding/application checks have been reviewed. A topic heading, instructor demonstration or displayed exercise is not evidence of learner completion.
