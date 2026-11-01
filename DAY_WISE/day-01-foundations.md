@@ -111,3 +111,8 @@ For this Day 1 record, and for all future teaching, do not give the learner quiz
 **Reminder rule:** if the learner advances to a later day or lesson without completing previously deferred quizzes/assessments/practicals, remind them of the pending activities before proceeding. Respect their choice if they explicitly choose to continue learning concepts first.
 
 This rule overrides any older wording that schedules automatic quizzes, interview practice, exercises, practicals or deliverables at the end of a lesson.
+
+
+## Latest learner preference — concept-only mode by default
+
+Continue Day 1 by teaching one concept at a time. Do not assign or ask the learner to complete quizzes, interview questions, practicals, command-running exercises, homework, challenges or deliverables unless the learner has learned the relevant concepts and explicitly opts in to that specific activity. Instructor-led demonstrations, worked examples and questions-with-answers as explanations are allowed. Do not use “quick checks”, output predictions or explain-back prompts as hidden assessments. “Continue” means continue teaching concepts. If the learner moves to Day 2 or another module while Day 1 practicals/assessments remain pending, remind them that these are deferred and ask whether they wish to continue concept learning or explicitly begin a particular activity. This rule overrides older Day 1 instructions that suggest learner checks or practical work by default.
