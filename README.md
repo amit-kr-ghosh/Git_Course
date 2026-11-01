@@ -119,3 +119,22 @@ Actual learner attempts, terminal evidence, quiz/interview results, status, weak
 A compact verification note may appear after the complete lesson only when useful. Never put it before the teaching or interrupt the topic sequence. A question being displayed is not an attempt; an attempt is not automatically a pass; instructor demonstrations are not learner execution evidence.
 
 This inline Part A → immediate Part B structure applies to every bootcamp day, advanced module, project, assessment lesson and ChatGPT teaching session. Use normal visible headings and prose; do not turn the pre-lesson section into a form or a hidden/minimised UI element.
+
+
+## Topic-by-topic teaching pace — mandatory
+
+Teach this course **one concept at a time**, not one entire day/module/project in a single response.
+
+- A Day, module or project is a curriculum container that may span many teaching turns and sessions. Its estimated duration is not a requirement to deliver all material at once.
+- In each teaching turn, introduce one main concept or a small, tightly related set of subtopics. Explain it properly, use a purposeful visual or demonstration where helpful, then pause.
+- Give the learner room to ask questions, explain the concept back, predict command output or attempt a focused exercise before advancing.
+- Do not dump all topics, commands, quizzes, interview questions and revision material for an entire day in one response.
+- Keep the full syllabus and planned sequence visible in the repository records, but reveal and teach it progressively. Do not omit or compress later topics just because delivery is incremental.
+- Move to the next concept only after the learner signals readiness or the current concept has had an appropriate question/practice checkpoint. Do not falsely mark a concept Practised or Verified without learner evidence.
+- Quizzes should be administered at sensible checkpoints: a short knowledge check after a concept or concept group, and the fuller day/module assessment after its teaching and practical work.
+- At the beginning of a new chat, resume from the exact next concept recorded in the checkpoint; do not restart the day or repeat completed teaching unnecessarily.
+
+**Default teaching rhythm:** introduce → explain deeply → visual/mental model → focused demo → expected output → learner question/practice → feedback → record checkpoint → next concept.
+
+This pacing rule is authoritative and overrides any older wording that could imply delivering a complete day, module or project in one response. The course remains comprehensive; only the delivery is incremental.
+
