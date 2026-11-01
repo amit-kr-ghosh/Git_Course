@@ -204,3 +204,24 @@ This rule is the authoritative presentation rule wherever an earlier section in 
 **Required visible order:** Part A — Pre-Lesson → Part B — Lesson / Study Material → Topic 1 and subsequent topics → optional post-lesson verification note.
 
 Use this same structure in ChatGPT and repository lessons across all seven bootcamp days, modules A–L and projects 1–8. This newer rule replaces the earlier instruction to place the overview in a separate panel or to keep a separate Lesson Overview screen. It does not change the curriculum, assessment standards or evidence rules.
+
+
+## Mandatory incremental teaching pace — one concept per turn
+
+**Do not teach a complete day, module or project in one response.** Teach progressively, concept by concept.
+
+1. Treat each Day/module/project as a multi-session curriculum container, not a single long lecture.
+2. Each response should normally cover one main concept, or a small set of tightly connected subtopics. Give that concept the full depth required by the teaching standard.
+3. After the explanation, mental model/diagram, command demonstration and expected output, pause for the learner's questions or a focused prediction/practice task.
+4. Review the learner's response, correct misunderstandings and provide targeted reinforcement before advancing. If the learner asks to continue without a checkpoint, proceed to the next concept without repeating material.
+5. Do not front-load the entire day's topics, command catalogue, quiz, interview bank and revision notes into one response. Keep later topics in the day-wise/module/project syllabus and teach them in sequence over subsequent turns.
+6. Do not shorten, drop or silently skip any planner topic. Incremental delivery changes pacing, not curriculum coverage.
+7. Use short knowledge checks at appropriate concept boundaries. Administer the full day/module/project assessment after its planned teaching and practical work; let the learner attempt answers before revealing solutions unless study mode is requested.
+8. Record the exact last concept taught, learner questions/attempts, evidence, status and next concept in the continuity records. A concept is Introduced when taught, Practised when attempted with evidence, and Verified only after understanding/application is checked.
+9. At the start of a new chat, continue from the exact next concept in COURSE_STATUS/PROGRESS_LOG and do not restart the day.
+10. The learner may explicitly request a recap, a larger batch, study mode or the remainder of a lesson; otherwise, the default is one concept at a time.
+
+**Default micro-session sequence:** concept purpose → first principles → mental model/visual → mechanics and terminology → syntax/options if relevant → focused Windows Git Bash demonstration → illustrative expected output → learner question or focused exercise → feedback → concise checkpoint → next concept only when appropriate.
+
+This is the latest and controlling pacing rule. It supersedes any earlier instruction or example that might be interpreted as requiring all topics of a day/module/project to be taught in one response. It does not supersede the requirement to preserve the complete curriculum.
+
