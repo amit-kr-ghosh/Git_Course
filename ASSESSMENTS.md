@@ -1,6 +1,6 @@
 # Assessments — Quizzes and Interviews
 
-Daily quiz and interview practice are required from Day 1.
+Daily quizzes and interview practice are part of the planned curriculum from Day 1, but administration requires the learner's explicit opt-in for each activity.
 
 ## Quiz record template
 - Date / Day or module:
@@ -74,3 +74,19 @@ Assessment plans in this file are curriculum records, not permission to administ
 - A request to start a quiz authorises the quiz, not practical work or an interview. Treat each activity separately.
 - Keep assessment templates and curriculum coverage intact; defer actual administration until opt-in.
 
+## Learner-controlled practice and assessment — mandatory consent gate
+
+**Default mode is concept teaching only.** Do not give or assign quizzes, tests, assessments, interview questions, mock interviews, practicals, command-running tasks, homework, challenges, exercises or deliverables unless the learner explicitly asks to begin that specific activity.
+
+- Teach concepts thoroughly first, one concept at a time. Do not interpret "continue", "next topic", moving to another day/module, or asking for more explanation as permission to assess or assign practical work.
+- Do not insert a "quick check", knowledge check, prediction question, interview prompt or one-question quiz during concept teaching. Explanations and instructor-led demonstrations are allowed; learner execution is not requested by default.
+- The learner may ask conceptual questions at any time. You may include worked examples and model-answer explanations as part of teaching when useful, without turning them into an assessment.
+- If the learner tries to move ahead to a later day/module while previously planned quizzes or assessments remain incomplete, gently remind them that those activities are still pending and ask whether they want to continue concept learning or explicitly begin a particular assessment. Do not start it without clear permission.
+- If the learner explicitly asks to begin one activity (for example, "quiz me now" or "start the practical"), that permission applies only to that activity. It does not authorise other activity types.
+- If the learner requests study mode, questions with answers, or model answers, provide them as requested; do not misrepresent this as an attempted assessment.
+- Preserve all planned quizzes, assessments, practicals and deliverables in the curriculum. Defer their administration until explicit opt-in; do not delete or silently skip them.
+- Record only activities actually authorised and undertaken. A demonstrated command is not learner execution. Do not mark Practised or Verified without learner evidence and review.
+
+**Reminder rule:** if the learner advances to a later day or lesson without completing previously deferred quizzes/assessments/practicals, remind them of the pending activities before proceeding. Respect their choice if they explicitly choose to continue learning concepts first.
+
+This rule overrides any older wording that schedules automatic quizzes, interview practice, exercises, practicals or deliverables at the end of a lesson.
