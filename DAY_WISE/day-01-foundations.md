@@ -72,3 +72,17 @@ The actual teaching starts immediately below. Follow the topics in order; do not
 - Exact next topic/task: Run the five Git Bash environment checks, share output, then create the first repository.
 
 Do not mark Day 1 verified until its required syllabus, practical deliverable and understanding/application checks have been reviewed. A topic heading, instructor demonstration or displayed exercise is not evidence of learner completion.
+
+
+## Teaching pace — concept by concept
+
+This day is intentionally taught across multiple turns/sessions. Do not deliver all eight topics, the complete practical, quiz and interview bank in one response.
+
+- Teach one main concept at a time (or a small, closely related group of subtopics).
+- After each concept, pause for learner questions or a focused understanding/practice check; review the response before moving forward.
+- Keep all remaining topics in this file and teach them progressively in the listed order. Do not omit or prematurely compress them.
+- The full Day 1 quiz and interview practice come after the relevant teaching and practical work, not in the opening response.
+- The next concept is determined by the learner's checkpoint and readiness, not by an attempt to finish the whole day in one sitting.
+
+Default rhythm: explain → visual/mental model → focused demonstration → expected output → learner check → feedback → next concept.
+
