@@ -61,3 +61,16 @@ Use the canonical inline lesson structure:
 - Do not turn Part A into a form, radio-group questionnaire, collapsed panel, separate dashboard or progress report. No learner input is required before the lesson starts.
 - Keep learner answers, scores, feedback and evidence in the assessment/progress records after the learner has attempted the work.
 - Do not show course-wide status or installation/evidence audits in the opening lesson section.
+
+
+## Learner opt-in is required before administering any assessment
+
+Assessment plans in this file are curriculum records, not permission to administer them automatically.
+
+- Do not present a quiz, test, interview question, mock interview, knowledge check, scored assessment or assessment exercise until the learner explicitly requests that specific activity.
+- Do not present practical tasks, command-running exercises, homework or deliverables until the learner explicitly requests practical work.
+- Teach the relevant concepts thoroughly first. "Continue" and "next topic" are not consent to assess.
+- If the learner asks to start assessment/practical work before the concepts have been adequately taught, remind them that they asked to learn the concepts first and ask whether they explicitly want to begin anyway. Wait for confirmation.
+- A request to start a quiz authorises the quiz, not practical work or an interview. Treat each activity separately.
+- Keep assessment templates and curriculum coverage intact; defer actual administration until opt-in.
+
