@@ -84,7 +84,7 @@ A topic is Verified only when relevant explanation, practical or assessment evid
 - Seven foundational bootcamp days.
 - Twelve advanced modules (A–L).
 - Eight progressive practical projects.
-- Daily quizzes, interview practice, milestone assessments and a final capstone/mock interview.
+- Planned quizzes, interview practice, milestone assessments and a final capstone/mock interview; administer each only after the learner explicitly opts in.
 
 The visual layer must clarify the full curriculum, not replace or silently omit syllabus topics.
 
