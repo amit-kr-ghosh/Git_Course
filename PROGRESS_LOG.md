@@ -89,3 +89,14 @@ Keep session summaries factual and brief. Record what was taught and what eviden
 **Reminder rule:** if the learner advances to a later day or lesson without completing previously deferred quizzes/assessments/practicals, remind them of the pending activities before proceeding. Respect their choice if they explicitly choose to continue learning concepts first.
 
 This rule overrides any older wording that schedules automatic quizzes, interview practice, exercises, practicals or deliverables at the end of a lesson.
+
+
+## 2026-11-01 — Clarification — learner-controlled concept-first mode
+
+- Learner explicitly clarified that quizzes, assessments and practicals must not be given or assigned by default.
+- Earlier Day 1 log wording that described a practical as assigned, posed reflection questions, or requested Git Bash commands is superseded as an instruction to the learner. Those entries are historical notes, not current tasks or evidence of learner consent.
+- Current default: teach concepts thoroughly, one concept at a time. Questions with answers/model explanations may be included as teaching when useful.
+- No quiz, assessment, interview prompt, practical, homework, exercise, challenge, command-running task or deliverable may be assigned until the learner explicitly opts in to that specific activity after learning the relevant concepts.
+- “Continue”, moving to another topic/day, or silence is not consent. If the learner advances while planned activities remain deferred, remind them and ask whether to continue concept learning or explicitly begin one named activity.
+- No learner practical, quiz, installation verification or command execution is evidenced by this clarification. No progress status is upgraded.
+
