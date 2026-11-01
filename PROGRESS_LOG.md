@@ -60,3 +60,15 @@ Keep session summaries factual and brief. Record what was taught and what eviden
 - Actual learner evidence, scores and status remain in the tracking layer and post-lesson verification record.
 - No Git installation, command execution, practical completion, quiz result or topic verification was claimed or upgraded.
 - Exact learning checkpoint remains Day 1 setup/foundations; installation and first-repository evidence are still unconfirmed.
+
+
+## 2026-11-01 — Day 1 — Foundations and first-repository lesson started
+
+- Learning content covered: version control purpose and models; Git vs GitHub; repository anatomy; working directory, staging area/index, local and remote repositories; file states; commits, branches and HEAD; Windows Git installation/configuration; first-repository workflow.
+- Instructor demonstrations: `git --version`, `git config`, `pwd`, `ls`, `cd`, `mkdir`, `git init`, `git status`, `git add`, `git commit`, `git log`, `git diff`.
+- Commands actually run by learner: None evidenced yet.
+- Practical: first-repository deliverable explained and assigned; learner attempt not yet evidenced.
+- Quiz: three reflection questions posed; learner responses pending. Formal quiz not attempted.
+- Topics Introduced: Day 1 topics 1–8 as taught in this session. Practised: none. Verified: none.
+- Blockers: Git installation/configuration unconfirmed; original 23-page Master Planner DOCX not attached.
+- Exact next task: run `git --version`, `git config --global --list`, `git config --global user.name`, `git config --global user.email` and `pwd` in Git Bash; share output, then complete the first-repository practical.
