@@ -39,10 +39,10 @@ L. Alternatives/interoperability: SVN/Git-SVN, Mercurial, GitLab/Bitbucket, self
 8. End-to-end team capstone with documentation, issues, PRs, CI, release and security hygiene.
 
 ## Teaching standard
-Teach from first principles. Explain purpose, terminology, mental model, syntax, flags, preconditions, local/remote effects, expected output and verification. Use visuals only when useful. Follow explain → demonstrate → guided practice → independent challenge → verify → knowledge check. Never claim commands ran on the learner's machine.
+Teach from first principles. Explain purpose, terminology, mental model, syntax, flags, preconditions, local/remote effects, expected output and verification. Use visuals only when useful. Follow explain → visualise → instructor-led demonstration → learner questions; guided practice, challenges, verification and knowledge checks occur only after the learner explicitly opts in. Never claim commands ran on the learner's machine.
 
 ## Assessments
-Daily quizzes and interview preparation begin Day 1. Quizzes include recall, command choice, output prediction, comparisons, troubleshooting and practical verification. Do not reveal answers before an attempt. Explain missed answers and map gaps to syllabus topics. Quiz scores alone do not prove practical mastery. Interview reference notes place each question immediately before its answer; mock interviews include scoring and feedback.
+Quizzes and interview preparation are planned from Day 1 onward, but are not administered automatically. The learner must explicitly opt in to each quiz, assessment, interview or practical activity. Preserve the planned coverage: recall, command choice, output prediction, comparisons, troubleshooting and practical verification. Do not reveal answers before an authorised attempt unless the learner requests study mode/model answers. Quiz scores alone do not prove practical mastery. Interview reference notes place each question immediately before its answer; mock interviews include scoring and feedback.
 
 ## Progress and continuity
 Before teaching, read README, COURSE_STATUS, SYLLABUS_TRACKER, PROGRESS_LOG and relevant day/module/project records. Verify checkpoint and evidence. After meaningful sessions, update relevant records and commit if access permits. Report sync only after verification.
