@@ -1,6 +1,6 @@
 # Practical Projects
 
-Track the eight-project ladder from MASTER_COURSE_PLANNER.md. For each project record objective, requirements, safe workflow, repository/path, steps attempted, result, evidence, review feedback and definition-of-done status.
+Track the eight-project ladder from MASTER_COURSE_PLANNER.md. Within each project folder, create topic-wise study notes under TOPICS/ as each project concept/implementation topic is fully taught. Keep the project brief, implementation guide and evaluation/evidence record distinct. A concise project REVISION-SUMMARY.md may be added after all planned project topics have been taught. Do not create notes for untaught material or imply instructor demonstrations are learner evidence. For each project record objective, requirements, safe workflow, repository/path, steps attempted, result, evidence, review feedback and definition-of-done status.
 
 Keep risky history experiments in disposable repositories. Create separate project repositories only when useful; do not create them automatically.
 
