@@ -24,4 +24,4 @@ In a new repository named `git-learning-journey`, create a README, Day 1 notes a
 
 ## Note-taking rule
 
-This file is the syllabus outline, not a lesson-note archive. Do not create lesson-wise, session-wise or interim note files while Day 1 is in progress. The final whole-day revision note is created once, after completion.
+This file is the syllabus outline, not a lesson-note archive. Do not create lesson-wise, session-wise or interim note files while Day 1 is in progress. Create the single whole-day revision note as soon as all Day 1 syllabus topics above have been taught; practical/assessment evidence is tracked separately.
