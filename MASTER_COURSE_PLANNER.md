@@ -281,11 +281,23 @@ Do not create asset folders before there is a real asset to store. Do not replac
 
 
 
-## Lesson-note completeness — mandatory
+## Topic-wise lesson notes — mandatory
 
-Day-wise lesson files are the actual study material, not topic placeholders. When a concept is taught in ChatGPT, capture its substantive content in the relevant `DAY_WISE/day-XX-*.md` file as part of the normal course documentation. For every taught concept, include the applicable definition/purpose, first-principles explanation, mental model, useful editable Mermaid visual, syntax/options, Windows Git Bash instructor demonstration, clearly labelled expected output, explanation, common mistakes, troubleshooting, professional context and revision summary. Not every small concept needs every item, but taught content must be useful for independent study.
+The day/module/project topic notes are the actual study material. As soon as a syllabus topic has been fully taught in ChatGPT, create or update one self-contained Markdown note for that topic under the relevant `TOPICS/` folder. Do not wait for the entire day/module/project to finish.
 
-Never leave a taught topic as “teach this here” or a placeholder. Never invent detailed notes for untaught topics. Distinguish instructor demonstrations from learner execution and keep progress evidence in the tracking layer. Use Mermaid source for editable diagrams; add screenshot/image assets only when they materially improve understanding. After editing, fetch the changed lesson file and verify the saved content.
+- Bootcamp: `DAY_WISE/DAY-XX/TOPICS/TOPIC-XX-short-name.md`.
+- Advanced modules: `ADVANCED_MODULES/MODULE-X/TOPICS/TOPIC-XX-short-name.md`.
+- Practical projects: `PRACTICALS_PROJECTS/PROJECT-XX/TOPICS/TOPIC-XX-short-name.md`.
+- Create folders only when the first completed topic note is ready; do not add empty folders or pre-create notes for untaught topics.
+- Each note should contain the relevant definitions/purpose, first-principles explanation, mental model, editable Mermaid visual where useful, syntax/options where relevant, Windows Git Bash instructor demonstration, clearly labelled illustrative output, explanation, common mistakes, troubleshooting, professional context and concise topic recap.
+- Keep one note per syllabus topic. Do not create separate files for ChatGPT turns, sessions, minor clarifications or repeated explanations. Update the existing topic note when corrections or useful additions arise.
+- Distinguish instructor demonstrations from learner execution. Topic notes are instructional material, never proof of learner practice or verification.
+- Do not invent detailed notes for untaught material. After writing, fetch the file and verify its content and links.
+
+## Whole-day / whole-module / whole-project revision summary
+
+After all planned syllabus topics in a day have been taught, create one concise `REVISION-SUMMARY.md` in that day folder and link it from its README. It synthesises the topic notes; it does not replace them. Summary creation may precede practical or assessment evidence and never upgrades progress status.
+
 
 ## Random spaced-revision prompts — authorized by learner
 
@@ -309,3 +321,16 @@ The `DAY_WISE/` directory contains `DAY-01/` through `DAY-07/`. Teach each day's
 **Create exactly one consolidated `REVISION-SUMMARY.md` per day, as soon as that entire day's planned syllabus has been taught.** The summary should be concise and high-value: essential concepts and mental models, important distinctions, core workflows and commands, focused diagrams, representative examples, safety warnings and common pitfalls. Do not include every conversational detail, repeated explanation or redundant output. Make the note useful as a whole-day revision reference.
 
 Do not create a partial or session-wise note while the day is in progress. Create the single whole-day note once the entire syllabus has been taught, even if practicals or assessments remain deferred. Keep practical/assessment progress and status separate; summary creation does not label the day Practised or Verified. Apply the same rule to Days 1–7; for Day 1 the path is `DAY_WISE/DAY-01/REVISION-SUMMARY.md`.
+
+
+## Latest controlling rule — topic-wise repository notes
+
+The learner explicitly requests progressive topic-wise notes across the repository. This rule supersedes any older instruction that prohibits topic-wise/lesson-wise notes until the end of a day.
+
+- Save a self-contained note for each syllabus topic as soon as that topic is fully taught.
+- Use `DAY_WISE/DAY-XX/TOPICS/`, `ADVANCED_MODULES/MODULE-X/TOPICS/` and `PRACTICALS_PROJECTS/PROJECT-XX/TOPICS/` for the corresponding tracks.
+- Keep one file per topic, not one file per conversational turn. Do not create notes for untaught topics.
+- Once all topics in a day have been taught, also create one concise day-level `REVISION-SUMMARY.md` in the day folder. It is a synthesis of topic notes, not a substitute.
+- The same whole-module/project synthesis may be created after all topics in that module/project are taught.
+- Do not infer learner practice, command execution, quiz results or verification from the existence of notes.
+- Keep supplementary discussions in `EXTRA_NOTES/` only when the learner explicitly requests saving them.
