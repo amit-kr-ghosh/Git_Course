@@ -187,3 +187,14 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - Linked Topics 1–4 from the Day 1 README. Topic 4's existing note remains unchanged.
 - Corrected root README and master planner wording so topic-wise notes are saved as each topic is taught, with one additional whole-day REVISION-SUMMARY.md after all topics are taught.
 - Exact next learning point remains Day 1 Topic 5, which is in progress. No Topic 5 note or Day 1 whole-day summary was created.
+
+
+## 2026-11-03 — Repository compliance audit — topic-note and consent policies
+
+- Re-fetched the root README, master planner, course status, syllabus tracker, progress log, assessments, command reference, day-wise index, Day 1 curriculum/README, advanced-module index and project index from `main`.
+- Confirmed Day 1 topic notes 1–4 exist and are linked; no Day 1 whole-day revision summary exists yet, as not all eight topics have been taught.
+- Confirmed Day 1 remains Introduced; installation/configuration, learner command execution, practicals and assessments remain unconfirmed or deferred. No Practised/Verified status was added.
+- Corrected remaining legacy master-planner wording that could imply automatic practice tasks, exercises, knowledge checks, quizzes or interview prompts. Those activities remain in the curriculum but require explicit learner opt-in.
+- Removed the duplicate topic-wise controlling-rule block from the master planner. Clarified the root README's checkpoint and consent wording.
+- Re-fetched changed files after writes for verification. The original 23-page Master Planner DOCX was not found in the repository tree; full syllabus reconciliation against that source remains pending until it is attached.
+- Exact next learning checkpoint remains Day 1 Topic 5, concept-only mode.
