@@ -9,7 +9,7 @@ See [CURRICULUM.md](CURRICULUM.md) for the complete planned syllabus, practical 
 
 ## Current checkpoint
 
-Topic 4 has been taught and its note is saved. Day 1 Topic 5 has been introduced and remains in progress. Continue Topic 5 from file states and the HEAD–Index–Working Tree model; the remaining subtopics include blobs, trees, commits, parent commits, object IDs, branches and HEAD.
+Topic 4 has been taught and its note is saved. Day 1 Topic 5 has been introduced and remains in progress. Continue Topic 5 from file states and the HEAD–Index–Working Tree model; remaining subtopics include blobs, trees, commits, parent commits, object IDs, branches and HEAD.
 
 ## Day 1 revision summary
 
