@@ -141,3 +141,16 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - Supersedes the earlier wording in this log that tied the revision note to all completion criteria/evidence. Once every syllabus topic for a day has been taught, create exactly one concise `REVISION-SUMMARY.md` for that day.
 - Practical, quiz, interview and verification work may remain deferred. The summary records taught learning content only; it does not mark the day Practised or Verified.
 - No session-wise, lesson-wise or interim note files are to be created during the day.
+
+
+## 2026-11-03 — Day 1 — File states, snapshots and history foundations
+
+- Learning content covered: untracked, tracked, modified, staged and committed states; staged-plus-unstaged changes in one file; HEAD/index and index/working-directory comparisons; snapshot model; commit contents and parent links; object IDs and hashing; branches as movable references; HEAD and detached HEAD.
+- Instructor demonstrations / commands taught: `git status`, `git status --short`, `git add`, `git add -p` (interactive partial staging) and `git commit` (conceptual and illustrative examples; no learner execution claimed).
+- Commands actually run by learner: None supplied in this session.
+- Practical attempt and result: Not attempted; practical work remains deferred until explicit opt-in.
+- Quiz/interview: Not attempted; assessment remains deferred until explicit opt-in.
+- Topics Introduced: Day 1 file states/transitions and snapshot/history foundations. Practised: none evidenced. Verified: none.
+- Needs revision / blockers: Git installation and configuration remain unconfirmed; original 23-page Master Planner DOCX remains unattached.
+- Exact next topic: Day 1 — install and configure Git on Windows, including Git for Windows, Git Bash, version checks, identity and configuration scopes, and PowerShell/CMD distinctions.
+- GitHub sync: pending write and fetch verification.
