@@ -79,7 +79,7 @@ The learner has requested concept teaching only until they have learned the rele
 ## Day-wise note storage — one final note per day
 
 - Teach the syllabus progressively in ChatGPT. Do not create session-wise, lesson-wise or interim note files while a day is in progress.
-- After the learner has finished the entire planned syllabus for a day , create exactly one concise `REVISION-SUMMARY.md` in that day's folder and link it from the day README.
+- After the learner has been taught the entire planned syllabus for a day, create exactly one concise `REVISION-SUMMARY.md` in that day's folder and link it from the day README.
 - The note covers the whole day: essential concepts, mental models, commands and distinctions, focused diagrams, examples, safety points and common pitfalls.
 - Summary creation is not evidence of completion and does not independently upgrade progress status.
 - Day 1 remains in progress; its final note must not be created yet.
