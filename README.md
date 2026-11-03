@@ -177,3 +177,18 @@ This learner-consent rule is the latest and controlling instruction. It override
 ## Learner-controlled concept-first mode — latest rule
 
 **Default: teach concepts only.** Teach one concept at a time, thoroughly, with useful diagrams and instructor-led demonstrations. Do not assign or present quizzes, assessments, interview questions, practicals, exercises, homework, challenges, command-running tasks or deliverables until the learner has learned the relevant concepts and explicitly opts in to that specific activity. Questions with answers and model explanations may be included as teaching when useful. “Continue”, “next topic” and moving to another day are not consent. If the learner advances while planned activities remain pending, remind them and ask whether to continue concept learning or explicitly begin one named activity. This rule overrides any older wording in this README that suggests automatic knowledge checks or practice prompts. Preserve all planned curriculum coverage; defer, do not delete.
+
+## Screenshot and visual-asset storage standard
+
+Store useful visual assets in the repository when they materially improve a lesson; do not create empty asset folders in advance.
+
+- **Where to store:** keep assets close to the curriculum they support: `DAY_WISE/assets/`, `ADVANCED_MODULES/assets/` or `PRACTICALS_PROJECTS/assets/`. Create these folders only when the first relevant asset is added. Use clear filenames such as `day-01-git-file-states.png`, `module-c-merge-conflict-resolution.png` or `project-03-pull-request-review.png`.
+- **Link from the lesson:** embed the image in the relevant Markdown lesson with descriptive alt text and a short caption explaining what the learner should notice. Keep the asset and lesson link together in the same change.
+- **Use the right format:** PNG for terminal/UI captures and diagrams with text; JPEG/WebP for photographic illustrations where appropriate; GIF only for short instructional motion. Prefer editable Mermaid for flowcharts and commit graphs rather than taking a screenshot of a diagram that can be rendered from source.
+- **Authenticity:** label each visual as an authentic interface capture, instructor-created illustration/mock-up, or illustrative terminal example. Never fabricate a screenshot and present it as a real GitHub screen or learner terminal output. An expected-output capture is not evidence that the learner ran the command.
+- **Privacy and attribution:** redact usernames, email addresses, repository details when private, tokens, keys, URLs containing credentials and other personal data. Never commit secrets. Credit external images and respect their licences; prefer original course-created visuals.
+- **Quality and accessibility:** crop irrelevant UI, keep text legible at normal zoom, use consistent callouts, provide meaningful alt text, and explain the important area in nearby prose. Avoid duplicate, decorative or oversized screenshots.
+- **Maintenance:** use relative Markdown links, verify every asset path and image render after committing, and replace obsolete captures when the interface changes. Do not add an image solely to satisfy a checklist.
+
+Screenshots are instructional media, **not learner evidence** unless the learner supplied the capture and its provenance is clear. Record learner evidence separately in the progress files. GitHub Markdown does not support arbitrary embedded interactive widgets; use supported static visuals here and interactive controls in ChatGPT when appropriate.
+
