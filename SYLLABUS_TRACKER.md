@@ -6,7 +6,7 @@ Statuses: Not started | Introduced | Practised | Verified | Needs revision | Blo
 
 | Phase | Topic / deliverable | Status | Evidence / notes | Next action |
 |---|---|---|---|---|
-| Day 1 | Foundations and first repository | Introduced | 2026-11-01: foundations were introduced; no learner terminal evidence, practical attempt or assessment attempt is recorded. Practical and assessment activities are deferred pending explicit learner opt-in. | Continue concept teaching; offer practical/assessment only after explicit opt-in |
+| Day 1 | Foundations and first repository | Introduced | 2026-11-01: foundations introduced. 2026-11-03: four Git workflow areas and file states/transitions (untracked, tracked, modified, staged, committed), snapshot model, commit parents, object IDs, branches and HEAD taught. No learner terminal evidence, practical attempt or assessment attempt is recorded; these activities remain deferred pending explicit opt-in. | Continue Day 1 concept teaching with Git installation and configuration; offer practical/assessment only after explicit opt-in |
 | Day 2 | File lifecycle, inspection and safe undo | Not started | | |
 | Day 3 | Branching, merging and conflicts | Not started | | |
 | Day 4 | GitHub and team collaboration | Not started | | |
