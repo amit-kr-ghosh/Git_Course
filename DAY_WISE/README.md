@@ -11,7 +11,7 @@ The seven bootcamp days are stored in separate folders: `DAY-01/` through `DAY-0
 - [Day 6 — Actions, quality and security](DAY-06/README.md)
 - [Day 7 — Integrated capstone](DAY-07/README.md)
 
-## Whole-day notes — created only after completion
+## Whole-day notes — created after the full syllabus is taught
 
 During each day, teaching happens in ChatGPT. Do not save individual lessons, sessions, clarifications or partial recaps as repository note files.
 
