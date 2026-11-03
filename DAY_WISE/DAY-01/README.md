@@ -1,13 +1,18 @@
 # Day 1 — Foundations and first repository
 
-This folder contains the Day 1 syllabus outline and completion checkpoint. See [CURRICULUM.md](CURRICULUM.md). The actual teaching takes place in ChatGPT as we progress through the complete Day 1 syllabus.
+## Curriculum
+See [CURRICULUM.md](CURRICULUM.md) for the complete planned syllabus, practical scope and completion criteria.
 
-## Day 1 revision note
+## Topic-wise study notes
 
-After the entire Day 1 syllabus has been taught, create one concise `REVISION-SUMMARY.md` in this folder and link it here. It will cover the most important mental models, Git workflow, file and commit concepts, essential commands and differences, useful diagrams, safety points and common mistakes from the whole day.
-
-**Until Day 1 is complete, do not create session-wise notes, lesson-wise notes or interim repository summaries.** Do not treat the final note as evidence of completion; progress status is based on actual learner evidence.
+- [Topic 4 — Repository anatomy and the four workflow areas](TOPICS/TOPIC-04-repository-anatomy.md)
 
 ## Current checkpoint
 
-Current teaching point: Topic 4 — repository anatomy and the four workflow areas. Resume/reteach this topic before advancing to Topic 5.
+Topic 4 has been taught and its note is saved. Day 1 Topic 5 has been introduced and remains in progress. Continue Topic 5 from file states and the HEAD–Index–Working Tree model; the remaining subtopics include blobs, trees, commits, parent commits, object IDs, branches and HEAD.
+
+## Day 1 revision summary
+
+Create `REVISION-SUMMARY.md` only after all eight syllabus topics have been taught. It will synthesise the topic notes and will be linked here. It is not a replacement for topic notes.
+
+Topic notes are learning material only. Learner attempts, practical evidence, assessments and progress status remain in the course tracking files.
