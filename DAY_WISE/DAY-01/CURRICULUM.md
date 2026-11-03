@@ -22,6 +22,8 @@ In a new repository named `git-learning-journey`, create a README, Day 1 notes a
 - Understanding and application have been reviewed; statuses are based on evidence, not instructor demonstrations.
 - As soon as the entire Day 1 syllabus above has been taught, create one concise `REVISION-SUMMARY.md` for the whole day and link it from [README.md](README.md), even if practical or assessment evidence remains pending.
 
-## Note-taking rule
+## Topic-note and day-summary rule
 
-This file is the syllabus outline, not a lesson-note archive. Do not create lesson-wise, session-wise or interim note files while Day 1 is in progress. Create the single whole-day revision note as soon as all Day 1 syllabus topics above have been taught; practical/assessment evidence is tracked separately.
+This file remains the syllabus outline. As soon as an individual topic above has been fully taught, create one self-contained note under `TOPICS/` (for example, `TOPIC-04-repository-anatomy.md`). Do not create session-wise transcripts, duplicate clarification notes or notes for untaught topics.
+
+After all eight Day 1 syllabus topics have been taught, create one concise `REVISION-SUMMARY.md` in the Day 1 folder and link it from `README.md`. The day summary synthesises the topic notes; it does not replace them. Practical/assessment evidence and progress status remain separate.
