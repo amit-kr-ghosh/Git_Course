@@ -1,6 +1,6 @@
 # Day 1 — Foundations and first repository
 
-This folder contains the Day 1 syllabus overview and checkpoint. The actual teaching takes place in ChatGPT as we progress through the complete Day 1 syllabus.
+This folder contains the Day 1 syllabus outline and completion checkpoint. See [CURRICULUM.md](CURRICULUM.md). The actual teaching takes place in ChatGPT as we progress through the complete Day 1 syllabus.
 
 ## Day 1 revision note
 
