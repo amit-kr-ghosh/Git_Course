@@ -300,3 +300,8 @@ The learner explicitly requested occasional short revision pop-ups, chosen at va
 - If the learner declines or asks to continue the lesson, resume the requested teaching without pressure.
 - “Pop-up” means a brief prompt during an active ChatGPT conversation; do not claim to send background notifications or interrupt outside the conversation.
 - A prompt is not an attempt. Record a revision result only after the learner responds; do not mark a topic Practised or Verified solely because a revision prompt was shown.
+
+
+## Day-wise, session-wise lesson record structure
+
+The `DAY_WISE/` directory contains `DAY-01/` through `DAY-07/`. Each day folder has a `README.md` index and sequential `SESSION-01-<topic>.md`, `SESSION-02-<topic>.md` lesson files. Days 2–7 also retain their original curriculum/checkpoint template as `CURRICULUM-AND-SESSION-INDEX.md`. When a new formal course concept is taught after the learner says “next” or “continue”, automatically save that taught segment as the next session file in the correct day folder and update its README index. Never overwrite earlier session notes. A clarification of the current concept belongs in its existing session note; create a new session file for a distinct teaching segment. This automatic capture applies to formal curriculum material, not supplementary discussions in `EXTRA_NOTES/`, which remain explicit-save only. Saving lesson material means the topic was taught (Introduced); it is not evidence of learner practice or verification.
