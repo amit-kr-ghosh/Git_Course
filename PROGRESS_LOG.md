@@ -178,3 +178,12 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - Learner commands actually run: None evidenced. Practical, quiz and interview: Not attempted. No progress status upgraded to Practised or Verified.
 - Exact next topic: Continue Day 1 Topic 5 with Git's internal object model, then parent commits, object IDs, branches and HEAD.
 - Original 23-page Master Planner DOCX remains unattached; detailed-source reconciliation remains open.
+
+
+## 2026-11-03 — Day 1 — Topic notes 1–3 reconstructed
+
+- Recreated study notes for the previously taught Day 1 Topics 1–3: why version control exists; local, centralised and distributed version-control models; and Git vs GitHub/hosting platforms.
+- These notes reconstruct taught learning content for continuity. They do not represent new learner practice, command execution, quizzes or verification.
+- Linked Topics 1–4 from the Day 1 README. Topic 4's existing note remains unchanged.
+- Corrected root README and master planner wording so topic-wise notes are saved as each topic is taught, with one additional whole-day REVISION-SUMMARY.md after all topics are taught.
+- Exact next learning point remains Day 1 Topic 5, which is in progress. No Topic 5 note or Day 1 whole-day summary was created.
