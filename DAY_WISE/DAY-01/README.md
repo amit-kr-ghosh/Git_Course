@@ -9,10 +9,11 @@ See [CURRICULUM.md](CURRICULUM.md) for the complete planned syllabus, practical 
 - [Topic 2 — Version-control models](TOPICS/TOPIC-02-version-control-models.md)
 - [Topic 3 — Git vs GitHub](TOPICS/TOPIC-03-git-vs-github.md)
 - [Topic 4 — Repository anatomy and the four workflow areas](TOPICS/TOPIC-04-repository-anatomy.md)
+- [Topic 5 — File states, Git objects and the HEAD–Index–Working Tree model](TOPICS/TOPIC-05-file-states-and-git-objects.md)
 
 ## Current checkpoint
 
-Topic 4 has been taught and its note is saved. Day 1 Topic 5 has been introduced and remains in progress. Continue Topic 5 from file states and the HEAD–Index–Working Tree model; remaining subtopics include blobs, trees, commits, parent commits, object IDs, branches and HEAD.
+Topics 1–5 have been taught and their topic notes are saved. Day 1 Topic 6 — installing and configuring Git on Windows — is next. Installation and Git identity/configuration have not yet been verified.
 
 ## Day 1 revision summary
 
