@@ -8,6 +8,10 @@ These notes are supplementary references. They do not change the bootcamp, advan
 
 - [Windows command line, Bash, Git Bash, MSYS2 and MinGW](WINDOWS_COMMAND_LINE_AND_GIT_BASH.md) — shells vs terminals, GNU/Unix/Linux context, executable utilities such as `ls`, PATH lookup, MSYS runtime, MSYS2, MinGW-w64, Windows path handling and the GCC compilation pipeline.
 
+## Ongoing capture policy
+
+Future important discussions that are supplementary to the formal course should be documented here. Update an existing topic note when possible; add a new Markdown file only for a substantial, distinct subject and link it from this index. Preserve key explanations, corrections, comparisons, examples and editable Mermaid diagrams where useful. Keep these references separate from formal syllabus and learner-progress records. Saving a note is not evidence of practical completion or topic verification.
+
 ## Conventions
 
 - Mermaid diagrams are included as editable source and render on GitHub.
