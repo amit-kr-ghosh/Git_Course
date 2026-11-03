@@ -2,7 +2,7 @@
 
 ## Source of truth
 - [MASTER_COURSE_PLANNER.md](MASTER_COURSE_PLANNER.md) — governing curriculum, teaching contract and visual learning standard.
-- [COURSE_STATUS.md](COURSE_STATUS.md) — current verified checkpoint.
+- [COURSE_STATUS.md](COURSE_STATUS.md) — current course checkpoint and evidence.
 - [SYLLABUS_TRACKER.md](SYLLABUS_TRACKER.md) — day/module/project coverage.
 - [PROGRESS_LOG.md](PROGRESS_LOG.md) — dated course progress, evidence and next checkpoint (not lesson notes).
 - [ASSESSMENTS.md](ASSESSMENTS.md) — quizzes and interview outcomes.
@@ -59,7 +59,7 @@ The course should use clear, purposeful visuals alongside detailed explanations.
 | 🎨 Color-coded diagrams | Consistent visual language for worktree, staging, commits, remotes, risks and conflicts |
 | 🧩 Mermaid diagrams | Flowcharts, sequence diagrams, state diagrams, decision trees and Git commit graphs |
 | 🖼️ Technical imagery | Relevant illustrations, annotated screenshots and terminal/UI captures |
-| 📊 Knowledge checks | Interactive questions in ChatGPT; compact Markdown quizzes and answer-hidden exercises in repository files |
+| 📊 Knowledge checks | Available only after the learner explicitly opts in; use interactive questions in ChatGPT or compact Markdown study material in the repository |
 | 🎞️ Animation | Short GIFs only when motion explains a changing state, pointer, merge or workflow |
 | 💻 Terminal demonstrations | Separate copyable commands, expected output and explanation, with learner-run evidence clearly distinguished |
 
