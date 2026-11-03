@@ -1,6 +1,6 @@
 # Git & GitHub Mastery — Master Course Planner
 
-This repository follows the user's 23-page Git & GitHub Master Planner, Version 2.0 (1 November 2026). This file is the concise governing index; preserve the source planner's full syllabus scope and terminology when teaching.
+This file is the governing curriculum index for the Git & GitHub Mastery course. Preserve the full syllabus scope and terminology documented here when teaching.
 
 ## Operating contract
 Goal: practical Git/GitHub competence from beginner through advanced. Environment: Windows, Git Bash default; explain PowerShell/CMD differences when useful. The initial bootcamp has seven curriculum days (original estimate 60–120 minutes/day); advanced learning continues without an arbitrary end date. A day/module may span multiple sessions.
