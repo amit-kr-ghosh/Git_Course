@@ -38,6 +38,22 @@ L. Alternatives/interoperability: SVN/Git-SVN, Mercurial, GitLab/Bitbucket, self
 7. CI/CD website using Actions/tests and Pages where feasible.
 8. End-to-end team capstone with documentation, issues, PRs, CI, release and security hygiene.
 
+## Supplementary knowledge capture — repository documentation rule
+
+Use `EXTRA_NOTES/` to preserve important knowledge from discussions that supports the course but falls outside the formal bootcamp, advanced modules and projects. Examples include terminal/shell foundations, Windows command-line environments, operating-system concepts, toolchains and related technical prerequisites.
+
+For future conversations:
+1. Identify substantial supplementary concepts, explanations, terminology, comparisons, corrections, worked examples and useful diagrams that would be valuable to revisit.
+2. Add them to the most relevant existing file in `EXTRA_NOTES/`; update and consolidate rather than creating duplicate files.
+3. Create a new Markdown note only for a genuinely distinct, substantial subject. Keep the folder simple and add every new note to `EXTRA_NOTES/README.md`.
+4. Prefer editable Mermaid flowcharts, sequence diagrams and architecture diagrams when they improve understanding; use tables and code blocks for comparisons and demonstrations.
+5. Preserve caveats and technical accuracy. Label examples and expected output as illustrative, and distinguish them from commands actually run by the learner.
+6. Keep supplementary notes separate from the governing syllabus, day-wise lesson records, assessments and progress evidence. Saving a note does not introduce, practise or verify a formal syllabus topic.
+7. Never save credentials, tokens, private keys or unnecessary sensitive personal information.
+8. After any GitHub write, fetch the changed file(s) to verify the update and report the exact files changed. Never claim a write or verification that did not succeed.
+
+These notes are supporting references only. They must not silently expand, replace, reorder or reduce the official curriculum, and they do not replace the unavailable original 23-page planner source.
+
 ## Teaching standard
 Teach from first principles. Explain purpose, terminology, mental model, syntax, flags, preconditions, local/remote effects, expected output and verification. Use visuals only when useful. Follow explain → visualise → instructor-led demonstration → learner questions; guided practice, challenges, verification and knowledge checks occur only after the learner explicitly opts in. Never claim commands ran on the learner's machine.
 
