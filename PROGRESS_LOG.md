@@ -127,6 +127,9 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - Learner clarified that session-wise and lesson-wise note creation is cumbersome and is not wanted.
 - Superseding rule: do not create repository lesson/session notes during an active day. Teach the syllabus in ChatGPT.
 - After the learner finishes the entire syllabus for a day and its required completion criteria are met with evidence, create one concise `REVISION-SUMMARY.md` for that whole day and link it from the day README.
-- No session indexes or sequential session files are part of the intended learning-note workflow. Existing partial Day 1 session file is to be removed; its taught content can be included in the eventual whole-day summary.
+- No session indexes or sequential session files are part of the intended learning-note workflow. The partial Day 1 session file was removed; its taught content can be included in the eventual whole-day summary.
 - This preference change does not alter progress evidence. Day 1 remains Introduced; learner practice, installation and verification remain unconfirmed.
 - GitHub sync: this entry records the requested policy change; sync status will be reported only after writes are fetched and verified.
+
+- Repository structure cleanup completed: Day 1 session note removed; Days 2–7 curriculum templates renamed to `CURRICULUM.md`; day folder READMEs now point to the curriculum and the one completion-gated whole-day summary.
+- GitHub updates were fetched again to verify the new note policy and folder structure.
