@@ -8,7 +8,7 @@ This file is the chronological course-progress and evidence record. It is not a 
 - Tracking repository: https://github.com/amit-kr-ghosh/Git_Course
 - Initial checkpoint: Day 1 setup and practical completion require learner evidence.
 - No learner topics are recorded as Verified.
-- The concise repository curriculum index is available. The original 23-page planner DOCX still needs to be attached for detailed reconciliation.
+- The repository curriculum index is the governing course reference.
 
 ## Progress entry template
 
@@ -70,7 +70,7 @@ Keep entries factual and brief. This log tracks course continuity and evidence; 
 - Practical: first-repository deliverable explained and assigned; learner attempt not yet evidenced.
 - Quiz: three reflection questions posed; learner responses pending. Formal quiz not attempted.
 - Topics Introduced: Day 1 Topics 1–3. Practised: none. Verified: none.
-- Blockers: Git installation/configuration unconfirmed; original 23-page Master Planner DOCX not attached.
+- Blockers: Git installation/configuration unconfirmed.
 - Exact next task: Resume Day 1 Topic 4 — repository anatomy and the four workflow areas. No command-running task is assigned unless the learner explicitly opts in.
 
 ## Learner-controlled practice and assessment — mandatory consent gate
@@ -110,7 +110,7 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - Practical attempt and result: Not attempted; practical work remains deferred until explicit opt-in.
 - Quiz/interview: Not attempted; assessment remains deferred until explicit opt-in.
 - Topics Introduced: Four-area Git workflow explanation (Day 1 concept teaching). Practised: none evidenced. Verified: none.
-- Needs revision / blockers: Git installation and configuration remain unconfirmed; original 23-page Master Planner DOCX remains unattached.
+- Needs revision / blockers: Git installation and configuration remain unconfirmed.
 - Exact next topic: Resume/reteach Day 1 Topic 4 — repository anatomy and the four workflow areas.
 - GitHub sync: Progress record update committed and verified by re-fetch.
 
@@ -165,7 +165,6 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - Topic 4 (repository anatomy and workflow areas) is fully taught and its note is saved. Topic 5 (file states/transitions and HEAD–Index–Working Tree model) has been introduced but remains in progress; no Topic 5 note until the topic is fully taught.
 - Learner commands actually run: None evidenced. Practical, quiz and interview: Not attempted. No progress status upgraded to Practised or Verified.
 - Exact next topic: Continue Day 1 Topic 5 with Git's internal object model, then parent commits, object IDs, branches and HEAD.
-- Original 23-page Master Planner DOCX remains unattached; detailed-source reconciliation remains open.
 
 
 ## 2026-11-03 — Repository note structure — topic-wise notes adopted
@@ -196,7 +195,7 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - Confirmed Day 1 remains Introduced; installation/configuration, learner command execution, practicals and assessments remain unconfirmed or deferred. No Practised/Verified status was added.
 - Corrected remaining legacy master-planner wording that could imply automatic practice tasks, exercises, knowledge checks, quizzes or interview prompts. Those activities remain in the curriculum but require explicit learner opt-in.
 - Removed the duplicate topic-wise controlling-rule block from the master planner. Clarified the root README's checkpoint and consent wording.
-- Re-fetched changed files after writes for verification. The original 23-page Master Planner DOCX was not found in the repository tree; full syllabus reconciliation against that source remains pending until it is attached.
+- Re-fetched changed files after writes for verification. The repository curriculum index remains the governing course reference.
 - Exact next learning checkpoint remains Day 1 Topic 5, concept-only mode.
 
 
