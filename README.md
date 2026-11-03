@@ -14,11 +14,11 @@
 - [ADVANCED_MODULES/](ADVANCED_MODULES/) — modules A–L.
 - [PRACTICALS_PROJECTS/](PRACTICALS_PROJECTS/) — eight practical projects and evidence.
 
-## Day-wise learning records
+## Day-wise learning and final notes
 
 The `DAY_WISE/` directory is organised as `DAY-01/` through `DAY-07/`. During a day, teach and discuss the syllabus in ChatGPT; do not create or update lesson/session files after individual concepts.
 
-**One note per completed day:** after the learner has been taught the entire planned syllabus for that day, create one concise `REVISION-SUMMARY.md` in that day's folder and link it from the day README. The note is a consolidated revision aid for the whole day, not a transcript or a session log. Until then, keep the day’s teaching in the conversation and maintain only the course-level progress records needed for accurate continuity.
+**One note per day, after the full syllabus is taught:** after the learner has been taught the entire planned syllabus for that day, create one concise `REVISION-SUMMARY.md` in that day's folder and link it from the day README. The note is a consolidated revision aid for the whole day, not a transcript or a session log. Until then, keep the day’s teaching in the conversation and maintain only the course-level progress records needed for accurate continuity.
 
 This rule applies consistently to Days 1–7. Supplementary discussions remain separate and are saved to `EXTRA_NOTES/` only when the learner explicitly asks. Creating a day summary does not itself prove completion or upgrade progress status.
 
