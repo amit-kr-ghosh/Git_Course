@@ -131,8 +131,7 @@ This is a course-wide rule for every bootcamp day, advanced module, practical pr
 - Do not repeat installation status, course-wide progress, verified topics, learner evidence, blockers or the next session's administrative task inside the lesson.
 
 ### B. Keep instructional content complete and coherent
-The lesson body contains the actual learning material: definitions, need/purpose, first-principles reasoning, mental models, diagrams, detailed explanations, command syntax and options, Windows Git Bash demonstrations, expected output, practical tasks, troubleshooting, professional scenarios, interview questions, knowledge checks and revision notes.
-- A practice task is part of the lesson. It is not a progress checkpoint and does not prove an attempt.
+The lesson body contains the actual learning material: definitions, need/purpose, first-principles reasoning, mental models, diagrams, detailed explanations, command syntax and options, Windows Git Bash demonstrations, illustrative expected output, troubleshooting, professional scenarios and revision notes. Practical tasks, exercises, knowledge checks, quizzes, interview prompts and assessments are included in the curriculum but are delivered only after the learner explicitly opts in to that specific activity.
 - Mark example terminal output as illustrative unless supplied by the learner. Instructor demonstrations and learner-run commands must remain distinct.
 - Do not remove syllabus topics to shorten or beautify the lesson.
 
@@ -148,10 +147,9 @@ The lesson body contains the actual learning material: definitions, need/purpose
 2. Learning objectives.
 3. Detailed teaching, using purposeful diagrams/images/widgets where they improve understanding.
 4. Commands and demonstrations with context, expected output and explanation.
-5. Practical task(s).
-6. Troubleshooting and real-world/professional use.
-7. Quiz and interview practice (learner attempts first unless study mode is requested).
-8. Revision summary.
+5. Troubleshooting and real-world/professional use.
+6. Revision summary.
+7. Practical tasks, exercises, quizzes and interview practice only when the learner explicitly opts in to that specific activity.
 9. Separate, compact verification note only when useful.
 
 The course status is a record of evidence, not the lesson itself. Follow this rule consistently across all future sessions and files.
@@ -163,9 +161,9 @@ Treat **teaching** and **verification** as separate parts of the course, not as 
 
 ### Teaching layer — the main body
 - Begin with the subject: title, purpose and learning objectives.
-- Continue directly into the complete lesson: explanation, mental models, useful diagrams/media, command syntax, instructor demonstrations, expected outputs, guided/independent practice, troubleshooting, professional examples, quiz/interview prompts and revision summary.
+- Continue directly into concept teaching: explanation, mental models, useful diagrams/media, command syntax, instructor demonstrations, illustrative expected outputs, troubleshooting, professional examples and revision summary.
 - Do not lead with or repeatedly interrupt the lesson using course-wide status, installation checks, evidence tables or administrative next steps.
-- Practice tasks and questions belong in the lesson. They are not evidence of learner completion.
+- Guided/independent practice, exercises, quizzes, interview prompts and learner command execution are withheld until the learner explicitly opts in to that particular activity.
 
 ### Verification layer — kept separate
 - Use COURSE_STATUS.md for the single current checkpoint.
@@ -185,7 +183,7 @@ This rule is mandatory and takes precedence over any earlier shorthand lesson/se
 Include the lesson title/session, learning objectives, prerequisites, topic scope, practice/deliverable, verification criteria (what successful performance must demonstrate), and estimated time/resources when useful. Keep this concise. Do not place the actual teaching, long demonstrations, learner results, progress status or evidence in this panel.
 
 ### 2. Lesson / Study Material (distinct heading where teaching begins)
-After the overview, use a separate heading: `# Lesson / Study Material`. The actual study begins beneath it with a topic heading such as `## Topic 1 — [Topic name]`. Teach each topic fully under its own heading: definition and purpose, first principles, mental model, purposeful visual, internal mechanics, syntax/options, Windows Git Bash demonstration, clearly labelled expected output, explanation, practical exercise, troubleshooting, professional use and knowledge/interview checks. Continue with Topic 2, Topic 3, etc. Do not interrupt this teaching sequence with administrative checkpoint tables.
+After the overview, use a separate heading: `# Lesson / Study Material`. The actual study begins beneath it with a topic heading such as `## Topic 1 — [Topic name]`. Teach each topic fully under its own heading: definition and purpose, first principles, mental model, purposeful visual, internal mechanics, syntax/options, Windows Git Bash instructor demonstration, clearly labelled illustrative expected output, explanation, troubleshooting and professional use. Practical exercises and knowledge/interview checks are gated and appear only after explicit learner opt-in. Continue with Topic 2, Topic 3, etc. Do not interrupt this teaching sequence with administrative checkpoint tables.
 
 ### 3. Verification Record (separate post-lesson record)
 Keep actual learner attempts, terminal evidence, quiz/interview results, status, weak areas, blockers and next task in COURSE_STATUS.md, SYLLABUS_TRACKER.md, PROGRESS_LOG.md and the record section at the end of the relevant lesson file. Verification criteria are prospective acceptance criteria; verification evidence is a factual record of what the learner actually demonstrated. Never confuse the two. Instructor demonstrations and displayed exercises do not prove learner execution. A compact checkpoint may appear after the full lesson only when useful.
@@ -207,7 +205,8 @@ This rule is the authoritative presentation rule wherever an earlier section in 
 ### Part B — Lesson / Study Material
 - Immediately after Part A, use **Part B — Lesson / Study Material** and start teaching the first topic.
 - Do not insert a second overview, status summary, separate screen or administrative section between Part A and Part B.
-- Continue through the full syllabus with topic headings, first-principles explanations, useful diagrams/images, command syntax, Windows Git Bash demonstrations, expected outputs, examples, exercises, troubleshooting, professional use, quizzes/interview practice and revision.
+- Continue through the full syllabus with topic headings, first-principles explanations, useful diagrams/images, command syntax, Windows Git Bash instructor demonstrations, illustrative expected outputs, examples, troubleshooting, professional use and revision.
+- Exercises, practicals, quizzes and interview practice are delivered only after explicit opt-in for that activity.
 - Keep visuals purposeful and accessible; do not use decoration as a substitute for teaching.
 
 ### Verification record — after teaching only
@@ -227,16 +226,16 @@ Use this same structure in ChatGPT and repository lessons across all seven bootc
 
 1. Treat each Day/module/project as a curriculum taught progressively over multiple ChatGPT turns, not as a single long lecture. These conversational turns do not create separate lesson-note files.
 2. Each response should normally cover one main concept, or a small set of tightly connected subtopics. Give that concept the full depth required by the teaching standard.
-3. After the explanation, mental model/diagram, command demonstration and expected output, pause for the learner's questions or a focused prediction/practice task.
-4. Review the learner's response, correct misunderstandings and provide targeted reinforcement before advancing. If the learner asks to continue without a checkpoint, proceed to the next concept without repeating material.
+3. After the explanation, mental model/diagram, instructor demonstration and illustrative output, pause for the learner's questions or clarification. Do not add a prediction prompt or practice task unless explicitly authorised.
+4. Answer the learner's questions, correct misunderstandings and provide targeted explanation. If the learner asks to continue, proceed to the next concept without inserting an assessment or practical.
 5. Do not front-load the entire day's topics, command catalogue, quiz, interview bank and revision notes into one response. Keep later topics in the day-wise/module/project syllabus and teach them in sequence over subsequent turns.
 6. Do not shorten, drop or silently skip any planner topic. Incremental delivery changes pacing, not curriculum coverage.
-7. Use short knowledge checks at appropriate concept boundaries. Administer the full day/module/project assessment after its planned teaching and practical work; let the learner attempt answers before revealing solutions unless study mode is requested.
+7. Preserve short knowledge checks and full day/module/project assessments in the planned curriculum, but do not administer them automatically. The learner must explicitly opt in to each knowledge check, practical or assessment; let them attempt answers before revealing solutions unless study mode is requested.
 8. Record only concise continuity information: the last concept taught, learner evidence (if any), status and next concept in the course-level tracking records. Do not create a separate Markdown note for each teaching turn. A concept is Introduced when taught, Practised when attempted with evidence, and Verified only after understanding/application is checked.
 9. At the start of a new chat, continue from the exact next concept in COURSE_STATUS/PROGRESS_LOG and do not restart the day.
 10. The learner may explicitly request a recap, a larger batch, study mode or the remainder of a lesson; otherwise, the default is one concept at a time.
 
-**Default micro-session sequence:** concept purpose → first principles → mental model/visual → mechanics and terminology → syntax/options if relevant → focused Windows Git Bash demonstration → illustrative expected output → learner question or focused exercise → feedback → concise checkpoint → next concept only when appropriate.
+**Default micro-session sequence:** concept purpose → first principles → mental model/visual → mechanics and terminology → syntax/options if relevant → instructor-led Windows Git Bash demonstration → illustrative expected output → learner questions/clarification → concise checkpoint → next concept when requested. No learner exercise, prediction prompt or assessment unless explicitly authorised.
 
 This is the latest and controlling pacing rule. It supersedes any earlier instruction or example that might be interpreted as requiring all topics of a day/module/project to be taught in one response. It does not supersede the requirement to preserve the complete curriculum.
 
@@ -337,14 +336,4 @@ The learner explicitly requests progressive topic-wise notes across the reposito
 - Keep supplementary discussions in `EXTRA_NOTES/` only when the learner explicitly requests saving them.
 
 
-## Latest controlling rule — topic-wise repository notes
 
-The learner explicitly requests progressive topic-wise notes across the repository. This rule supersedes any older instruction that prohibits topic-wise/lesson-wise notes until the end of a day.
-
-- Save a self-contained note for each syllabus topic as soon as that topic is fully taught.
-- Use `DAY_WISE/DAY-XX/TOPICS/`, `ADVANCED_MODULES/MODULE-X/TOPICS/` and `PRACTICALS_PROJECTS/PROJECT-XX/TOPICS/` for the corresponding tracks.
-- Keep one file per topic, not one file per conversational turn. Do not create notes for untaught topics.
-- Once all topics in a day have been taught, also create one concise day-level `REVISION-SUMMARY.md` in the day folder. It is a synthesis of topic notes, not a substitute.
-- The same whole-module/project synthesis may be created after all topics in that module/project are taught.
-- Do not infer learner practice, command execution, quiz results or verification from the existence of notes.
-- Keep supplementary discussions in `EXTRA_NOTES/` only when the learner explicitly requests saving them.
