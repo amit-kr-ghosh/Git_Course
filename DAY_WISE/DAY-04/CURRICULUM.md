@@ -26,25 +26,9 @@ Clone vs fork; origin vs upstream; fetch vs pull; PR vs push.
 ## Quiz focus
 Remote tracking, authentication choices, PR lifecycle, review and repository documentation.
 
-## Session records
-| Session/date | Topics covered | Status | Evidence | Next step |
-|---|---|---|---|---|
-| | | Not started | | |
+## Day completion gate and final revision note
 
-## Commands demonstrated vs actually run
-- Demonstrated:
-- Run by learner:
-- Output/evidence:
-
-## Quiz and interview outcome
-- Quiz score/gaps:
-- Interview questions and answers:
-- Remediation / revision:
-
-## Continuation checkpoint
-- Verified topics:
-- Incomplete topics:
-- Blockers:
-- Exact next topic:
-
-Do not mark this day verified until the syllabus, practical, quiz and interview preparation have been reviewed.
+- Teach the full syllabus above progressively in ChatGPT. Do not create session-wise or lesson-wise note files while this day is in progress.
+- Keep dated learner evidence, practical/assessment outcomes and the exact next checkpoint in the course-level `COURSE_STATUS.md`, `SYLLABUS_TRACKER.md` and `PROGRESS_LOG.md`; do not add per-session teaching logs here.
+- After the entire day's syllabus and all required completion criteria have been met with evidence, create exactly one concise `REVISION-SUMMARY.md` in this day folder and link it from the day README.
+- The summary is a whole-day revision aid, not a transcript and not evidence of completion.
