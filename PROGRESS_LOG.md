@@ -64,14 +64,14 @@ Keep entries factual and brief. This log tracks course continuity and evidence; 
 
 ## 2026-11-01 — Day 1 — Foundations and first-repository lesson started
 
-- Learning content covered: version control purpose and models; Git vs GitHub; repository anatomy; working directory, staging area/index, local and remote repositories; file states; commits, branches and HEAD; Windows Git installation/configuration; first-repository workflow.
-- Instructor demonstrations: `git --version`, `git config`, `pwd`, `ls`, `cd`, `mkdir`, `git init`, `git status`, `git add`, `git commit`, `git log`, `git diff`.
+- Learning content covered: Topics 1–3 only — why version control exists, version-control models, and Git vs GitHub. Topic 4 is recorded separately in the 2026-11-03 workflow-areas entry below.
+- Instructor demonstrations: No later-topic command demonstrations are retained as progress from this entry.
 - Commands actually run by learner: None evidenced yet.
 - Practical: first-repository deliverable explained and assigned; learner attempt not yet evidenced.
 - Quiz: three reflection questions posed; learner responses pending. Formal quiz not attempted.
-- Topics Introduced: Day 1 topics 1–8 as taught in this session. Practised: none. Verified: none.
+- Topics Introduced: Day 1 Topics 1–3. Practised: none. Verified: none.
 - Blockers: Git installation/configuration unconfirmed; original 23-page Master Planner DOCX not attached.
-- Exact next task: run `git --version`, `git config --global --list`, `git config --global user.name`, `git config --global user.email` and `pwd` in Git Bash; share output, then complete the first-repository practical.
+- Exact next task: Resume Day 1 Topic 4 — repository anatomy and the four workflow areas. No command-running task is assigned unless the learner explicitly opts in.
 
 ## Learner-controlled practice and assessment — mandatory consent gate
 
@@ -111,7 +111,7 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - Quiz/interview: Not attempted; assessment remains deferred until explicit opt-in.
 - Topics Introduced: Four-area Git workflow explanation (Day 1 concept teaching). Practised: none evidenced. Verified: none.
 - Needs revision / blockers: Git installation and configuration remain unconfirmed; original 23-page Master Planner DOCX remains unattached.
-- Exact next topic: Day 1 — file states and transitions (untracked, modified, staged and committed).
+- Exact next topic: Resume/reteach Day 1 Topic 4 — repository anatomy and the four workflow areas.
 - GitHub sync: Progress record update committed and verified by re-fetch.
 
 
@@ -143,14 +143,14 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - No session-wise, lesson-wise or interim note files are to be created during the day.
 
 
-## 2026-11-03 — Day 1 — File states, snapshots and history foundations
 
-- Learning content covered: untracked, tracked, modified, staged and committed states; staged-plus-unstaged changes in one file; HEAD/index and index/working-directory comparisons; snapshot model; commit contents and parent links; object IDs and hashing; branches as movable references; HEAD and detached HEAD.
-- Instructor demonstrations / commands taught: `git status`, `git status --short`, `git add`, `git add -p` (interactive partial staging) and `git commit` (conceptual and illustrative examples; no learner execution claimed).
-- Commands actually run by learner: None supplied in this session.
-- Practical attempt and result: Not attempted; practical work remains deferred until explicit opt-in.
-- Quiz/interview: Not attempted; assessment remains deferred until explicit opt-in.
-- Topics Introduced: Day 1 file states/transitions and snapshot/history foundations. Practised: none evidenced. Verified: none.
-- Needs revision / blockers: Git installation and configuration remain unconfirmed; original 23-page Master Planner DOCX remains unattached.
-- Exact next topic: Day 1 — install and configure Git on Windows, including Git for Windows, Git Bash, version checks, identity and configuration scopes, and PowerShell/CMD distinctions.
-- GitHub sync: pending write and fetch verification.
+
+## 2026-11-03 — Day 1 — Progress checkpoint corrected to Topic 4
+
+- Learner requested that any progress recorded after Day 1 Topic 4 be removed and teaching resume at Topic 4.
+- Topics 5–8 (file states/history, installation/configuration, first repository, practical/assessment) remain in the curriculum but are no longer recorded as taught.
+- Topics 1–3 remain Introduced. Topic 4 remains Introduced and is the current teaching point to revisit.
+- Claims that Topics 5–8 were taught, along with related later-topic command demonstrations, were removed from the active progress record.
+- Learner commands actually run: None evidenced. Practical, quiz and interview: Not attempted.
+- Exact next task: Re-teach Day 1 Topic 4 — repository anatomy and the four workflow areas, then wait for the learner to request continuation.
+- GitHub sync: update initiated; fetch verification pending.
