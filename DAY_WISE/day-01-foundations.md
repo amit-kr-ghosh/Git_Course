@@ -26,9 +26,120 @@ The actual teaching starts immediately below. Follow the topics in order; do not
 
 *Explain the version control tool, hosting/collaboration platform and alternatives here.*
 
-## Topic 4 — Repository Anatomy and Git's Three Areas
+## Topic 4 — Repository Anatomy and Git's Four Workflow Areas
 
-*Teach working directory, staging area/index, local repository, remote repository and the high-level data flow here.*
+Git work usually moves through four distinct places. Understanding these areas explains what each everyday command actually does.
+
+### 1. Working Directory — where you edit files
+
+The working directory (also called the working tree) is the checked-out project on your computer. You open files, create new ones, edit content and delete files here.
+
+- A new file here is usually **untracked** until Git is told to track it.
+- An edit to a tracked file appears as a modification in the working directory.
+- Editing a file does not automatically stage or commit it.
+
+### 2. Staging Area — the proposed next snapshot
+
+The staging area, also called the **index**, is the collection of changes selected for the next commit. It lets you choose exactly what belongs together in a snapshot.
+
+- `git add <file>` copies the file's current content into the index.
+- You can stage some files and leave other changes unstaged.
+- If you edit a file again after staging it, the newer edit is not automatically included in the already staged version; stage it again if it should be part of the next commit.
+
+### 3. Local Repository — saved project history
+
+The local repository is the Git database in the project's `.git` directory. It stores commits and the objects and references that make the history work.
+
+- `git commit` creates a new commit from the staged snapshot and connects it to its parent history.
+- A commit is a durable local history point; it is not automatically uploaded to GitHub.
+- You can create and inspect local commits without an internet connection.
+
+### 4. Remote Repository — shared copy hosted elsewhere
+
+A remote repository is another repository copy, commonly hosted on GitHub, that your local repository knows how to communicate with.
+
+- `git push` sends local commits to a remote branch, when the update is permitted.
+- `git fetch` downloads remote objects and updates remote-tracking references without merging them into the current branch.
+- `git pull` fetches and then integrates the fetched changes into the current branch (commonly by merge, depending on configuration).
+
+### The four areas at a glance
+
+| Area | What happens there | Typical action |
+|---|---|---|
+| 🔵 Working Directory | Create and edit project files | Edit in your editor |
+| 🟠 Staging Area / Index | Select changes for the next snapshot | `git add` |
+| 🟢 Local Repository | Record and inspect local history | `git commit`, `git log` |
+| 🟣 Remote Repository | Share and receive commits | `git push`, `git fetch`, `git pull` |
+
+### Visual: the normal local-to-remote path
+
+```mermaid
+flowchart LR
+    W["🔵 Working Directory<br/>edit files"] -->|"git add"| I["🟠 Staging Area / Index<br/>select changes"]
+    I -->|"git commit"| L["🟢 Local Repository<br/>record commit"]
+    L -->|"git push"| R["🟣 Remote Repository<br/>share commits"]
+```
+
+The first three areas are on your computer. The remote is another repository, usually on a hosting service such as GitHub. A commit can exist locally before it exists on the remote.
+
+### Visual: receiving other people's work
+
+```mermaid
+flowchart TD
+    R["🟣 Remote Repository"] -->|"git fetch"| F["Remote-tracking reference updated"]
+    F -->|"review / integrate"| L["🟢 Local branch"]
+    R2["🟣 Remote Repository"] -->|"git pull = fetch + integrate"| L2["🟢 Current local branch updated"]
+```
+
+### How the commands differ
+
+| Command | Main job | Does it create a commit? | Does it contact the remote? |
+|---|---|---:|---:|
+| `git add` | Select content for the next commit | No | No |
+| `git commit` | Save staged content in local history | Yes | No |
+| `git push` | Publish local commits | No | Yes |
+| `git fetch` | Download remote updates without integrating them into the current branch | No | Yes |
+| `git pull` | Fetch, then integrate remote updates | Usually no new commit for a fast-forward; a merge may create one | Yes |
+
+**Important distinction:** `git fetch` is the safer inspection-first choice when you want to learn what arrived before integrating it. `git pull` performs the integration step too.
+
+### Instructor-led example (illustrative only)
+
+Assume a repository has a tracked file named `README.md` and you edit it.
+
+```bash
+git status
+git add README.md
+git status
+git commit -m "Update project README"
+git log --oneline -1
+git push
+```
+
+What each step means:
+
+1. The first `git status` reports the working-tree change.
+2. `git add README.md` stages the current version of that file.
+3. The second `git status` shows the staged change.
+4. `git commit` records the staged snapshot in local history.
+5. `git log --oneline -1` displays the newest local commit.
+6. `git push` attempts to publish the commit to the configured remote branch.
+
+Expected output varies with repository state, branch name, remote configuration and Git version. These commands are an instructor demonstration, not a claim that the learner ran them.
+
+### Common misunderstandings
+
+- **“Saving a file commits it.”** No. Saving edits the working directory; staging and committing are separate actions.
+- **“git add uploads my file to GitHub.”** No. It stages content locally.
+- **“git commit sends my work to GitHub.”** No. It creates local history.
+- **“git fetch changes my files.”** Fetch updates downloaded objects and remote-tracking references; it does not integrate those changes into the current branch.
+- **“git pull and git fetch are identical.”** Pull includes fetch plus an integration step.
+
+### Mental model to retain
+
+Think of the workflow as preparing a package: the working directory is your workbench, the index is the exact set of items packed for the next snapshot, the local repository is your saved history, and the remote repository is the shared copy. Each command moves information across a particular boundary; none of these boundaries should be treated as interchangeable.
+
+
 
 ## Topic 5 — File States, Commits, Branches and HEAD
 
