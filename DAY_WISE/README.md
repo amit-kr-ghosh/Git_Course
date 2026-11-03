@@ -15,9 +15,9 @@ The seven bootcamp days are stored in separate folders: `DAY-01/` through `DAY-0
 
 During each day, teaching happens in ChatGPT. Do not save individual lessons, sessions, clarifications or partial recaps as repository note files.
 
-After the learner has finished the entire planned syllabus for a day and all required completion criteria have been satisfied with evidence, create exactly one concise `REVISION-SUMMARY.md` in that day's folder and link it from that day's README. It should capture the most important concepts, mental models, commands and distinctions, focused diagrams, representative examples, safety warnings and common pitfalls from the whole day. Keep it useful for revision, not a transcript.
+After the learner has finished the entire planned syllabus for a day , create exactly one concise `REVISION-SUMMARY.md` in that day's folder and link it from that day's README. It should capture the most important concepts, mental models, commands and distinctions, focused diagrams, representative examples, safety warnings and common pitfalls from the whole day. Keep it useful for revision, not a transcript.
 
-Do not create the summary early, and do not treat its creation as proof of completion. If a required practical or assessment remains deferred or unverified, continue teaching in ChatGPT and wait to create the final day note until the criteria are met.
+Create the summary as soon as the entire day's syllabus has been taught, even if a practical or assessment remains deferred. The summary records learning content only; progress status and practical/assessment verification remain separate and must never be inferred from the note.
 
 ## Visual standard
 
