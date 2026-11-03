@@ -14,6 +14,22 @@
 - [ADVANCED_MODULES/](ADVANCED_MODULES/) — modules A–L.
 - [PRACTICALS_PROJECTS/](PRACTICALS_PROJECTS/) — eight practical projects and evidence.
 
+## Supplementary discussion notes — ongoing capture rule
+
+The `EXTRA_NOTES/` folder is the separate home for important concepts discussed alongside the course that support understanding but are outside the formal Git/GitHub syllabus (for example, terminal and shell fundamentals, operating-system concepts, development toolchains and related Windows environment details).
+
+When a conversation develops useful supplementary knowledge:
+- Capture the important explanations, definitions, comparisons, corrections, examples, command flows and meaningful diagrams in `EXTRA_NOTES/`.
+- Prefer updating and expanding an existing relevant note; create a new Markdown file only when the subject is substantial and distinct. Avoid duplicate notes and unnecessary folders.
+- Include editable Mermaid diagrams where they materially clarify architecture, sequences, decision paths or workflows. Use tables and code examples where more suitable.
+- Preserve context and important caveats; correct earlier simplifications if a later discussion makes the explanation more precise.
+- Keep notes self-contained, navigable from `EXTRA_NOTES/README.md`, and linked from this README through the folder index.
+- Keep supplementary notes separate from formal day-wise lessons, the master syllabus, learner progress and assessment evidence. Do not mark a course topic Practised or Verified merely because a supplementary explanation was saved.
+- Do not store secrets, access tokens, private keys or unnecessary personal data. Clearly label illustrative paths, commands and outputs; never present them as learner-run evidence.
+- After repository edits, fetch the changed files again and report exactly which files were successfully verified.
+
+This is an ongoing documentation rule for future chats in this Project, not a request to add supplementary subjects to the formal curriculum.
+
 ## Visual-first teaching standard
 
 The course should use clear, purposeful visuals alongside detailed explanations. Apply this standard in ChatGPT lessons and, where appropriate, in repository lesson materials.
