@@ -76,15 +76,10 @@ The learner has requested concept teaching only until they have learned the rele
 
 
 
-## Lesson-note storage
+## Day-wise note storage — one final note per day
 
-- Day-wise records are organised under `DAY_WISE/DAY-01/` through `DAY-07/`.
-- Day 1's existing foundations record is retained at `DAY_WISE/DAY-01/SESSION-01-foundations-and-workflow-areas.md`.
-- New distinct concepts taught in later turns are saved as the next sequential session note in the relevant day folder; previous sessions are preserved.
-- Session-note creation records teaching only. Learner practice and verification statuses remain evidence-based.
-
-
-## Selective notes and Day 1 final recap
-
-- Keep session notes concise and high-value: core concepts, mental models, important command distinctions, focused diagrams, representative examples, safety warnings, common mistakes and unresolved checkpoints only. Do not save every conversational detail or repeat content unnecessarily.
-- After the full Day 1 syllabus and all required completion criteria are satisfied with evidence, create `DAY_WISE/DAY-01/REVISION-SUMMARY.md` and link it from the Day 1 README. Until then, no final completion summary and no Day 1 completion claim. A summary is a revision aid, not evidence that the learner completed the day.
+- Teach the syllabus progressively in ChatGPT. Do not create session-wise, lesson-wise or interim note files while a day is in progress.
+- After the learner has finished the entire planned syllabus for a day and its required completion criteria have been met with evidence, create exactly one concise `REVISION-SUMMARY.md` in that day's folder and link it from the day README.
+- The note covers the whole day: essential concepts, mental models, commands and distinctions, focused diagrams, examples, safety points and common pitfalls.
+- Summary creation is not evidence of completion and does not independently upgrade progress status.
+- Day 1 remains in progress; its final note must not be created yet.
