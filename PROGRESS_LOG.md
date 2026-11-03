@@ -100,3 +100,16 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - “Continue”, moving to another topic/day, or silence is not consent. If the learner advances while planned activities remain deferred, remind them and ask whether to continue concept learning or explicitly begin one named activity.
 - No learner practical, quiz, installation verification or command execution is evidenced by this clarification. No progress status is upgraded.
 
+
+
+## 2026-11-03 — Day 1 — The four areas of the Git workflow
+
+- Learning content covered: Working Directory, Staging Area (Index), Local Repository and Remote Repository; the purpose of `git add`, `git commit`, `git push`, `git fetch` and `git pull` in the lifecycle.
+- Instructor demonstrations: conceptual lifecycle and illustrative command examples only.
+- Commands actually run by learner: None supplied in this session.
+- Practical attempt and result: Not attempted; practical work remains deferred until explicit opt-in.
+- Quiz/interview: Not attempted; assessment remains deferred until explicit opt-in.
+- Topics Introduced: Four-area Git workflow explanation (Day 1 concept teaching). Practised: none evidenced. Verified: none.
+- Needs revision / blockers: Git installation and configuration remain unconfirmed; original 23-page Master Planner DOCX remains unattached.
+- Exact next topic: Day 1 — file states and transitions (untracked, modified, staged and committed).
+- GitHub sync: Progress record update committed and verified by re-fetch.
