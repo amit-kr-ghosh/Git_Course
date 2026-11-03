@@ -27,7 +27,7 @@ This file is the compact **verification checkpoint**, not lesson material. Keep 
 
 ## Exact next action
 
-1. Continue Day 1 concept teaching progressively, one concept at a time. The four areas of the Git workflow have now been explained; next concept: file states and transitions (untracked, modified, staged and committed). Save the next distinct teaching segment as `DAY_WISE/DAY-01/SESSION-02-file-states-and-transitions.md` and add it to `DAY_WISE/DAY-01/README.md`.
+1. Continue Day 1 concept teaching progressively, one concept at a time. The four areas of the Git workflow have been explained; next concept: file states and transitions (untracked, modified, staged and committed). Do not create a lesson/session note. After the entire Day 1 syllabus and its required completion criteria are satisfied, create the single `DAY_WISE/DAY-01/REVISION-SUMMARY.md`.
 2. Continue concept-only teaching. Do not request Git Bash output, assign practical work, or present quiz/interview prompts unless the learner explicitly opts in to that specific activity.
 3. The original 23-page Master Planner DOCX remains needed for detailed-source reconciliation.
 4. If the learner advances to a later day/module before deferred assessments or practicals are completed, remind them of the pending activities and ask whether to continue concepts or explicitly begin one.
@@ -46,7 +46,7 @@ Use only: Not started · Introduced · Practised · Verified · Needs revision �
 - Verified = understanding and practical application checked.
 - Never infer local execution from instructor demonstrations or remote repository edits.
 
-See [SYLLABUS_TRACKER.md](SYLLABUS_TRACKER.md) for topic-level status and [PROGRESS_LOG.md](PROGRESS_LOG.md) for dated session evidence.
+See [SYLLABUS_TRACKER.md](SYLLABUS_TRACKER.md) for topic-level status and [PROGRESS_LOG.md](PROGRESS_LOG.md) for dated progress and evidence (not lesson notes).
 
 ## Last updated
 
