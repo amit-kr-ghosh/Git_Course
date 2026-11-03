@@ -14,13 +14,26 @@
 - [ADVANCED_MODULES/](ADVANCED_MODULES/) — modules A–L.
 - [PRACTICALS_PROJECTS/](PRACTICALS_PROJECTS/) — eight practical projects and evidence.
 
-## Day-wise learning and final notes
+## Topic-wise lesson notes and whole-day revision
 
-The `DAY_WISE/` directory is organised as `DAY-01/` through `DAY-07/`. During a day, teach and discuss the syllabus in ChatGPT; do not create or update lesson/session files after individual concepts.
+Save one self-contained Markdown note for each syllabus topic as soon as that topic has been fully taught. For bootcamp days, use `DAY_WISE/DAY-XX/TOPICS/TOPIC-XX-short-name.md`. Do not wait for the entire day to finish. Keep one note per syllabus topic; do not create separate files for individual ChatGPT turns, sessions, minor clarifications or repeated explanations.
 
-**One note per day, after the full syllabus is taught:** after the learner has been taught the entire planned syllabus for that day, create one concise `REVISION-SUMMARY.md` in that day's folder and link it from the day README. The note is a consolidated revision aid for the whole day, not a transcript or a session log. Until then, keep the day’s teaching in the conversation and maintain only the course-level progress records needed for accurate continuity.
+Example:
+```text
+DAY_WISE/
+└── DAY-01/
+    ├── README.md
+    ├── CURRICULUM.md
+    ├── TOPICS/
+    │   └── TOPIC-04-repository-anatomy.md
+    └── REVISION-SUMMARY.md   # only after all Day 1 topics are taught
+```
 
-This rule applies consistently to Days 1–7. Supplementary discussions remain separate and are saved to `EXTRA_NOTES/` only when the learner explicitly asks. Creating a day summary does not itself prove completion or upgrade progress status.
+Topic notes should be useful, self-contained study references: definitions, purpose, first-principles explanation, mental model, editable diagram where useful, key distinctions, syntax/options and instructor-led examples where relevant, illustrative output, common mistakes, troubleshooting, professional context and a concise recap. Clearly label instructor demonstrations; never imply learner execution.
+
+After every topic in a day has been taught, create one concise `REVISION-SUMMARY.md` in that day's root folder and link it from the day README. This is a day-level synthesis, not a replacement for topic notes. It does not prove practical completion or verification.
+
+Apply the same topic-wise principle to advanced modules and practical projects: create notes under the relevant module/project folder as work begins. Do not create empty folders or notes for untaught material. Keep supplementary `EXTRA_NOTES/` separate and save there only when explicitly requested.
 
 ## Supplementary discussion notes — user-controlled saving
 
