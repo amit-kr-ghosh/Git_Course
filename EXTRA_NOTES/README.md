@@ -20,3 +20,7 @@ When explicitly authorized, update an existing note where possible; create a new
 - Installation paths can vary by version and installation choices.
 - These notes explain concepts; they do not assign exercises or imply that commands were run by the learner.
 - When later discussions add or correct concepts, update the relevant note rather than creating duplicate files.
+
+
+## Selective capture standard
+Even when the learner explicitly requests a supplementary note, preserve only the durable, useful points needed for later reference—key concepts, distinctions, commands, representative examples, diagrams and important cautions. Do not save a transcript, every follow-up, repeated explanations or incidental details. Prefer updating an existing note instead of creating duplicates. The explicit-save requirement still applies: supplementary discussions are never added automatically.
