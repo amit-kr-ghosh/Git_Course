@@ -139,8 +139,8 @@ The lesson body contains the actual learning material: definitions, need/purpose
 ### C. Keep verification in the tracking layer
 - `COURSE_STATUS.md` is the single compact current checkpoint.
 - `SYLLABUS_TRACKER.md` records topic/deliverable status and evidence.
-- `PROGRESS_LOG.md` records chronological session evidence and next action.
-- Relevant day/module/project files may contain a **separate record area at the end** for session evidence, assessment outcomes and continuation details. Keep it after the instructional syllabus/content, not as the lesson's opening.
+- `PROGRESS_LOG.md` records dated course progress, learner evidence and the exact next checkpoint. These are continuity records, not lesson notes.
+- For the seven bootcamp day folders, do not create session-wise or lesson-wise Markdown files or per-session note sections. Keep the syllabus in `CURRICULUM.md`/the day README and create only one `REVISION-SUMMARY.md` after the entire day and its required completion criteria are finished.
 - A ChatGPT response may include a brief checkpoint only after the lesson, visually separated from teaching. Do not repeat the whole checkpoint if it is already recorded and unchanged.
 
 ### D. Standard lesson sequence
@@ -171,7 +171,7 @@ Treat **teaching** and **verification** as separate parts of the course, not as 
 - Use COURSE_STATUS.md for the single current checkpoint.
 - Use SYLLABUS_TRACKER.md for topic/deliverable statuses and evidence.
 - Use PROGRESS_LOG.md for dated session outcomes and exact continuation task.
-- Keep detailed day/module/project evidence in a clearly labelled record section at the end of the relevant file, after the instructional material.
+- Keep course progress and evidence in `COURSE_STATUS.md`, `SYLLABUS_TRACKER.md` and `PROGRESS_LOG.md`. Do not turn the day curriculum files into session-by-session teaching logs.
 - A ChatGPT lesson may end with a compact checkpoint note if something changed or the learner needs a next action. Do not repeat unchanged status information or put it before the lesson.
 
 This structure applies to all seven bootcamp days, modules A–L, projects 1–8, quizzes, interviews and capstone sessions. Preserve all curriculum coverage while keeping the learning flow clear.
@@ -225,14 +225,14 @@ Use this same structure in ChatGPT and repository lessons across all seven bootc
 
 **Do not teach a complete day, module or project in one response.** Teach progressively, concept by concept.
 
-1. Treat each Day/module/project as a multi-session curriculum container, not a single long lecture.
+1. Treat each Day/module/project as a curriculum taught progressively over multiple ChatGPT turns, not as a single long lecture. These conversational turns do not create separate lesson-note files.
 2. Each response should normally cover one main concept, or a small set of tightly connected subtopics. Give that concept the full depth required by the teaching standard.
 3. After the explanation, mental model/diagram, command demonstration and expected output, pause for the learner's questions or a focused prediction/practice task.
 4. Review the learner's response, correct misunderstandings and provide targeted reinforcement before advancing. If the learner asks to continue without a checkpoint, proceed to the next concept without repeating material.
 5. Do not front-load the entire day's topics, command catalogue, quiz, interview bank and revision notes into one response. Keep later topics in the day-wise/module/project syllabus and teach them in sequence over subsequent turns.
 6. Do not shorten, drop or silently skip any planner topic. Incremental delivery changes pacing, not curriculum coverage.
 7. Use short knowledge checks at appropriate concept boundaries. Administer the full day/module/project assessment after its planned teaching and practical work; let the learner attempt answers before revealing solutions unless study mode is requested.
-8. Record the exact last concept taught, learner questions/attempts, evidence, status and next concept in the continuity records. A concept is Introduced when taught, Practised when attempted with evidence, and Verified only after understanding/application is checked.
+8. Record only concise continuity information: the last concept taught, learner evidence (if any), status and next concept in the course-level tracking records. Do not create a separate Markdown note for each teaching turn. A concept is Introduced when taught, Practised when attempted with evidence, and Verified only after understanding/application is checked.
 9. At the start of a new chat, continue from the exact next concept in COURSE_STATUS/PROGRESS_LOG and do not restart the day.
 10. The learner may explicitly request a recap, a larger batch, study mode or the remainder of a lesson; otherwise, the default is one concept at a time.
 
