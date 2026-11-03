@@ -40,3 +40,10 @@ The legacy day records were moved into their corresponding day folders without d
 - Verify image paths render on GitHub after the lesson and asset are committed.
 
 See the visual teaching standard in [MASTER_COURSE_PLANNER.md](../MASTER_COURSE_PLANNER.md).
+
+
+## Selective notes and final day summaries
+
+Session files are concise, curated study notes—not transcripts. Save only essential concepts, distinctions, commands/options, useful diagrams, representative examples, safety points, common mistakes and the exact continuation point. Avoid repeated explanations, minor conversational details, decorative assets and redundant output. Preserve complete syllabus coverage without copying every line of a lesson into the repository.
+
+When a day's syllabus and all required completion criteria have been met with evidence, create `REVISION-SUMMARY.md` in that day folder and link it from the day's README. Keep it short and focused on what is most important to remember, with links to session notes. Do not create a final completion summary early or imply that note creation proves completion. For Day 1, the planned summary path is [DAY-01/REVISION-SUMMARY.md](DAY-01/REVISION-SUMMARY.md); it will be added to the index only after Day 1 is genuinely complete.
