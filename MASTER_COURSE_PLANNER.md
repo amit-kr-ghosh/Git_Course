@@ -75,7 +75,7 @@ Keep instructional content and progress verification visibly separate in every l
 - **Learning content** belongs in the lesson: concepts, diagrams, reasoning, command syntax, instructor demonstrations, expected output, examples, exercises, troubleshooting, professional context and revision.
 - **Verification checkpoint** belongs in the course-level status/tracker and a clearly separated compact footer/side panel only when needed: installation state, learner-provided evidence, quiz/interview outcome, topics verified, blockers and exact next action.
 - Do not make the verification checklist the opening body of a lesson. Do not repeat the entire course-status table inside lesson content.
-- A lesson can have a distinct short "Practice task" within the instructional flow. The existence of a task does not imply that it was attempted or verified.
+- Practice tasks may remain in the planned curriculum, but do not present or assign one until the learner explicitly opts in to that activity. Describing or demonstrating a task never proves that it was attempted or verified.
 - Keep command provenance explicit: "Demonstrated" means shown by the instructor; "Learner ran" requires learner evidence.
 - In a new session, report the checkpoint briefly, then begin the actual lesson content. If the checkpoint is still pending, do not turn the lesson into a wall of status tables.
 
@@ -89,7 +89,7 @@ Use a visual-first approach throughout the seven-day bootcamp, advanced modules 
 - **Mermaid diagrams:** use flowcharts for processes and decisions, sequence diagrams for client/remote interactions, state diagrams for file/branch states, and `gitGraph` for commit/branch/merge history. Choose the diagram type that best explains the concept.
 - **Images and screenshots:** include relevant technical illustrations, annotated UI screenshots and terminal captures when they materially improve understanding. Add alt text; redact personal information and all credentials/secrets; credit external assets.
 - **Animation:** use short GIFs only when movement is instructional (for example, a branch pointer moving, a merge occurring or a workflow progressing). Provide an equivalent static explanation; avoid decorative or distracting motion.
-- **Interactive learning:** in ChatGPT lessons, use supported interactive knowledge checks, quizzes, comparison controls and progress indicators when they improve practice. In repository Markdown, use answer-hidden quizzes, checklists and tables. GitHub Markdown itself does not host general-purpose interactive widgets; do not promise embedded app behavior. A separate GitHub Pages demo may be proposed only when a real interactive simulator is justified.
+- **Interactive learning:** after explicit learner opt-in, use supported interactive knowledge checks or quizzes in ChatGPT when useful. Repository Markdown may contain planned answer-hidden quizzes and reference tables, but do not administer or assign them automatically. GitHub Markdown does not host general-purpose interactive widgets; do not promise embedded app behavior. A separate GitHub Pages demo may be proposed only when a real interactive simulator is justified.
 - **Terminal panels:** show context, command, expected output and explanation in separate labelled blocks. Clearly label outputs as illustrative unless the learner supplied them. Explain Windows Git Bash syntax and note PowerShell/CMD differences when relevant.
 
 ### Diagram quality rules
@@ -107,8 +107,8 @@ For each substantial concept, consider this order:
 3. Internal mechanics and terminology.
 4. Syntax/options table.
 5. Windows Git Bash demonstration with expected output.
-6. Practical exercise and troubleshooting decision path.
-7. Professional scenario and interview/knowledge check.
+6. Troubleshooting decision path and professional scenario.
+7. Learner exercises, interview prompts and knowledge checks only after explicit opt-in to that activity.
 8. Revision summary.
 
 Not every small subtopic needs every media type. Select visuals for instructional value, accessibility and clarity rather than decoration.
