@@ -334,3 +334,16 @@ The learner explicitly requests progressive topic-wise notes across the reposito
 - The same whole-module/project synthesis may be created after all topics in that module/project are taught.
 - Do not infer learner practice, command execution, quiz results or verification from the existence of notes.
 - Keep supplementary discussions in `EXTRA_NOTES/` only when the learner explicitly requests saving them.
+
+
+## Latest controlling rule — topic-wise repository notes
+
+The learner explicitly requests progressive topic-wise notes across the repository. This rule supersedes any older instruction that prohibits topic-wise/lesson-wise notes until the end of a day.
+
+- Save a self-contained note for each syllabus topic as soon as that topic is fully taught.
+- Use `DAY_WISE/DAY-XX/TOPICS/`, `ADVANCED_MODULES/MODULE-X/TOPICS/` and `PRACTICALS_PROJECTS/PROJECT-XX/TOPICS/` for the corresponding tracks.
+- Keep one file per topic, not one file per conversational turn. Do not create notes for untaught topics.
+- Once all topics in a day have been taught, also create one concise day-level `REVISION-SUMMARY.md` in the day folder. It is a synthesis of topic notes, not a substitute.
+- The same whole-module/project synthesis may be created after all topics in that module/project are taught.
+- Do not infer learner practice, command execution, quiz results or verification from the existence of notes.
+- Keep supplementary discussions in `EXTRA_NOTES/` only when the learner explicitly requests saving them.
