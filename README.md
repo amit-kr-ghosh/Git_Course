@@ -192,3 +192,37 @@ Store useful visual assets in the repository when they materially improve a less
 
 Screenshots are instructional media, **not learner evidence** unless the learner supplied the capture and its provenance is clear. Record learner evidence separately in the progress files. GitHub Markdown does not support arbitrary embedded interactive widgets; use supported static visuals here and interactive controls in ChatGPT when appropriate.
 
+
+
+## Complete lesson notes and visual documentation
+
+The day-wise files are the actual study notes, not merely topic checklists. When a concept is taught in ChatGPT, add its substantive explanation to the relevant `DAY_WISE/day-XX-*.md` file as part of the normal course record. Do not leave a taught topic as an instruction such as “teach this here” or an empty placeholder.
+
+For each concept actually taught, capture the relevant material:
+- Clear definition, purpose and real-world need.
+- First-principles explanation and mental model.
+- Editable Mermaid diagram, state chart, sequence diagram or commit graph when it improves understanding.
+- Color-coded tables/labels using the shared visual legend.
+- Syntax/options and Windows Git Bash instructor demonstrations where relevant.
+- Clearly labelled illustrative expected output and explanation.
+- Common mistakes, troubleshooting and professional use.
+- A concise revision summary.
+
+Keep the lesson notes faithful to what was actually taught. Do not fill future topics with invented lessons, and do not mistake an instructor demonstration for learner execution. Add image assets only when a real visual adds value; Mermaid source is preferred for editable diagrams. Verify each changed lesson file after writing.
+
+## Random spaced-revision prompts — learner-authorized
+
+The learner has requested occasional, short revision pop-ups during the course. This is an explicit opt-in to **brief retrieval-practice prompts** drawn at varied, unpredictable points from:
+- Previously taught concepts across earlier days and advanced modules.
+- Important distinctions, mistakes and examples already covered.
+- Supplementary material in `EXTRA_NOTES/` that has actually been saved.
+
+Guidelines:
+- Keep a prompt short (normally one to three questions), focused and conversational; vary timing and topic rather than interrupting every lesson.
+- Ask about material that has already been taught or saved; never quiz on an untaught topic.
+- Mix recall, command choice, interpretation and short troubleshooting scenarios. Do not reveal the answer until the learner responds, unless they request study mode or the answer.
+- Give feedback, correct misconceptions and link the explanation back to the relevant lesson/extra note.
+- These are revision prompts, not formal day/module assessments. Keep full quizzes, interviews and practicals behind their separate explicit opt-in gates.
+- If the learner declines or asks to continue the lesson, respect that and resume teaching without pressure.
+- Do not invent a real-time notification or background popup. Present the prompt naturally inside an active ChatGPT conversation when an appropriate opportunity occurs.
+- Record meaningful revision outcomes only when the learner actually responds; a prompt being offered is not an attempt or a verified result.
