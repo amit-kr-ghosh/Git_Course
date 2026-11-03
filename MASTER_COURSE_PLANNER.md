@@ -279,3 +279,24 @@ Apply this standard across all seven bootcamp days, modules A–L and projects 1
 
 Do not create asset folders before there is a real asset to store. Do not replace editable diagrams with static images merely for appearance. The root README contains the companion authoring and privacy standard.
 
+
+
+## Lesson-note completeness — mandatory
+
+Day-wise lesson files are the actual study material, not topic placeholders. When a concept is taught in ChatGPT, capture its substantive content in the relevant `DAY_WISE/day-XX-*.md` file as part of the normal course documentation. For every taught concept, include the applicable definition/purpose, first-principles explanation, mental model, useful editable Mermaid visual, syntax/options, Windows Git Bash instructor demonstration, clearly labelled expected output, explanation, common mistakes, troubleshooting, professional context and revision summary. Not every small concept needs every item, but taught content must be useful for independent study.
+
+Never leave a taught topic as “teach this here” or a placeholder. Never invent detailed notes for untaught topics. Distinguish instructor demonstrations from learner execution and keep progress evidence in the tracking layer. Use Mermaid source for editable diagrams; add screenshot/image assets only when they materially improve understanding. After editing, fetch the changed lesson file and verify the saved content.
+
+## Random spaced-revision prompts — authorized by learner
+
+The learner explicitly requested occasional short revision pop-ups, chosen at varied and unpredictable moments, covering previously taught course concepts and supplementary notes saved in `EXTRA_NOTES/`.
+
+- Use brief conversational retrieval prompts, normally one to three questions, at varied intervals and across previously covered topics.
+- Sources may include prior taught concepts, earlier day/module material, key command distinctions, prior corrections and saved supplementary notes.
+- Only ask about content already taught or explicitly saved. Never test an untaught topic.
+- Vary question style: short recall, choose/explain a command, interpret a small output, distinguish similar concepts or diagnose a simple scenario.
+- Let the learner attempt before revealing the answer; then provide concise feedback and point back to the relevant lesson/note. If the learner requests study mode or the answer, provide it.
+- These are lightweight revision moments, not formal quizzes or assessments. Full quizzes, interviews, practicals and hands-on tasks remain subject to their separate explicit opt-in rules.
+- If the learner declines or asks to continue the lesson, resume the requested teaching without pressure.
+- “Pop-up” means a brief prompt during an active ChatGPT conversation; do not claim to send background notifications or interrupt outside the conversation.
+- A prompt is not an attempt. Record a revision result only after the learner responds; do not mark a topic Practised or Verified solely because a revision prompt was shown.
