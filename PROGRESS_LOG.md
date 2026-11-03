@@ -133,3 +133,11 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 
 - Repository structure cleanup completed: Day 1 session note removed; Days 2–7 curriculum templates renamed to `CURRICULUM.md`; day folder READMEs now point to the curriculum and the one completion-gated whole-day summary.
 - GitHub updates were fetched again to verify the new note policy and folder structure.
+
+
+## 2026-11-03 — Final clarification — timing of whole-day revision notes
+
+- The learner's requested trigger is completion of teaching the entire day's syllabus, not completion of practicals, quizzes, interviews or verification activities.
+- Supersedes the earlier wording in this log that tied the revision note to all completion criteria/evidence. Once every syllabus topic for a day has been taught, create exactly one concise `REVISION-SUMMARY.md` for that day.
+- Practical, quiz, interview and verification work may remain deferred. The summary records taught learning content only; it does not mark the day Practised or Verified.
+- No session-wise, lesson-wise or interim note files are to be created during the day.
