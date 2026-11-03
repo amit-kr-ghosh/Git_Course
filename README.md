@@ -14,22 +14,20 @@
 - [ADVANCED_MODULES/](ADVANCED_MODULES/) — modules A–L.
 - [PRACTICALS_PROJECTS/](PRACTICALS_PROJECTS/) — eight practical projects and evidence.
 
-## Supplementary discussion notes — ongoing capture rule
+## Supplementary discussion notes — user-controlled saving
 
-The `EXTRA_NOTES/` folder is the separate home for important concepts discussed alongside the course that support understanding but are outside the formal Git/GitHub syllabus (for example, terminal and shell fundamentals, operating-system concepts, development toolchains and related Windows environment details).
+The `EXTRA_NOTES/` folder is reserved for supplementary concepts discussed alongside the formal Git/GitHub course. **Do not save, summarize into repository notes, or update this folder automatically. Only do so when the learner explicitly asks to save the supplementary discussion or specific material.**
 
-When a conversation develops useful supplementary knowledge:
-- Capture the important explanations, definitions, comparisons, corrections, examples, command flows and meaningful diagrams in `EXTRA_NOTES/`.
-- Prefer updating and expanding an existing relevant note; create a new Markdown file only when the subject is substantial and distinct. Avoid duplicate notes and unnecessary folders.
-- Include editable Mermaid diagrams where they materially clarify architecture, sequences, decision paths or workflows. Use tables and code examples where more suitable.
-- Preserve context and important caveats; correct earlier simplifications if a later discussion makes the explanation more precise.
-- Keep notes self-contained, navigable from `EXTRA_NOTES/README.md`, and linked from this README through the folder index.
-- Keep supplementary notes separate from formal day-wise lessons, the master syllabus, learner progress and assessment evidence. Do not mark a course topic Practised or Verified merely because a supplementary explanation was saved.
-- Do not store secrets, access tokens, private keys or unnecessary personal data. Clearly label illustrative paths, commands and outputs; never present them as learner-run evidence.
-- After repository edits, fetch the changed files again and report exactly which files were successfully verified.
+- A discussion, useful explanation, correction, diagram, or substantial topic is **not** permission to save it.
+- Requests such as “continue”, “explain more”, or “what does this mean?” are not save requests.
+- Save only the material the learner explicitly identifies or clearly asks to preserve. If the scope is unclear, ask what they want saved.
+- When explicitly authorized, prefer updating an existing relevant note; create a new Markdown file only for a substantial, distinct subject. Update `EXTRA_NOTES/README.md` when adding a file.
+- Preserve accurate explanations, useful examples and editable Mermaid diagrams where appropriate. Keep supplementary notes separate from the formal syllabus and learner-progress records.
+- Saving a note does not introduce, practise or verify a formal syllabus topic.
+- Do not save secrets, access tokens, private keys or unnecessary sensitive personal information.
+- After an authorized repository edit, fetch changed files again and report exactly which files were verified.
 
-This is an ongoing documentation rule for future chats in this Project, not a request to add supplementary subjects to the formal curriculum.
-
+**Default: do not write supplementary discussion notes unless the learner explicitly requests it.**
 ## Visual-first teaching standard
 
 The course should use clear, purposeful visuals alongside detailed explanations. Apply this standard in ChatGPT lessons and, where appropriate, in repository lesson materials.
