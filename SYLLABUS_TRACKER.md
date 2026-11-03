@@ -1,12 +1,12 @@
 # Syllabus Tracker
 
-This file tracks **progress and evidence only**. Detailed explanations, examples and diagrams belong in the day/module lesson files. Never use this tracker as a lesson introduction or duplicate its status tables inside teaching content.
+This file tracks **progress and evidence only**. Detailed explanations, examples and diagrams belong in topic-wise notes under each day/module/project TOPICS/ folder. Create a note when its topic is fully taught. Never use this tracker as a lesson introduction or duplicate its status tables inside teaching content.
 
 Statuses: Not started | Introduced | Practised | Verified | Needs revision | Blocked.
 
 | Phase | Topic / deliverable | Status | Evidence / notes | Next action |
 |---|---|---|---|---|
-| Day 1 | Foundations and first repository | Introduced | Topics 1–4 introduced. Topic 4 (repository anatomy and workflow areas) is the current teaching point. Earlier claims for Topics 5–8 were rolled back; no learner terminal evidence, practical attempt or assessment attempt is recorded. | Resume teaching Topic 4; advance only when the learner asks |
+| Day 1 | Foundations and first repository | Introduced | Topics 1–5 introduced; Topic 4 note saved. Topic 5 has been partially taught (file states/transitions and HEAD–Index–Working Tree model); remaining subtopics are pending. No learner terminal evidence, practical attempt or assessment attempt is recorded. | Continue Topic 5 concept teaching; save its topic note when fully taught |
 | Day 2 | File lifecycle, inspection and safe undo | Not started | | |
 | Day 3 | Branching, merging and conflicts | Not started | | |
 | Day 4 | GitHub and team collaboration | Not started | | |
