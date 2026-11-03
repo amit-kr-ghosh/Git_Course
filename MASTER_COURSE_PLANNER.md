@@ -140,7 +140,7 @@ The lesson body contains the actual learning material: definitions, need/purpose
 - `COURSE_STATUS.md` is the single compact current checkpoint.
 - `SYLLABUS_TRACKER.md` records topic/deliverable status and evidence.
 - `PROGRESS_LOG.md` records dated course progress, learner evidence and the exact next checkpoint. These are continuity records, not lesson notes.
-- For the seven bootcamp day folders, do not create session-wise or lesson-wise Markdown files or per-session note sections. Keep the syllabus in `CURRICULUM.md`/the day README and create only one `REVISION-SUMMARY.md` after the entire day and its required completion criteria are finished.
+- For the seven bootcamp day folders, do not create session-wise or lesson-wise Markdown files or per-session note sections. Keep the syllabus in `CURRICULUM.md`/the day README and create only one `REVISION-SUMMARY.md` after the entire day's syllabus has been taught, regardless of whether practice/assessment evidence is still pending.
 - A ChatGPT response may include a brief checkpoint only after the lesson, visually separated from teaching. Do not repeat the whole checkpoint if it is already recorded and unchanged.
 
 ### D. Standard lesson sequence
@@ -306,6 +306,6 @@ The learner explicitly requested occasional short revision pop-ups, chosen at va
 
 The `DAY_WISE/` directory contains `DAY-01/` through `DAY-07/`. Teach each day's syllabus progressively in ChatGPT, but do not create session-wise or lesson-wise Markdown files and do not update notes after each concept. The day README may provide the syllabus overview and a brief checkpoint; it is not a lesson transcript.
 
-**Create exactly one consolidated `REVISION-SUMMARY.md` per day, only after that entire day's planned syllabus has been taught and the required completion criteria have been met with evidence.** The summary should be concise and high-value: essential concepts and mental models, important distinctions, core workflows and commands, focused diagrams, representative examples, safety warnings and common pitfalls. Do not include every conversational detail, repeated explanation or redundant output. Make the note useful as a whole-day revision reference.
+**Create exactly one consolidated `REVISION-SUMMARY.md` per day, as soon as that entire day's planned syllabus has been taught.** The summary should be concise and high-value: essential concepts and mental models, important distinctions, core workflows and commands, focused diagrams, representative examples, safety warnings and common pitfalls. Do not include every conversational detail, repeated explanation or redundant output. Make the note useful as a whole-day revision reference.
 
 Do not create a partial or session-wise note while the day is in progress. Create the single whole-day note once the entire syllabus has been taught, even if practicals or assessments remain deferred. Keep practical/assessment progress and status separate; summary creation does not label the day Practised or Verified. Apply the same rule to Days 1–7; for Day 1 the path is `DAY_WISE/DAY-01/REVISION-SUMMARY.md`.
