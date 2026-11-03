@@ -10,7 +10,7 @@
 
 ## Learning records
 - [EXTRA_NOTES/](EXTRA_NOTES/) — supplementary reference notes from related discussions; separate from the core curriculum and progress records.
-- [DAY_WISE/](DAY_WISE/) — seven day folders; each day has a README and, after completion, one consolidated whole-day revision note.
+- [DAY_WISE/](DAY_WISE/) — seven day folders; each completed syllabus topic gets its own note under that day's TOPICS/ folder, followed by one consolidated REVISION-SUMMARY.md after all topics in the day have been taught.
 - [ADVANCED_MODULES/](ADVANCED_MODULES/) — modules A–L.
 - [PRACTICALS_PROJECTS/](PRACTICALS_PROJECTS/) — eight practical projects and evidence.
 
@@ -101,7 +101,7 @@ The full curriculum and learner-consent rules remain governed by [MASTER_COURSE_
 
 ## Selective note-taking and end-of-day revision summaries
 
-Keep repository notes **high-value and concise**. Capture only information that materially helps future learning or continuity: core concepts and mental models, important distinctions, essential commands/options, useful diagrams, representative examples, common mistakes/safety warnings, and unresolved points or the next checkpoint. Do not archive every chat message, repeated explanation, minor clarification, decorative visual, or redundant command output. Prefer improving the relevant existing note over creating duplicates. The final day note should be a useful study reference, not a transcript.
+Keep repository notes **high-value and concise**. Capture only information that materially helps future learning or continuity: core concepts and mental models, important distinctions, essential commands/options, useful diagrams, representative examples, common mistakes/safety warnings, and unresolved points or the next checkpoint. Do not archive every chat message, repeated explanation, minor clarification, decorative visual, or redundant command output. Prefer improving the relevant existing topic note over creating duplicates. Topic notes are the primary detailed study references; the final day note is a concise whole-day synthesis, not a transcript.
 
 ### Day completion summary
 When all topics in a day's planned syllabus have been taught, create one concise whole-day revision note in that day's folder. For Day 1, the file will be `DAY_WISE/DAY-01/REVISION-SUMMARY.md`. It should distil the day's essential mental models, lifecycle/workflows, commands and their differences, key safety points and common mistakes in one self-contained reference. Do not reproduce every lesson or add unverified claims. Add it to the day README as soon as the entire syllabus has been taught. If practice/verification remains deferred, the note can still be created; keep the day’s progress status separate and do not mark it Practised or Verified without evidence.
