@@ -6,7 +6,7 @@ Statuses: Not started | Introduced | Practised | Verified | Needs revision | Blo
 
 | Phase | Topic / deliverable | Status | Evidence / notes | Next action |
 |---|---|---|---|---|
-| Day 1 | Foundations and first repository | Introduced | Topics 1–5 introduced; Topic 4 note saved. Topic 5 has been partially taught (file states/transitions and HEAD–Index–Working Tree model); remaining subtopics are pending. No learner terminal evidence, practical attempt or assessment attempt is recorded. | Continue Topic 5 concept teaching; save its topic note when fully taught |
+| Day 1 | Foundations and first repository | Introduced | Topics 1–5 introduced; topic notes 1–5 saved. Topic 5 fully taught in concept mode, including file states, Index/HEAD/Working Tree, object model, parent commits, OIDs, branches and HEAD. No learner terminal evidence, practical attempt or assessment attempt is recorded. | Continue Day 1 Topic 6 — install and configure Git on Windows |
 | Day 2 | File lifecycle, inspection and safe undo | Not started | | |
 | Day 3 | Branching, merging and conflicts | Not started | | |
 | Day 4 | GitHub and team collaboration | Not started | | |
