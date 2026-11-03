@@ -5,6 +5,9 @@ See [CURRICULUM.md](CURRICULUM.md) for the complete planned syllabus, practical 
 
 ## Topic-wise study notes
 
+- [Topic 1 — Why version control exists](TOPICS/TOPIC-01-why-version-control.md)
+- [Topic 2 — Version-control models](TOPICS/TOPIC-02-version-control-models.md)
+- [Topic 3 — Git vs GitHub](TOPICS/TOPIC-03-git-vs-github.md)
 - [Topic 4 — Repository anatomy and the four workflow areas](TOPICS/TOPIC-04-repository-anatomy.md)
 
 ## Current checkpoint
