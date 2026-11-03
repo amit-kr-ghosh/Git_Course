@@ -1,6 +1,6 @@
 # Progress Log
 
-This file is the chronological evidence record. Keep lesson explanations in the lesson files; do not duplicate them here. Record learner evidence and checkpoint outcomes here, not as opening status blocks in lesson material.
+This file is the chronological course-progress and evidence record. It is not a lesson-note archive. Do not create separate lesson/session files for each teaching turn; record only concise dated progress, learner evidence and the next checkpoint here. The single consolidated day revision note is created only after the whole day is complete.
 
 ## Initial repository setup
 
@@ -10,11 +10,11 @@ This file is the chronological evidence record. Keep lesson explanations in the 
 - No learner topics are recorded as Verified.
 - The concise repository curriculum index is available. The original 23-page planner DOCX still needs to be attached for detailed reconciliation.
 
-## Session template
+## Progress entry template
 
-Keep session summaries factual and brief. Record what was taught and what evidence exists; do not turn lesson bodies into checkpoint reports.
+Keep entries factual and brief. This log tracks course continuity and evidence; it does not store lesson explanations or session-by-session notes.
 
-### YYYY-MM-DD — Day/module — Session title
+### YYYY-MM-DD — Day/module — Progress checkpoint
 
 - Learning content covered (brief topic names only):
 - Instructor demonstrations (commands):
@@ -115,7 +115,7 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - GitHub sync: Progress record update committed and verified by re-fetch.
 
 
-## 2026-11-03 — Note-taking preference — concise day and session records
+## 2026-11-03 — Note-taking preference — one concise note per completed day
 
 - Learner requested selective repository notes: retain only important, reusable material for day/session lessons and explicitly requested supplementary notes; do not archive every conversational detail or duplicate explanations.
 - Agreed completion artifact: after the full Day 1 syllabus and all required completion criteria are met with evidence, create a short `DAY_WISE/DAY-01/REVISION-SUMMARY.md` and link it from the Day 1 README. Apply the same completion-gated summary pattern to later days.
