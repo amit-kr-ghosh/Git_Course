@@ -1,6 +1,6 @@
 # Day-wise Learning Records
 
-The seven bootcamp days are stored in separate folders: `DAY-01/` through `DAY-07/`. Each folder has a `README.md` for its syllabus and checkpoint. **No session-wise or lesson-wise note files are created while a day is in progress.**
+The seven bootcamp days are stored in `DAY-01/` through `DAY-07/`. Each day folder contains its `README.md`, `CURRICULUM.md`, and a `TOPICS/` folder created as topic notes are completed.
 
 ## Day folders
 - [Day 1 — Foundations](DAY-01/README.md)
@@ -11,16 +11,16 @@ The seven bootcamp days are stored in separate folders: `DAY-01/` through `DAY-0
 - [Day 6 — Actions, quality and security](DAY-06/README.md)
 - [Day 7 — Integrated capstone](DAY-07/README.md)
 
-## Whole-day notes — created after the full syllabus is taught
+## Topic-wise notes
 
-During each day, teaching happens in ChatGPT. Do not save individual lessons, sessions, clarifications or partial recaps as repository note files.
+- Save one Markdown note for each syllabus topic as soon as that topic has been fully taught.
+- Store notes under the relevant day's `TOPICS/` folder as `TOPIC-XX-short-name.md`.
+- Keep one note per syllabus topic, not per ChatGPT turn. Update an existing note for corrections rather than creating duplicates.
+- Do not create notes for untaught topics or empty topic folders in advance.
+- Topic notes are instructional material, not evidence of learner practice or verification.
 
-After the learner has been taught the entire planned syllabus for a day, create exactly one concise `REVISION-SUMMARY.md` in that day's folder and link it from that day's README. It should capture the most important concepts, mental models, commands and distinctions, focused diagrams, representative examples, safety warnings and common pitfalls from the whole day. Keep it useful for revision, not a transcript.
+## Whole-day revision notes
 
-Create the summary as soon as the entire day's syllabus has been taught, even if a practical or assessment remains deferred. The summary records learning content only; progress status and practical/assessment verification remain separate and must never be inferred from the note.
+After every topic in a day has been taught, create one concise `REVISION-SUMMARY.md` in that day's root folder and link it from the day README. It synthesises the topic notes and does not replace them. It may be created even if practicals or assessments remain deferred.
 
-## Visual standard
-
-Use focused Mermaid diagrams, consistent color cues, relevant images/screenshots and short instructional animation only when they materially improve understanding. Keep terminal demonstrations clearly labelled as instructor examples; never present them as learner evidence. Prefer editable Mermaid source for diagrams and redact private information from screenshots.
-
-See the visual teaching standard in [MASTER_COURSE_PLANNER.md](../MASTER_COURSE_PLANNER.md).
+See the topic-note and visual standards in [MASTER_COURSE_PLANNER.md](../MASTER_COURSE_PLANNER.md).
