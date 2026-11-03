@@ -10,20 +10,17 @@
 
 ## Learning records
 - [EXTRA_NOTES/](EXTRA_NOTES/) — supplementary reference notes from related discussions; separate from the core curriculum and progress records.
-- [DAY_WISE/](DAY_WISE/) — seven day folders; each day contains a README/index and separate lesson/session notes.
+- [DAY_WISE/](DAY_WISE/) — seven day folders; each day has a README and, after completion, one consolidated whole-day revision note.
 - [ADVANCED_MODULES/](ADVANCED_MODULES/) — modules A–L.
 - [PRACTICALS_PROJECTS/](PRACTICALS_PROJECTS/) — eight practical projects and evidence.
 
-## Day-wise, session-wise lesson storage
+## Day-wise learning records
 
-The `DAY_WISE/` directory is organised as `DAY-01/` through `DAY-07/`. Each day folder contains:
-- `README.md` — day overview and ordered session index.
-- `SESSION-01-<topic>.md`, `SESSION-02-<topic>.md`, etc. — the actual lesson material taught, saved as separate files in teaching order.
-- `CURRICULUM-AND-SESSION-INDEX.md` — retained syllabus/checkpoint template where applicable for Days 2–7.
+The `DAY_WISE/` directory is organised as `DAY-01/` through `DAY-07/`. During a day, teach and discuss the syllabus in ChatGPT; do not create or update lesson/session files after individual concepts.
 
-**Automatic course-note capture:** when the learner says “next” or “continue” and a new course concept is taught, save that newly taught segment as a new sequential session note in the appropriate day folder. Do not overwrite previous session notes or create a new file for a mere clarification that belongs to the same segment; append a new session when a distinct lesson segment is taught. Update that day's README session index when adding a session. This applies to formal course lesson material only; supplementary discussions still follow the explicit-save rule for `EXTRA_NOTES/`.
+**One note per completed day:** only after the learner has finished the entire planned syllabus for that day and its required completion criteria have been satisfied with evidence, create one concise `REVISION-SUMMARY.md` in that day's folder and link it from the day README. The note is a consolidated revision aid for the whole day, not a transcript or a session log. Until then, keep the day’s teaching in the conversation and maintain only the course-level progress records needed for accurate continuity.
 
-A teaching segment being saved records that it was taught (Introduced), not that the learner practised or verified it. Never infer learner execution or upgrade status from note creation.
+This rule applies consistently to Days 1–7. Supplementary discussions remain separate and are saved to `EXTRA_NOTES/` only when the learner explicitly asks. Creating a day summary does not itself prove completion or upgrade progress status.
 
 ## Supplementary discussion notes — user-controlled saving
 
@@ -91,7 +88,7 @@ The full curriculum and learner-consent rules remain governed by [MASTER_COURSE_
 
 ## Selective note-taking and end-of-day revision summaries
 
-Keep repository notes **high-value and concise**. Capture only information that materially helps future learning or continuity: core concepts and mental models, important distinctions, essential commands/options, useful diagrams, representative examples, common mistakes/safety warnings, and unresolved points or the next checkpoint. Do not archive every chat message, repeated explanation, minor clarification, decorative visual, or redundant command output. Prefer improving the relevant existing note over creating duplicates. A session file should be a useful study reference, not a transcript.
+Keep repository notes **high-value and concise**. Capture only information that materially helps future learning or continuity: core concepts and mental models, important distinctions, essential commands/options, useful diagrams, representative examples, common mistakes/safety warnings, and unresolved points or the next checkpoint. Do not archive every chat message, repeated explanation, minor clarification, decorative visual, or redundant command output. Prefer improving the relevant existing note over creating duplicates. The final day note should be a useful study reference, not a transcript.
 
 ### Day completion summary
 When a day's full planned syllabus has been taught **and** its required completion criteria have been met with evidence (including any practical/assessment items required by that day's definition of done), create one concise whole-day revision note in that day's folder. For Day 1, the file will be `DAY_WISE/DAY-01/REVISION-SUMMARY.md`. It should distil the day's essential mental models, lifecycle/workflows, commands and their differences, key safety points, common mistakes, and links to the session notes. Do not reproduce every lesson or add unverified claims. Add it to the day README only when the completion criteria are actually satisfied. If teaching is complete but practice/verification remains deferred, do not label the day complete or create the final completion summary prematurely; a clearly labelled interim recap may be offered in chat, but it is not the final day-completion record.
