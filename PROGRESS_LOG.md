@@ -120,3 +120,13 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - Learner requested selective repository notes: retain only important, reusable material for day/session lessons and explicitly requested supplementary notes; do not archive every conversational detail or duplicate explanations.
 - Agreed completion artifact: after the full Day 1 syllabus and all required completion criteria are met with evidence, create a short `DAY_WISE/DAY-01/REVISION-SUMMARY.md` and link it from the Day 1 README. Apply the same completion-gated summary pattern to later days.
 - This preference update does not change learner progress, topic statuses or completion evidence. Day 1 remains Introduced; practice/verification and Git installation remain unconfirmed.
+
+
+## 2026-11-03 — Clarification — one consolidated note per completed day
+
+- Learner clarified that session-wise and lesson-wise note creation is cumbersome and is not wanted.
+- Superseding rule: do not create repository lesson/session notes during an active day. Teach the syllabus in ChatGPT.
+- After the learner finishes the entire syllabus for a day and its required completion criteria are met with evidence, create one concise `REVISION-SUMMARY.md` for that whole day and link it from the day README.
+- No session indexes or sequential session files are part of the intended learning-note workflow. Existing partial Day 1 session file is to be removed; its taught content can be included in the eventual whole-day summary.
+- This preference change does not alter progress evidence. Day 1 remains Introduced; learner practice, installation and verification remain unconfirmed.
+- GitHub sync: this entry records the requested policy change; sync status will be reported only after writes are fetched and verified.
