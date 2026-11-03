@@ -264,3 +264,18 @@ This learner-consent rule is the latest and controlling instruction. It override
 ## Latest controlling rule — concept learning before learner activities
 
 The learner's default mode is **concept explanation only**. Teach thoroughly, one concept at a time, and pause for questions or clarification. Instructor-led demonstrations and worked examples are allowed. Do not ask the learner to predict output, explain back, run commands, submit evidence, complete exercises, or do homework unless the learner explicitly opts in. Do not administer quizzes, tests, assessments, interview prompts or practicals until the relevant concepts have been taught and the learner explicitly requests that particular activity. Questions with answers/model answers may be supplied as study material when useful or requested; they are not an assessment attempt. “Continue”, “next topic”, silence, or moving to a later day/module/project is not consent. If the learner advances while previously planned activities remain incomplete, remind them and ask whether they wish to continue learning concepts or explicitly begin one named activity. Consent to one activity does not authorise another. This rule overrides all older pacing or assessment wording that implies automatic checks, practice or practical assignments. Keep the complete syllabus and assessment plans intact; defer administration rather than omitting coverage.
+
+## Screenshot and visual-asset storage workflow
+
+Apply this standard across all seven bootcamp days, modules A–L and projects 1–8 whenever a screenshot or image adds genuine instructional value.
+
+1. **Choose the medium intentionally.** Use editable Mermaid for process/state/sequence/commit diagrams; use a screenshot for real UI details, terminal layouts, settings screens or a visual state that is difficult to represent clearly in text. Use a short GIF only when motion itself teaches the concept, and provide a static alternative.
+2. **Store assets near their lessons.** Use `DAY_WISE/assets/`, `ADVANCED_MODULES/assets/` or `PRACTICALS_PROJECTS/assets/` according to the lesson. Create a folder only when needed; do not add empty or generic media directories.
+3. **Name and link consistently.** Use descriptive lowercase hyphenated names (for example, `day-01-git-status-untracked.png`). Embed with a relative Markdown path in the relevant lesson. Supply descriptive alt text and a concise caption; keep the explanation in the lesson.
+4. **Identify provenance.** State whether a visual is an authentic Git/GitHub interface capture, an instructor-created illustration/mock-up, or an illustrative terminal example. Never fabricate an authentic-looking capture or imply that instructor output was run by the learner.
+5. **Protect privacy and rights.** Redact usernames, email addresses, private repository data, tokens, keys and credential-bearing URLs. Never store secrets. Credit external assets and check licence/permission before committing them; prefer original visuals.
+6. **Review quality.** Ensure text is readable, crop irrelevant content, use accessible contrast and callouts sparingly, and verify the relative path and rendered image after the commit. Avoid redundant or decorative screenshots.
+7. **Keep evidence separate.** A screenshot used to teach a concept is not proof of learner execution. Only a learner-provided capture with clear provenance may be recorded as learner evidence, and it must still be reviewed.
+
+Do not create asset folders before there is a real asset to store. Do not replace editable diagrams with static images merely for appearance. The root README contains the companion authoring and privacy standard.
+
