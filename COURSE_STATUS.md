@@ -27,7 +27,7 @@ This file is the compact **verification checkpoint**, not lesson material. Keep 
 
 ## Exact next action
 
-1. Continue Day 1 concept teaching progressively, one concept at a time. The four areas of the Git workflow have now been explained; next concept: file states and transitions (untracked, modified, staged and committed).
+1. Continue Day 1 concept teaching progressively, one concept at a time. The four areas of the Git workflow have now been explained; next concept: file states and transitions (untracked, modified, staged and committed). Save the next distinct teaching segment as `DAY_WISE/DAY-01/SESSION-02-file-states-and-transitions.md` and add it to `DAY_WISE/DAY-01/README.md`.
 2. Continue concept-only teaching. Do not request Git Bash output, assign practical work, or present quiz/interview prompts unless the learner explicitly opts in to that specific activity.
 3. The original 23-page Master Planner DOCX remains needed for detailed-source reconciliation.
 4. If the learner advances to a later day/module before deferred assessments or practicals are completed, remind them of the pending activities and ask whether to continue concepts or explicitly begin one.
@@ -74,3 +74,11 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 
 The learner has requested concept teaching only until they have learned the relevant material and explicitly opt in. Do not assign quizzes, assessments, interview prompts, practicals, exercises, homework, challenges, command execution or deliverables by default. Questions with answers/model explanations may be included as teaching. “Continue” or moving to a later day is not consent. Remind the learner about pending activities when they advance, and ask whether they want to continue learning or explicitly begin one named activity. No progress status or evidence is changed by this preference update.
 
+
+
+## Lesson-note storage
+
+- Day-wise records are organised under `DAY_WISE/DAY-01/` through `DAY-07/`.
+- Day 1's existing foundations record is retained at `DAY_WISE/DAY-01/SESSION-01-foundations-and-workflow-areas.md`.
+- New distinct concepts taught in later turns are saved as the next sequential session note in the relevant day folder; previous sessions are preserved.
+- Session-note creation records teaching only. Learner practice and verification statuses remain evidence-based.
