@@ -1,6 +1,6 @@
 # Day-wise Learning Records
 
-The seven bootcamp days are stored in separate folders: `DAY-01/` through `DAY-07/`. Each folder has a `README.md` index and keeps the actual lesson material in sequential session files.
+The seven bootcamp days are stored in separate folders: `DAY-01/` through `DAY-07/`. Each folder has a `README.md` for its syllabus and checkpoint. **No session-wise or lesson-wise note files are created while a day is in progress.**
 
 ## Day folders
 - [Day 1 — Foundations](DAY-01/README.md)
@@ -11,39 +11,16 @@ The seven bootcamp days are stored in separate folders: `DAY-01/` through `DAY-0
 - [Day 6 — Actions, quality and security](DAY-06/README.md)
 - [Day 7 — Integrated capstone](DAY-07/README.md)
 
-## Session note structure
+## Whole-day notes — created only after completion
 
-Each distinct teaching segment is saved as a separate Markdown file in its day folder:
-`SESSION-01-<topic>.md`, `SESSION-02-<topic>.md`, and so on. Session numbering continues across chats for that day. Each session note should contain the substantive material actually taught: explanation, first-principles reasoning, diagrams, Windows Git Bash instructor demonstrations, illustrative expected output, common mistakes, troubleshooting and revision summary as appropriate.
+During each day, teaching happens in ChatGPT. Do not save individual lessons, sessions, clarifications or partial recaps as repository note files.
 
-When a learner says “next” or “continue” and a new concept is taught, add a new session file and update that day's README index. Do not overwrite earlier session notes. A clarification of the current concept belongs in the current session note; create another session file when a distinct lesson segment is taught.
+After the learner has finished the entire planned syllabus for a day and all required completion criteria have been satisfied with evidence, create exactly one concise `REVISION-SUMMARY.md` in that day's folder and link it from that day's README. It should capture the most important concepts, mental models, commands and distinctions, focused diagrams, representative examples, safety warnings and common pitfalls from the whole day. Keep it useful for revision, not a transcript.
 
-The legacy day records were moved into their corresponding day folders without discarding their syllabus or checkpoint content. For Day 1, the existing foundations record is retained as Session 1. For Days 2–7, the existing curriculum templates are retained as `CURRICULUM-AND-SESSION-INDEX.md`; actual lesson sessions will be added as they are taught.
+Do not create the summary early, and do not treat its creation as proof of completion. If a required practical or assessment remains deferred or unverified, continue teaching in ChatGPT and wait to create the final day note until the criteria are met.
 
-## Visual lesson authoring checklist
-- Use focused Mermaid flowcharts, state diagrams, sequence diagrams or commit graphs when they clarify the concept.
-- Apply the shared color legend: blue worktree, amber staging, green commits/verification, purple remote/collaboration, red risk/conflict.
-- Include relevant technical images or annotated screenshots only when they add information; use alt text and redact private data.
-- Use short instructional GIFs only when motion is essential, and include a static alternative.
-- Use interactive knowledge checks in ChatGPT only when the learner opts in; static Markdown is not an interactive widget.
-- Present terminal demonstrations as context, command, illustrative expected output and explanation.
-- Keep learner-run evidence separate from instructor demonstrations.
-- Preserve the complete syllabus, practical, troubleshooting, interview and revision requirements; do not mark completion without evidence.
+## Visual standard
 
-## Screenshot and image storage
-- Store useful Day 1–7 captures under `DAY_WISE/assets/`; create this folder only when the first asset is ready.
-- Embed images in the relevant session note with a relative path, descriptive alt text and caption.
-- Prefer authentic, current Git Bash/GitHub captures for interface-specific teaching; label instructor-created mock-ups and illustrative output honestly.
-- Redact personal information, private repository details, tokens, keys and credential-bearing URLs.
-- Prefer Mermaid source for editable diagrams; use GIF only when motion is essential.
-- A teaching screenshot is not learner practical evidence.
-- Verify image paths render on GitHub after the lesson and asset are committed.
+Use focused Mermaid diagrams, consistent color cues, relevant images/screenshots and short instructional animation only when they materially improve understanding. Keep terminal demonstrations clearly labelled as instructor examples; never present them as learner evidence. Prefer editable Mermaid source for diagrams and redact private information from screenshots.
 
 See the visual teaching standard in [MASTER_COURSE_PLANNER.md](../MASTER_COURSE_PLANNER.md).
-
-
-## Selective notes and final day summaries
-
-Session files are concise, curated study notes—not transcripts. Save only essential concepts, distinctions, commands/options, useful diagrams, representative examples, safety points, common mistakes and the exact continuation point. Avoid repeated explanations, minor conversational details, decorative assets and redundant output. Preserve complete syllabus coverage without copying every line of a lesson into the repository.
-
-When a day's syllabus and all required completion criteria have been met with evidence, create `REVISION-SUMMARY.md` in that day folder and link it from the day's README. Keep it short and focused on what is most important to remember, with links to session notes. Do not create a final completion summary early or imply that note creation proves completion. For Day 1, the planned summary path is [DAY-01/REVISION-SUMMARY.md](DAY-01/REVISION-SUMMARY.md); it will be added to the index only after Day 1 is genuinely complete.
