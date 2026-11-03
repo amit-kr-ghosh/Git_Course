@@ -1,7 +1,7 @@
 # Day 2 — File lifecycle, inspection and safe undo
 
-## Curriculum and session index
-- [Day 2 syllabus, planned practical, interview focus and checkpoint template](CURRICULUM-AND-SESSION-INDEX.md)
+## Day curriculum
+- [Day 2 syllabus, planned practical, interview focus and checkpoint template](CURRICULUM.md)
 
-## Sessions
-New teaching notes will be added here as `SESSION-01-...`, `SESSION-02-...`, and so on, in the order taught. The curriculum outline is not evidence that a topic has been taught or practised.
+## Whole-day revision note
+After the full Day syllabus and its required completion criteria are satisfied with evidence, one concise `REVISION-SUMMARY.md` will be created here. No lesson-wise or session-wise note files are created while the day is in progress.
