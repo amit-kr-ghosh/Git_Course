@@ -11,7 +11,7 @@ This file is the compact **verification checkpoint**, not lesson material. Keep 
 - Curriculum: 7-day bootcamp + 12 advanced modules (A–L) + 8 projects
 - Current phase: Day 1 — setup and foundations
 - Overall Day 1 status: Introduced (verification pending)
-- Last taught topic: Day 1 — the four areas of the Git workflow: Working Directory, Staging Area (Index), Local Repository and Remote Repository (2026-11-03)
+- Last taught topic: Day 1 — file states and transitions; tracked vs untracked; staged vs modified; snapshots, commit parents, object IDs, branches and HEAD (2026-11-03)
 - Last verified topic: None
 - Git installation: Unconfirmed; learner output not supplied
 - Git identity/configuration: Unconfirmed; learner output not supplied
@@ -27,7 +27,7 @@ This file is the compact **verification checkpoint**, not lesson material. Keep 
 
 ## Exact next action
 
-1. Continue Day 1 concept teaching progressively, one concept at a time. The four areas of the Git workflow have been explained; next concept: file states and transitions (untracked, modified, staged and committed). Do not create a lesson/session note. After the entire Day 1 syllabus has been taught, create the single `DAY_WISE/DAY-01/REVISION-SUMMARY.md`.
+1. Continue Day 1 concept teaching progressively, one concept at a time. The four workflow areas and file states/transitions have been explained; next topic: install and configure Git on Windows (Git for Windows, Git Bash, version checks, identity and configuration scopes, with PowerShell/CMD distinctions where useful). Do not create a lesson/session note. After the entire Day 1 syllabus has been taught, create the single `DAY_WISE/DAY-01/REVISION-SUMMARY.md`.
 2. Continue concept-only teaching. Do not request Git Bash output, assign practical work, or present quiz/interview prompts unless the learner explicitly opts in to that specific activity.
 3. The original 23-page Master Planner DOCX remains needed for detailed-source reconciliation.
 4. If the learner advances to a later day/module before deferred assessments or practicals are completed, remind them of the pending activities and ask whether to continue concepts or explicitly begin one.
@@ -50,7 +50,7 @@ See [SYLLABUS_TRACKER.md](SYLLABUS_TRACKER.md) for topic-level status and [PROGR
 
 ## Last updated
 
-2026-11-03 — Day 1 concept teaching continued; the four Git workflow areas were explained. Installation and learner execution remain unverified.
+2026-11-03 — Day 1 concept teaching continued; the four workflow areas and file states/transitions were explained. Installation and learner execution remain unverified.
 
 ## Learner-controlled practice and assessment — mandatory consent gate
 
