@@ -1,6 +1,6 @@
 # Advanced Modules A–L
 
-Maintain one record per module A–L using the exact scope in MASTER_COURSE_PLANNER.md. A module may span multiple lessons. Track topic coverage, command/practical evidence, quiz/interview practice, gaps and next action. Bootcamp completion does not complete the advanced course.
+Maintain one folder/record per module A–L using the exact scope in MASTER_COURSE_PLANNER.md. Within each module folder, save one self-contained Markdown note under TOPICS/ as soon as each module topic is fully taught. Do not create session transcripts, duplicate clarification notes or notes for untaught material. A module-level REVISION-SUMMARY.md may be created after all topics in that module have been taught. Track topic coverage, command/practical evidence, quiz/interview practice, gaps and next action separately. Bootcamp completion does not complete the advanced course.
 
 ## Screenshot and visual-asset standard
 
