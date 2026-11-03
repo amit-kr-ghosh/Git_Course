@@ -10,4 +10,4 @@ After the entire Day 1 syllabus has been taught, create one concise `REVISION-SU
 
 ## Current checkpoint
 
-Next concept: file states and transitions — untracked, modified, staged and committed.
+Current teaching point: Topic 4 — repository anatomy and the four workflow areas. Resume/reteach this topic before advancing to Topic 5.
