@@ -20,7 +20,7 @@ In a new repository named `git-learning-journey`, create a README, Day 1 notes a
 - The complete Day 1 syllabus above has been taught.
 - Required practical and assessment criteria have been addressed with learner evidence, when the learner opts in and those activities are required for completion.
 - Understanding and application have been reviewed; statuses are based on evidence, not instructor demonstrations.
-- Only after the day is genuinely complete, create one concise `REVISION-SUMMARY.md` for the whole day and link it from [README.md](README.md).
+- As soon as the entire Day 1 syllabus above has been taught, create one concise `REVISION-SUMMARY.md` for the whole day and link it from [README.md](README.md), even if practical or assessment evidence remains pending.
 
 ## Note-taking rule
 
