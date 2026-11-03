@@ -82,3 +82,9 @@ The learner has requested concept teaching only until they have learned the rele
 - Day 1's existing foundations record is retained at `DAY_WISE/DAY-01/SESSION-01-foundations-and-workflow-areas.md`.
 - New distinct concepts taught in later turns are saved as the next sequential session note in the relevant day folder; previous sessions are preserved.
 - Session-note creation records teaching only. Learner practice and verification statuses remain evidence-based.
+
+
+## Selective notes and Day 1 final recap
+
+- Keep session notes concise and high-value: core concepts, mental models, important command distinctions, focused diagrams, representative examples, safety warnings, common mistakes and unresolved checkpoints only. Do not save every conversational detail or repeat content unnecessarily.
+- After the full Day 1 syllabus and all required completion criteria are satisfied with evidence, create `DAY_WISE/DAY-01/REVISION-SUMMARY.md` and link it from the Day 1 README. Until then, no final completion summary and no Day 1 completion claim. A summary is a revision aid, not evidence that the learner completed the day.
