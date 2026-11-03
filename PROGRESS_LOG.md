@@ -166,3 +166,15 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - Learner commands actually run: None evidenced. Practical, quiz and interview: Not attempted. No progress status upgraded to Practised or Verified.
 - Exact next topic: Continue Day 1 Topic 5 with Git's internal object model, then parent commits, object IDs, branches and HEAD.
 - Original 23-page Master Planner DOCX remains unattached; detailed-source reconciliation remains open.
+
+
+## 2026-11-03 — Repository note structure — topic-wise notes adopted
+
+- Learner explicitly requested topic-wise notes as each topic is completed, plus one consolidated note when the whole day is taught.
+- New convention: `DAY_WISE/DAY-XX/TOPICS/TOPIC-XX-short-name.md`; create/update one topic note as soon as that topic is fully taught. No session transcripts, duplicate clarification files or notes for untaught topics.
+- After all topics in a day are taught, create one `REVISION-SUMMARY.md` in that day's root folder. It synthesises the topic notes and does not replace them.
+- The same principle applies to advanced module and project topic notes, created under the relevant module/project folder when work begins. Do not create empty folders or untaught notes.
+- Topic 4 (repository anatomy and workflow areas) is fully taught and its note is saved. Topic 5 (file states/transitions and HEAD–Index–Working Tree model) has been introduced but remains in progress; no Topic 5 note until the topic is fully taught.
+- Learner commands actually run: None evidenced. Practical, quiz and interview: Not attempted. No progress status upgraded to Practised or Verified.
+- Exact next topic: Continue Day 1 Topic 5 with Git's internal object model, then parent commits, object IDs, branches and HEAD.
+- Original 23-page Master Planner DOCX remains unattached; detailed-source reconciliation remains open.
