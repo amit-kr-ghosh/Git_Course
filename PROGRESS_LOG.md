@@ -1,6 +1,6 @@
 # Progress Log
 
-This file is the chronological course-progress and evidence record. It is not a lesson-note archive. Do not create separate lesson/session files for each teaching turn; record only concise dated progress, learner evidence and the next checkpoint here. The single consolidated day revision note is created only after the whole day is complete.
+This file is the chronological course-progress and evidence record. It is not a lesson-note archive. Do not create separate lesson/session files for each teaching turn; record only concise dated progress, learner evidence and the next checkpoint here. The single consolidated day revision note is created once the entire day's syllabus has been taught; it is not gated on practical or assessment completion.
 
 ## Initial repository setup
 
