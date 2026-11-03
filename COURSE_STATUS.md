@@ -11,7 +11,7 @@ This file is the compact **verification checkpoint**, not lesson material. Keep 
 - Curriculum: 7-day bootcamp + 12 advanced modules (A–L) + 8 projects
 - Current phase: Day 1 — setup and foundations
 - Overall Day 1 status: Introduced (verification pending)
-- Last taught topic: Day 1 — Topic 5 introduced (file states/transitions and the HEAD–Index–Working Tree model); Topic 5 remains in progress (2026-11-03)
+- Last taught topic: Day 1 — Topic 5 fully taught (file states/transitions, HEAD–Index–Working Tree, Git objects, parent commits, object IDs, branches and HEAD) (2026-11-03)
 - Last verified topic: None
 - Git installation: Unconfirmed; learner output not supplied
 - Git identity/configuration: Unconfirmed; learner output not supplied
@@ -27,7 +27,7 @@ This file is the compact **verification checkpoint**, not lesson material. Keep 
 
 ## Exact next action
 
-1. Continue Day 1 Topic 5 — complete file states/transitions, then teach Git's object model (blobs, trees and commits), parent commits, object IDs, branches and HEAD in the planned sequence.
+1. Continue with Day 1 Topic 6 — install and configure Git on Windows; installation and identity/configuration remain unconfirmed.
 2. Topics 6–8 remain untaught. Continue concept-only teaching; do not request terminal output, assign practical work, or present quizzes/interview prompts unless the learner explicitly opts in to that specific activity.
 3. Save a topic note when each topic is fully taught. Day 1's whole-day REVISION-SUMMARY.md is created only after all eight topics have been taught.
 4. The original 23-page Master Planner DOCX remains needed for detailed-source reconciliation.
@@ -50,7 +50,7 @@ See [SYLLABUS_TRACKER.md](SYLLABUS_TRACKER.md) for topic-level status and [PROGR
 
 ## Last updated
 
-2026-11-03 — Topic 5 introduced; topic-wise note policy adopted. Earlier Topic 4 checkpoint correction remains in history.
+2026-11-03 — Topic 5 fully taught; topic-wise note policy adopted. Earlier Topic 4 checkpoint correction remains in history.
 
 ## Learner-controlled practice and assessment — mandatory consent gate
 
@@ -82,4 +82,4 @@ The learner has requested concept teaching only until they have learned the rele
 - Do not create session-wise transcripts, duplicate clarification notes or notes for untaught topics.
 - Once every topic in a day has been taught, create one concise `REVISION-SUMMARY.md` in that day's root folder; it synthesises the topic notes.
 - Notes record teaching content only. They do not prove learner practice or verification and do not upgrade progress status.
-- Day 1 Topic 4 has a topic note; Topic 5 is in progress. Do not create the Day 1 whole-day summary yet.
+- Day 1 Topics 1–5 have topic notes. Topics 6–8 remain untaught; do not create the Day 1 whole-day summary yet.
