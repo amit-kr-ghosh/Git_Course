@@ -176,7 +176,6 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - Topic 4 (repository anatomy and workflow areas) is fully taught and its note is saved. Topic 5 (file states/transitions and HEAD–Index–Working Tree model) has been introduced but remains in progress; no Topic 5 note until the topic is fully taught.
 - Learner commands actually run: None evidenced. Practical, quiz and interview: Not attempted. No progress status upgraded to Practised or Verified.
 - Exact next topic: Continue Day 1 Topic 5 with Git's internal object model, then parent commits, object IDs, branches and HEAD.
-- Original 23-page Master Planner DOCX remains unattached; detailed-source reconciliation remains open.
 
 
 ## 2026-11-03 — Day 1 — Topic notes 1–3 reconstructed
@@ -207,7 +206,7 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - Practical attempt and result: Not attempted; remains deferred until explicit opt-in.
 - Quiz/interview: Not attempted; remains deferred until explicit opt-in.
 - Topics Introduced: Day 1 Topics 1–5. Practised: none evidenced. Verified: none.
-- Needs revision / blockers: Git installation and configuration remain unconfirmed; original 23-page Master Planner DOCX remains unattached.
+- Needs revision / blockers: Git installation and configuration remain unconfirmed.
 - Topic note: `DAY_WISE/DAY-01/TOPICS/TOPIC-05-file-states-and-git-objects.md` created and linked from the Day 1 README.
 - Exact next topic: Day 1 Topic 6 — install and configure Git on Windows, with Git Bash as the primary shell. Do not request terminal output or assign a setup task unless the learner opts in.
 - GitHub sync: pending verification after writes.
