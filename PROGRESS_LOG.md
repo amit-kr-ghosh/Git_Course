@@ -198,3 +198,17 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - Removed the duplicate topic-wise controlling-rule block from the master planner. Clarified the root README's checkpoint and consent wording.
 - Re-fetched changed files after writes for verification. The original 23-page Master Planner DOCX was not found in the repository tree; full syllabus reconciliation against that source remains pending until it is attached.
 - Exact next learning checkpoint remains Day 1 Topic 5, concept-only mode.
+
+
+## 2026-11-03 — Day 1 — Topic 5 fully taught
+
+- Learning content covered: Git file states and transitions; HEAD, Index and Working Tree; Blob, Tree, Commit and annotated Tag objects; object IDs and hashing; parent commits and DAG history; branch references and HEAD.
+- Instructor demonstrations: `git status`, `git diff`, `git diff --staged`, `git show --stat HEAD`, `git log --oneline --graph --decorate --all`, `git cat-file -t`, `git cat-file -p`, `git hash-object`, and `git hash-object -w` (illustrative only).
+- Commands actually run by learner: None evidenced.
+- Practical attempt and result: Not attempted; remains deferred until explicit opt-in.
+- Quiz/interview: Not attempted; remains deferred until explicit opt-in.
+- Topics Introduced: Day 1 Topics 1–5. Practised: none evidenced. Verified: none.
+- Needs revision / blockers: Git installation and configuration remain unconfirmed; original 23-page Master Planner DOCX remains unattached.
+- Topic note: `DAY_WISE/DAY-01/TOPICS/TOPIC-05-file-states-and-git-objects.md` created and linked from the Day 1 README.
+- Exact next topic: Day 1 Topic 6 — install and configure Git on Windows, with Git Bash as the primary shell. Do not request terminal output or assign a setup task unless the learner opts in.
+- GitHub sync: pending verification after writes.
