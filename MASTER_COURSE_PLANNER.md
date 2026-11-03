@@ -140,7 +140,7 @@ The lesson body contains the actual learning material: definitions, need/purpose
 - `COURSE_STATUS.md` is the single compact current checkpoint.
 - `SYLLABUS_TRACKER.md` records topic/deliverable status and evidence.
 - `PROGRESS_LOG.md` records dated course progress, learner evidence and the exact next checkpoint. These are continuity records, not lesson notes.
-- For the seven bootcamp day folders, do not create session-wise or lesson-wise Markdown files or per-session note sections. Keep the syllabus in `CURRICULUM.md`/the day README and create only one `REVISION-SUMMARY.md` after the entire day's syllabus has been taught, regardless of whether practice/assessment evidence is still pending.
+- For the seven bootcamp day folders, create one topic-wise Markdown note under `TOPICS/` as soon as each syllabus topic has been fully taught. Do not create a separate file for each ChatGPT turn/session or for a minor clarification. After all topics in that day have been taught, also create one concise `REVISION-SUMMARY.md` that synthesises the topic notes. Practical/assessment evidence remains separate.
 - A ChatGPT response may include a brief checkpoint only after the lesson, visually separated from teaching. Do not repeat the whole checkpoint if it is already recorded and unchanged.
 
 ### D. Standard lesson sequence
@@ -314,14 +314,15 @@ The learner explicitly requested occasional short revision pop-ups, chosen at va
 - A prompt is not an attempt. Record a revision result only after the learner responds; do not mark a topic Practised or Verified solely because a revision prompt was shown.
 
 
-## Day-wise learning records and final revision notes
+## Day-wise topic notes and final revision summaries
 
-The `DAY_WISE/` directory contains `DAY-01/` through `DAY-07/`. Teach each day's syllabus progressively in ChatGPT, but do not create session-wise or lesson-wise Markdown files and do not update notes after each concept. The day README may provide the syllabus overview and a brief checkpoint; it is not a lesson transcript.
+The `DAY_WISE/` directory contains `DAY-01/` through `DAY-07/`. Teach each day's syllabus progressively and save a self-contained topic note under that day's `TOPICS/` folder as soon as the topic has been fully taught. Use the syllabus topic number and a short descriptive name, for example `TOPIC-01-why-version-control.md`.
 
-**Create exactly one consolidated `REVISION-SUMMARY.md` per day, as soon as that entire day's planned syllabus has been taught.** The summary should be concise and high-value: essential concepts and mental models, important distinctions, core workflows and commands, focused diagrams, representative examples, safety warnings and common pitfalls. Do not include every conversational detail, repeated explanation or redundant output. Make the note useful as a whole-day revision reference.
+Topic notes are the primary detailed study material. They should preserve the relevant explanations, mental models, diagrams, examples, command demonstrations, expected outputs, common mistakes and professional context needed for independent revision. Keep one note per syllabus topic; do not create a separate file for every ChatGPT turn, session or minor clarification. Update an existing topic note when correcting or extending it. Do not create notes for untaught topics.
 
-Do not create a partial or session-wise note while the day is in progress. Create the single whole-day note once the entire syllabus has been taught, even if practicals or assessments remain deferred. Keep practical/assessment progress and status separate; summary creation does not label the day Practised or Verified. Apply the same rule to Days 1–7; for Day 1 the path is `DAY_WISE/DAY-01/REVISION-SUMMARY.md`.
+**After all topics in a day have been taught, also create exactly one concise `REVISION-SUMMARY.md` in that day's folder.** This note synthesises the topic notes into a whole-day revision reference; it does not replace them. It may be created while practicals or assessments remain deferred. Summary creation does not label the day Practised or Verified. Apply this rule to Days 1–7; for Day 1 the path is `DAY_WISE/DAY-01/REVISION-SUMMARY.md`.
 
+Do not create empty `TOPICS/` folders or pre-create notes for untaught material. Keep learner practical/assessment evidence and progress status in the tracking files, separate from instructional notes.
 
 ## Latest controlling rule — topic-wise repository notes
 
