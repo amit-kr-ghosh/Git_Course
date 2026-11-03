@@ -87,3 +87,13 @@ A topic is Verified only when relevant explanation, practical or assessment evid
 - Planned quizzes, interview practice, milestone assessments and a final capstone/mock interview; administer each only after the learner explicitly opts in.
 
 The full curriculum and learner-consent rules remain governed by [MASTER_COURSE_PLANNER.md](MASTER_COURSE_PLANNER.md).
+
+
+## Selective note-taking and end-of-day revision summaries
+
+Keep repository notes **high-value and concise**. Capture only information that materially helps future learning or continuity: core concepts and mental models, important distinctions, essential commands/options, useful diagrams, representative examples, common mistakes/safety warnings, and unresolved points or the next checkpoint. Do not archive every chat message, repeated explanation, minor clarification, decorative visual, or redundant command output. Prefer improving the relevant existing note over creating duplicates. A session file should be a useful study reference, not a transcript.
+
+### Day completion summary
+When a day's full planned syllabus has been taught **and** its required completion criteria have been met with evidence (including any practical/assessment items required by that day's definition of done), create one concise whole-day revision note in that day's folder. For Day 1, the file will be `DAY_WISE/DAY-01/REVISION-SUMMARY.md`. It should distil the day's essential mental models, lifecycle/workflows, commands and their differences, key safety points, common mistakes, and links to the session notes. Do not reproduce every lesson or add unverified claims. Add it to the day README only when the completion criteria are actually satisfied. If teaching is complete but practice/verification remains deferred, do not label the day complete or create the final completion summary prematurely; a clearly labelled interim recap may be offered in chat, but it is not the final day-completion record.
+
+The same rule applies to Days 2–7: use `REVISION-SUMMARY.md` in the corresponding day folder only after that day's completion criteria are met. Summary creation is a study aid, not independent evidence of completion.
