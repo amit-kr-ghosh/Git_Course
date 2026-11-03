@@ -9,6 +9,7 @@
 - [COMMAND_REFERENCE.md](COMMAND_REFERENCE.md) — commands taught and practised.
 
 ## Learning records
+- [EXTRA_NOTES/](EXTRA_NOTES/) — supplementary reference notes from related discussions; separate from the core curriculum and progress records.
 - [DAY_WISE/](DAY_WISE/) — seven day-wise records; a day may span multiple sessions.
 - [ADVANCED_MODULES/](ADVANCED_MODULES/) — modules A–L.
 - [PRACTICALS_PROJECTS/](PRACTICALS_PROJECTS/) — eight practical projects and evidence.
