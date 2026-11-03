@@ -21,3 +21,14 @@ Use visuals to clarify each day's concepts while retaining every syllabus item a
 - [ ] Finish with practice, troubleshooting, interview questions and revision—not visuals alone.
 
 See the visual teaching standard in [MASTER_COURSE_PLANNER.md](../MASTER_COURSE_PLANNER.md).
+
+## Screenshot and image storage for bootcamp lessons
+
+- Store a useful Day 1–7 capture under `DAY_WISE/assets/`; create the folder only when the first asset is ready.
+- Embed it in the relevant day record using a relative path, descriptive alt text and a short caption.
+- Prefer authentic, current Git Bash/GitHub captures for interface-specific teaching; label instructor-created mock-ups and illustrative output honestly.
+- Redact personal information, private repository details, tokens, keys and credential-bearing URLs before committing.
+- Keep screenshots readable and tightly cropped. Prefer Mermaid source for editable flowcharts, state diagrams and commit graphs; use GIF only when motion is essential and include a static alternative.
+- A teaching screenshot is not learner practical evidence. Record learner-supplied evidence separately and verify its provenance.
+- Check that every image path renders on GitHub after the lesson and asset are committed.
+
