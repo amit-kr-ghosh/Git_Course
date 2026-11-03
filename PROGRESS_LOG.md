@@ -113,3 +113,10 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - Needs revision / blockers: Git installation and configuration remain unconfirmed; original 23-page Master Planner DOCX remains unattached.
 - Exact next topic: Day 1 — file states and transitions (untracked, modified, staged and committed).
 - GitHub sync: Progress record update committed and verified by re-fetch.
+
+
+## 2026-11-03 — Note-taking preference — concise day and session records
+
+- Learner requested selective repository notes: retain only important, reusable material for day/session lessons and explicitly requested supplementary notes; do not archive every conversational detail or duplicate explanations.
+- Agreed completion artifact: after the full Day 1 syllabus and all required completion criteria are met with evidence, create a short `DAY_WISE/DAY-01/REVISION-SUMMARY.md` and link it from the Day 1 README. Apply the same completion-gated summary pattern to later days.
+- This preference update does not change learner progress, topic statuses or completion evidence. Day 1 remains Introduced; practice/verification and Git installation remain unconfirmed.
