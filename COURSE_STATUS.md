@@ -17,7 +17,6 @@ This file is the compact **verification checkpoint**, not lesson material. Keep 
 - Git identity/configuration: Unconfirmed; learner output not supplied
 - First-repository practical: Instructor demonstration provided; learner attempt/evidence not supplied
 - Quiz and interview: Not attempted
-- Open blocker: Original 23-page Master Planner DOCX has not yet been attached; repository index is available, but detailed-source reconciliation remains open.
 
 ## Separation rule
 
@@ -30,7 +29,6 @@ This file is the compact **verification checkpoint**, not lesson material. Keep 
 1. Continue with Day 1 Topic 6 — install and configure Git on Windows; installation and identity/configuration remain unconfirmed.
 2. Topics 6–8 remain untaught. Continue concept-only teaching; do not request terminal output, assign practical work, or present quizzes/interview prompts unless the learner explicitly opts in to that specific activity.
 3. Save a topic note when each topic is fully taught. Day 1's whole-day REVISION-SUMMARY.md is created only after all eight topics have been taught.
-4. The original 23-page Master Planner DOCX remains needed for detailed-source reconciliation.
 
 
 ## Learner-controlled activity gate
