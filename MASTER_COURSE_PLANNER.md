@@ -38,22 +38,21 @@ L. Alternatives/interoperability: SVN/Git-SVN, Mercurial, GitLab/Bitbucket, self
 7. CI/CD website using Actions/tests and Pages where feasible.
 8. End-to-end team capstone with documentation, issues, PRs, CI, release and security hygiene.
 
-## Supplementary knowledge capture — repository documentation rule
+## Supplementary knowledge capture — explicit user authorization only
 
-Use `EXTRA_NOTES/` to preserve important knowledge from discussions that supports the course but falls outside the formal bootcamp, advanced modules and projects. Examples include terminal/shell foundations, Windows command-line environments, operating-system concepts, toolchains and related technical prerequisites.
+`EXTRA_NOTES/` is the separate location for supplementary knowledge that supports the course but falls outside the formal bootcamp, advanced modules and projects.
 
-For future conversations:
-1. Identify substantial supplementary concepts, explanations, terminology, comparisons, corrections, worked examples and useful diagrams that would be valuable to revisit.
-2. Add them to the most relevant existing file in `EXTRA_NOTES/`; update and consolidate rather than creating duplicate files.
-3. Create a new Markdown note only for a genuinely distinct, substantial subject. Keep the folder simple and add every new note to `EXTRA_NOTES/README.md`.
-4. Prefer editable Mermaid flowcharts, sequence diagrams and architecture diagrams when they improve understanding; use tables and code blocks for comparisons and demonstrations.
-5. Preserve caveats and technical accuracy. Label examples and expected output as illustrative, and distinguish them from commands actually run by the learner.
-6. Keep supplementary notes separate from the governing syllabus, day-wise lesson records, assessments and progress evidence. Saving a note does not introduce, practise or verify a formal syllabus topic.
-7. Never save credentials, tokens, private keys or unnecessary sensitive personal information.
-8. After any GitHub write, fetch the changed file(s) to verify the update and report the exact files changed. Never claim a write or verification that did not succeed.
+**Do not capture or save supplementary discussions automatically. Save or update `EXTRA_NOTES/` only when the learner explicitly asks for the material to be saved.** A useful discussion, a request for further explanation, or a “continue/next” message does not authorize repository changes.
 
-These notes are supporting references only. They must not silently expand, replace, reorder or reduce the official curriculum, and they do not replace the unavailable original 23-page planner source.
+When the learner explicitly requests saving:
+1. Save only the subject or material they identify; ask for clarification if the requested scope is unclear.
+2. Prefer updating the most relevant existing note. Create a new Markdown file only for a substantial, distinct subject, and add it to `EXTRA_NOTES/README.md`.
+3. Preserve important explanations, corrections, comparisons, examples and useful editable Mermaid diagrams where appropriate.
+4. Keep supplementary notes separate from the formal syllabus, day-wise lesson records, assessments and progress evidence. Saving a note does not introduce, practise or verify a formal syllabus topic.
+5. Never save credentials, tokens, private keys or unnecessary sensitive personal information.
+6. After an authorized GitHub write, fetch the changed file(s) to verify and report exactly which files changed.
 
+**Default rule: no supplementary-note repository edits without an explicit request from the learner.**
 ## Teaching standard
 Teach from first principles. Explain purpose, terminology, mental model, syntax, flags, preconditions, local/remote effects, expected output and verification. Use visuals only when useful. Follow explain → visualise → instructor-led demonstration → learner questions; guided practice, challenges, verification and knowledge checks occur only after the learner explicitly opts in. Never claim commands ran on the learner's machine.
 
