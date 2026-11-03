@@ -27,7 +27,7 @@ This file is the compact **verification checkpoint**, not lesson material. Keep 
 
 ## Exact next action
 
-1. Continue Day 1 concept teaching progressively, one concept at a time. The four areas of the Git workflow have been explained; next concept: file states and transitions (untracked, modified, staged and committed). Do not create a lesson/session note. After the entire Day 1 syllabus and its required completion criteria are satisfied, create the single `DAY_WISE/DAY-01/REVISION-SUMMARY.md`.
+1. Continue Day 1 concept teaching progressively, one concept at a time. The four areas of the Git workflow have been explained; next concept: file states and transitions (untracked, modified, staged and committed). Do not create a lesson/session note. After the entire Day 1 syllabus has been taught, create the single `DAY_WISE/DAY-01/REVISION-SUMMARY.md`.
 2. Continue concept-only teaching. Do not request Git Bash output, assign practical work, or present quiz/interview prompts unless the learner explicitly opts in to that specific activity.
 3. The original 23-page Master Planner DOCX remains needed for detailed-source reconciliation.
 4. If the learner advances to a later day/module before deferred assessments or practicals are completed, remind them of the pending activities and ask whether to continue concepts or explicitly begin one.
@@ -79,7 +79,7 @@ The learner has requested concept teaching only until they have learned the rele
 ## Day-wise note storage — one final note per day
 
 - Teach the syllabus progressively in ChatGPT. Do not create session-wise, lesson-wise or interim note files while a day is in progress.
-- After the learner has finished the entire planned syllabus for a day and its required completion criteria have been met with evidence, create exactly one concise `REVISION-SUMMARY.md` in that day's folder and link it from the day README.
+- After the learner has finished the entire planned syllabus for a day , create exactly one concise `REVISION-SUMMARY.md` in that day's folder and link it from the day README.
 - The note covers the whole day: essential concepts, mental models, commands and distinctions, focused diagrams, examples, safety points and common pitfalls.
 - Summary creation is not evidence of completion and does not independently upgrade progress status.
 - Day 1 remains in progress; its final note must not be created yet.
