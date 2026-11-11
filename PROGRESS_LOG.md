@@ -210,3 +210,18 @@ This rule overrides any older wording that schedules automatic quizzes, intervie
 - Topic note: `DAY_WISE/DAY-01/TOPICS/TOPIC-05-file-states-and-git-objects.md` created and linked from the Day 1 README.
 - Exact next topic: Day 1 Topic 6 — install and configure Git on Windows, with Git Bash as the primary shell. Do not request terminal output or assign a setup task unless the learner opts in.
 - GitHub sync: pending verification after writes.
+
+
+## 2026-11-11 — Day 1 — Topic 6 fully taught
+
+- Learning content covered: Git for Windows components; Git Bash versus PowerShell/CMD; Git executable discovery and PATH; installer choices; system/global/local configuration scopes and precedence; commit identity; default branch, editor and line-ending settings; Git Credential Manager; HTTPS/SSH overview; Git identity versus GitHub authentication.
+- Instructor demonstrations: `git --version`; `git config --global user.name`; `git config --global user.email`; `git config --global init.defaultBranch`; `git config --global core.editor`; `git config --global core.autocrlf`; `git config --list`; `git config --show-origin --list`; `git config --local --list`.
+- Commands actually run by learner: None evidenced.
+- Installation/configuration evidence: Not supplied; remains unconfirmed.
+- Practical attempt and result: Not attempted; remains deferred until explicit opt-in.
+- Quiz/interview: Not attempted; remains deferred until explicit opt-in.
+- Topics Introduced: Day 1 Topics 1–6. Practised: none evidenced. Verified: none.
+- Needs revision / blockers: Git installation and configuration remain unconfirmed; no learner evidence was supplied.
+- Topic note: `DAY_WISE/DAY-01/TOPICS/TOPIC-06-install-and-configure-git.md` created and linked from the Day 1 README.
+- Exact next topic: Day 1 Topic 7 — create and inspect the first repository, in concept-only mode unless the learner explicitly opts into practical work.
+- GitHub sync: writes completed; fetch verification pending.
