@@ -10,10 +10,11 @@ See [CURRICULUM.md](CURRICULUM.md) for the complete planned syllabus, practical 
 - [Topic 3 — Git vs GitHub](TOPICS/TOPIC-03-git-vs-github.md)
 - [Topic 4 — Repository anatomy and the four workflow areas](TOPICS/TOPIC-04-repository-anatomy.md)
 - [Topic 5 — File states, Git objects and the HEAD–Index–Working Tree model](TOPICS/TOPIC-05-file-states-and-git-objects.md)
+- [Topic 6 — Install and configure Git on Windows](TOPICS/TOPIC-06-install-and-configure-git.md)
 
 ## Current checkpoint
 
-Topics 1–5 have been taught and their topic notes are saved. Day 1 Topic 6 — installing and configuring Git on Windows — is next. Installation and Git identity/configuration have not yet been verified.
+Topics 1–6 have been taught and their topic notes are saved. Day 1 Topic 7 — creating and inspecting the first repository — is next. Git installation and identity/configuration have not yet been verified on the learner's machine.
 
 ## Day 1 revision summary
 
