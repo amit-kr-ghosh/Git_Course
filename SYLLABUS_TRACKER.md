@@ -6,7 +6,7 @@ Statuses: Not started | Introduced | Practised | Verified | Needs revision | Blo
 
 | Phase | Topic / deliverable | Status | Evidence / notes | Next action |
 |---|---|---|---|---|
-| Day 1 | Foundations and first repository | Introduced | Topics 1–5 introduced; topic notes 1–5 saved. Topic 5 fully taught in concept mode, including file states, Index/HEAD/Working Tree, object model, parent commits, OIDs, branches and HEAD. No learner terminal evidence, practical attempt or assessment attempt is recorded. | Continue Day 1 Topic 6 — install and configure Git on Windows |
+| Day 1 | Foundations and first repository | Introduced | Topics 1–6 introduced; topic notes 1–6 saved. Topic 6 taught in concept mode: Git for Windows, Git Bash vs PowerShell/CMD, PATH, installer choices, configuration scopes and precedence, identity, editor, line endings, credential manager and GitHub authentication distinction. No learner terminal evidence, practical attempt or assessment attempt is recorded. | Continue Day 1 Topic 7 — create and inspect the first repository |
 | Day 2 | File lifecycle, inspection and safe undo | Not started | | |
 | Day 3 | Branching, merging and conflicts | Not started | | |
 | Day 4 | GitHub and team collaboration | Not started | | |
