@@ -31,3 +31,20 @@ Add entries as the curriculum advances. Verify syntax against installed Git vers
 | `git hash-object` / `-w` | Calculate/store object content | Instructor demonstration |
 
 No learner execution has been reported.
+
+
+## Day 1 Topic 6 — installation and configuration commands introduced
+
+| Command | Purpose | Provenance |
+|---|---|---|
+| `git --version` | Display installed Git version | Instructor demonstration |
+| `git config --global user.name "Your Name"` | Set global commit identity name | Instructor demonstration |
+| `git config --global user.email "you@example.com"` | Set global commit identity email | Instructor demonstration |
+| `git config --global init.defaultBranch main` | Set default initial branch for new repositories | Instructor demonstration |
+| `git config --global core.editor "code --wait"` | Configure editor | Instructor demonstration |
+| `git config --global core.autocrlf true` | Configure common Windows line-ending conversion | Instructor demonstration |
+| `git config --list` | Display effective configuration | Instructor demonstration |
+| `git config --show-origin --list` | Display configuration values and their origin | Instructor demonstration |
+| `git config --global --list` / `git config --local --list` | Inspect scope-specific configuration | Instructor demonstration |
+
+No learner execution has been reported. Git installation and identity/configuration remain unconfirmed.
